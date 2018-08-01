@@ -1,0 +1,4 @@
+n=10
+while(n>0):
+	print("print"+" "+str(n))
+	n=n-2
