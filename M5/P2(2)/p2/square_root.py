@@ -1,4 +1,4 @@
-'''Newton-Rapson'''
+'''Approx_Method'''
 # Write a python program to find the square root of the given number
 # using approximation method
 
@@ -11,18 +11,20 @@
 # output: 6.999999999999991
 
 def main():
-    '''Newton-Rapson'''
+    '''Approx_Method'''
     #s = raw_input()
     # epsilon and step are initialized
     # don't change these values
-    epsilon = 0.01
     num = int(input())
-    guess = num/2.0
-    while abs(guess*guess-num) >= epsilon:
-        guess = guess - (((guess**2) - num)/(2*guess))
-    print(guess)
-    #step = 0.1
-    # your code starts here
+    epsilon = 0.01
+    ans = 0.0
+    inc = 0.1
+    while abs(ans**2-num) >= epsilon:
+        ans += inc
+    if abs(ans**2 - num) >= epsilon:
+        print("Failed on square root of", num)
+    else:
+        print(ans)
 
 if __name__ == "__main__":
     main()

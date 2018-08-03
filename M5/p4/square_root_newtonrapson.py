@@ -16,7 +16,6 @@ def main():
     # epsilon and step are initialized
     # don't change these values
     epsilon = 0.01
-    # your code starts here
     num = int(input())
     guess = num/2.0
     while abs(guess*guess-num) >= epsilon:
