@@ -10,11 +10,11 @@ def main():
     '''Vowels'''
     #s = raw_input()
     value = input()
-    vowelCount = 0
+    vowcount = 0
     for char in value:
         if char in ['a', 'e', 'i', 'o', 'u']:
-            vowelCount += 1
-    print(vowelCount)
+            vowcount += 1
+    print(vowcount)
     # the input string is in s
     # remove pass and start your code here
 if __name__ == "__main__":
