@@ -1,5 +1,5 @@
 '''Square'''
-# Write a python program to find the square root of the given number 
+# Write a python program to find the square root of the given number
 # using approximation method
 
 def main():
@@ -7,18 +7,13 @@ def main():
     #s = raw_input()
     #your code here
     num = int(input())
-    value = 0.01
-    guess = 0.0
-    inc = 0.01
-    guess_count = 0
-    while abs(guess*3 -  num) >= value:
-        guess += inc
-        guess_count += 1
-    print('guesses_count = ', guess_count)
-    if abs(guess*3 - num) >= value:
-        print("Failed to get cube", num)
+    value = 0
+    while value**2 < num:
+        value += 1
+    if value**2 != num:
+        print(num, "is not a perfect square")
     else:
-        print(guess, 'is close to the root', num)
-
+        print(num, "is a perfect square")
 if __name__ == "__main__":
     main()
+    
