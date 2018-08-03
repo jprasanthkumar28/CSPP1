@@ -21,7 +21,7 @@ def main():
     while value**3 < num:
         value += 1
     if value**3 != num:
-        print(num, "is a not perfect cube")
+        print(num, "is not a perfect cube")
     else:
         print(num, "is a perfect cube")
 if __name__ == "__main__":
