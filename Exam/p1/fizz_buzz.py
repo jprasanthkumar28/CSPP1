@@ -9,7 +9,7 @@ def main():
     Read number from the input, store it in variable num.
     '''
     num = int(input())
-    for i in range(1, num):
+    for i in range(1, num+1):
         #p = num * i
         if i%3 == 0:
             print("Fizz")
