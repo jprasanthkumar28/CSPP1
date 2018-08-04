@@ -10,10 +10,19 @@ def main():
     '''
     int_input = int(input())
     mul = 1
-    while int_input > 0:
-        rem = int_input%10
-        mul = mul * rem
-        int_input = int_input//10
-    print(mul)
+    while int_input != 0:
+        if int_input > 0:
+            rem = int_input%10
+            mul = mul * rem
+            int_input = int_input//10
+            result = mul
+        else:
+            int_input = -(int_input)
+            rem = int_input%10
+            mul = mul * rem
+            int_input = int_input//10
+            result = mul
+    print(result)
+
 if __name__ == "__main__":
     main()

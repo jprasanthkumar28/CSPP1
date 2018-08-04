@@ -10,9 +10,11 @@ def main():
     str_input = input()
     length = len(str_input)
     for i in range(length):
-    	if str_input[i] in ('!', '@', '#', '%', '^', '&', '*', '(', ')','-'):
-    		str1 = " "
-    print(str_input + str1)
+    	if str_input[i] in ['!', '@', '#', '%', '^', '&', '*', '(', ')','-']:
+    		temp = str_input[i]
+    		temp = " "
+    		print(str_input + temp)
+    #print(str_input)
 
 if __name__ == "__main__":
     main()
