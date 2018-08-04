@@ -15,14 +15,14 @@ def main():
             rem = int_input%10
             mul = mul * rem
             int_input = int_input//10
-            result = mul
+            res = mul
         else:
             int_input = -(int_input)
             rem = int_input%10
             mul = mul * rem
             int_input = int_input//10
-            result = -1 * mul
-    print(result)
+            res = -1 * mul
+    print(res)
 
 if __name__ == "__main__":
     main()
