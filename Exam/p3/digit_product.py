@@ -21,7 +21,7 @@ def main():
             rem = int_input%10
             mul = mul * rem
             int_input = int_input//10
-            res = -1 * mul
+            res = abs(mul)
     print(res)
 
 if __name__ == "__main__":
