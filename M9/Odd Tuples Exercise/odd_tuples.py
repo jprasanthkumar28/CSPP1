@@ -7,17 +7,19 @@
 def oddtuples(atup):
     '''Odd_Tuples'''
     #aTup = ('I', 'am', 'a', 'test', 'tuple')
-    new = ()
-    for i in range(0, len(atup), 2):
-        new += (atup[i], )
-    return new
+    #new = ()
+    #for i in range(0, len(atup), 2):
+    #    new += (atup[i], )
+    #return new
+    return atup[0::2]
+    #new = tuple((t[i] for i in range(0,len(atup),2)):
 
 def main():
     '''Odd_Tuples'''
     data = input()
     data = data.split()
     atup = ()
-    for j in enumerate(len(data)):
+    for j in range(len(data)):
         atup += ((data[j]), )
     print(oddtuples(atup))
 
