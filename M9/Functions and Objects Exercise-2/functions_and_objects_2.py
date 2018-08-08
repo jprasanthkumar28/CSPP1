@@ -7,7 +7,7 @@ def inc(listval):
     '''Plus 1'''
     return listval+1
 
-def apply_to_each(listval, function):
+def apply_to_each(listval, _):
     '''Plus 1'''
     res = map(inc, listval)
     return list(res)
