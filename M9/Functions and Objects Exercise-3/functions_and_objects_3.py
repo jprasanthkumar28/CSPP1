@@ -7,12 +7,12 @@ def square(listval):
     '''Square'''
     return listval * listval
 
-def apply_to_each(listval, f):
+def apply_to_each(listval, _):
     '''Square'''
-    res = map(square,listval)
+    res = map(square, listval)
     return list(res)
-    
-    
+
+
 def main():
     '''Square'''
     data = input()
@@ -22,5 +22,5 @@ def main():
         list1.append(int(j))
     print(apply_to_each(list1, square))
 
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
