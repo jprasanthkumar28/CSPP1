@@ -18,9 +18,16 @@ aList = [0, 1, 2, 3, 4, 5]
 bList = aList
 aList[2] = 'hello'
 aList == bList
-print(bList)'''
+print(bList)
+===========================================
 cList = [6, 5, 4, 3, 2]
 dList = []
 for num in cList:
 	dList.append(num)
 print(List is dList)
+'''
+animals = {'a': 'aardvark', 'b': 'baboon', 'c': 'coati'}
+
+animals['d'] = 'donkey'
+#del animals['b']
+print(animals.values())
