@@ -8,14 +8,13 @@ def biggest(animals):
     '''Biggest in dictionary'''
     # Your Code Here
     flag = 0
-    value = animals.values()
-    bigger = max(value)
+    answer = ""
     for word in animals:
-        if animals[word] == bigger:
-            return word
-        flag = 1
-        return flag
-
+        if len(animals[word]) > flag:
+            flag = len(animals[word])
+            answer += word
+    return answer[-1] 
+        
 def main():
     '''Biggest in dictionary'''
     number = input()
@@ -27,6 +26,7 @@ def main():
             animals[splitting[0][0]] = [splitting[1]]
         else:
             animals[splitting[0][0]].append(splitting[1])
+    print("-----------------------------------")
     print(biggest(animals))
 
 if __name__ == "__main__":

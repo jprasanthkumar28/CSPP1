@@ -1,4 +1,4 @@
-'''Guessed Words'''
+'''Getting_Guessed_Words'''
 def get_guessed_word(secret_word, letters_guessed):
     '''Guessed Words'''
     result = ''

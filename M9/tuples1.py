@@ -25,9 +25,64 @@ dList = []
 for num in cList:
 	dList.append(num)
 print(List is dList)
-'''
+===========================================
 animals = {'a': 'aardvark', 'b': 'baboon', 'c': 'coati'}
 
 animals['d'] = 'donkey'
 #del animals['b']
 print(animals.values())
+=================================================
+def maxOfThree(a,b,c) :
+    """
+    a, b, and c are numbers
+
+    returns: the maximum of a, b, and c        
+    """
+    if a > b:
+        bigger = a
+
+    else:
+        bigger = b
+
+    if c > bigger:
+        bigger = c
+
+    return bigger
+
+        def main():
+    Hangman-Game
+    #secretword = chooseword(wordlist).lower()
+    #hangman(secretword)
+    a=input()
+    b=input()
+    c=input()
+if __name__ == "__main__":
+    main()
+==========================================
+def rem(val1, val2):
+    Division
+
+    if val1 == val2:
+        return 0
+    elif val1 < val2:
+        return val1
+    else:
+        return rem(val1-val2, val2)
+
+def main():
+    Division
+    data = input()
+    data = data.split()
+    print(rem(int(data[0]), int(data[1])))
+
+
+if __name__ == "__main__":
+    main()
+========================================='''
+def f(n):
+    n = int(input())
+    if n == 0:
+      return 1
+    else:
+      return n * f(n-1)
+
