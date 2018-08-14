@@ -60,12 +60,11 @@ def hand_rank(hand):
     '''
     if is_straight(hand) and is_flush(hand):
         return 3
-    elif is_flush(hand):
+    if is_flush(hand):
         return 2
-    elif is_straight(hand):
+    if is_straight(hand):
         return 1
-    else:
-        return 0
+    return 0
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
     # Each card is coded as a 2 character string. Example Kind of Hearts is KH
