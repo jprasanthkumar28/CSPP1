@@ -45,8 +45,6 @@ def get_word_score(word, n):
     if len(value) == n:
         return answer + 50
     return answer
-    
-
 
 def main():
     '''
