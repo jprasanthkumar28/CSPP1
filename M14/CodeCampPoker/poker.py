@@ -4,6 +4,7 @@
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
 def sort(hand):
+    '''To sort the hand'''
     len_count = len(hand)
     new_hand = []
     for index in range(len_count):
@@ -28,7 +29,8 @@ def is_straight(hand):
         Do we need both the characters in the string? No.
         The first character is good enough to determine a straight
         Think of an algorithm: given the card face value how to check if it a straight
-        Write the code for it and return True if it is a straight else return False
+        Write the code for it and return True if it is a straight 
+        else return False
     '''
     count = len(hand)
     sorti = sorted(sort(hand))
@@ -38,6 +40,7 @@ def is_straight(hand):
     return True
 
 def is_threeof_kind(hand):
+    '''This funtion returns id three of a kind function calls'''
     count = 0
     sorti=[]
     sorti = sorted(sort(hand))
@@ -49,6 +52,7 @@ def is_threeof_kind(hand):
     return False
 
 def is_fourof_kind(hand):
+    '''This funtion returns when four of a kind function calls'''
     count = 0
     sorti = sorted(sort(hand))
     for index in range(len(sorti)-3):
@@ -59,7 +63,8 @@ def is_fourof_kind(hand):
     return False
 
 def is_onepair(hand):
-    count = 0
+    '''This funtion returns when one pair of a kind function calls'''
+    _ = 0
     sorti = sorted(sort(hand))
     setlist = set(sorti)
     if len(sorti) - len(setlist) == 1:
@@ -67,6 +72,7 @@ def is_onepair(hand):
     return False
 
 def is_twopair(hand):
+    '''This funtion returns when three of a kind function calls'''
     sorti = sorted(sort(hand))
     setlist = set(sorti)
     if len(sorti) - len(setlist) == 2:
@@ -74,6 +80,7 @@ def is_twopair(hand):
     return False
 
 def is_fullhouse(hand):
+    '''This funtion returns when fullhouse of a kind function calls'''
     count = 0
     i =0
     sorti = sorted(sort(hand))
@@ -91,8 +98,10 @@ def is_flush(hand):
         The hand has a list of cards represented as strings.
         Do we need both the characters in the string? No.
         The second character is good enough to determine a flush
-        Think of an algorithm: given the card suite how to check if it is a flush
-        Write the code for it and return True if it is a flush else return False
+        Think of an algorithm: given the card suite how to check
+        if it is a flush
+        Write the code for it and return
+        True if it is a flush else return False
     '''
     len_count = len(hand)
     for index in range(len_count-1):
@@ -105,7 +114,8 @@ def hand_rank(hand):
         You will code this function. The goal of the function is to
         return a value that max can use to identify the best hand.
         As this function is complex we will progressively develop it.
-        The first version should identify if the given hand is a straight
+        The first version should identify if the given
+        hand is a straight
         or a flush or a straight flush.
     '''
     if is_threeof_kind(hand):
@@ -133,7 +143,7 @@ def hand_rank(hand):
     # What would be the logic to determine if a hand is a straight or flush?
     # Let's not think about the logic in the hand_rank function
     # Instead break it down into two sub functions is_straight and is_flush
-    
+
     # check for straight, flush and straight flush
     # best hand of these 3 would be a straight flush with the return value 3
     # the second best would be a flush with the return value 2
