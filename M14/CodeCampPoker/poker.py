@@ -84,9 +84,9 @@ def is_onepair(hand):
 def is_highcard(hand):
     '''This funtion returns when is high card of a kind function calls'''
     sorti = sorted(sort(hand))
-    count = len(sorti)
-    if count == 5 and not is_flush(hand):
-        return max(sorti)/100
+    setlist = set(sorti)
+    if len(setlist) == 5 and not is_flush(hand):
+        return max(setlist)/100
     return False
 
 def is_twopair(hand):
