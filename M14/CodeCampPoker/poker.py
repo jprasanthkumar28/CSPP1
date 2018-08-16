@@ -76,8 +76,10 @@ def is_onepair(hand):
     setlist = set(sorti)
     #print(setlist)
     if len(sorti) - len(setlist) == 1:
-        return True
-    return False
+        for index in setlist:
+            if sorti.count(index) == 2:
+            return index/10
+    return 100
 
 def is_highcard(hand):
     '''This funtion returns when is high card of a kind function calls'''
