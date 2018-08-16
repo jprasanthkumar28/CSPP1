@@ -62,6 +62,17 @@ def is_fourof_kind(hand):
         return True
     return False
 
+def is_fiveof_kind(hand):
+    '''This funtion returns when four of a kind function calls'''
+    count = 0
+    sorti = sorted(sort(hand))
+    for index in range(len(sorti)-4):
+        if sorti[index] == sorti[index+1] == sorti[index+2] == sorti[index+3] == sorti[index+4]:
+            count += 1
+    if count ==1:
+        return True
+    return False
+
 def is_onepair(hand):
     '''This funtion returns when one pair of a kind function calls'''
     _ = 0
@@ -82,7 +93,7 @@ def is_twopair(hand):
 def is_fullhouse(hand):
     '''This funtion returns when fullhouse of a kind function calls'''
     count = 0
-    i =0
+    i = 0
     sorti = sorted(sort(hand))
     if sorti[i] == sorti[i+1] == sorti[i+2] or sorti[i+3] == sorti[i+4]:
         count += 1
@@ -134,6 +145,8 @@ def hand_rank(hand):
         return 6
     if is_straight(hand):
         return 5
+    if is_fiveof_kind(hand):
+        return 9
     return 0
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
