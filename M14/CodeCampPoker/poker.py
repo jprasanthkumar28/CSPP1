@@ -50,7 +50,7 @@ def is_threeof_kind(hand):
     count = 0
     sorti=[]
     sorti = sorted(sort(hand))
-    print(sorti)
+    #print(sorti)
     for index in range(len(sorti)-2):
         if sorti[index] == sorti[index+1] == sorti[index+2]:
             count += 1
@@ -80,16 +80,6 @@ def is_fiveof_kind(hand):
         return True
     return False
 
-def is_highcard(hand):
-    count = 0
-    sorti = sorted(sort(hand))
-    setlist = set(sorti)
-    #print(setlist)
-    if len(sorti) - len(setlist) == 0:
-        return True
-    return False
-
-
 def is_onepair(hand):
     '''This funtion returns when one pair of a kind function calls'''
     _ = 0
@@ -97,6 +87,16 @@ def is_onepair(hand):
     setlist = set(sorti)
     #print(setlist)
     if len(sorti) - len(setlist) == 1:
+        return True
+    return False
+
+def is_highcard(hand):
+    '''This funtion returns when one pair of a kind function calls'''
+    _ = 0
+    sorti = sorted(sort(hand))
+    setlist = set(sorti)
+    #print(setlist)
+    if len(sorti) - len(setlist) == 0:
         return True
     return False
 
@@ -165,6 +165,8 @@ def hand_rank(hand):
         return 5
     if is_fiveof_kind(hand):
         return 9
+    if is_highcard(hand):
+        return 10
     return 0
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
