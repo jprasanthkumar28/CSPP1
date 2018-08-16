@@ -78,7 +78,7 @@ def is_onepair(hand):
     if len(sorti) - len(setlist) == 1:
         for index in setlist:
             if sorti.count(index) == 2:
-            return index/10
+                return index/10
     return 100
 
 def is_highcard(hand):
