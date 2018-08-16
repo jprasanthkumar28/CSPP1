@@ -80,13 +80,11 @@ def is_onepair(hand):
     return False
 
 def is_highcard(hand):
-    '''This funtion returns when one pair of a kind function calls'''
-    _ = 0
+    '''This funtion returns when is high card of a kind function calls'''
     sorti = sorted(sort(hand))
-    setlist = set(sorti)
-    #print(setlist)
-    if len(sorti) - len(setlist) == 0:
-        return True
+    count = len(sorti)
+    if count == 5 and not is_flush(hand):
+        return max(sorti)/100
     return False
 
 def is_twopair(hand):
@@ -152,9 +150,7 @@ def hand_rank(hand):
         return 6
     if is_straight(hand):
         return 5
-    if is_highcard(hand):
-        return 9
-    return 0
+    return is_highcard(hand)
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
     # Each card is coded as a 2 character string. Example Kind of Hearts is KH
@@ -189,6 +185,8 @@ def poker(hands):
     # hand_rank is a function passed to max
     # hand_rank takes a hand and returns its rank
     # max uses the rank returned by hand_rank and returns the best hand
+    # print(hands)
+    # print(max(hands))
     return max(hands, key=hand_rank)
 
 if __name__ == "__main__":
@@ -200,5 +198,6 @@ if __name__ == "__main__":
         line = input()
         ha = line.split(" ")
         HANDS.append(ha)
+    #print(HANDS)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
