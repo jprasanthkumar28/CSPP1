@@ -7,6 +7,7 @@ def sort(hand):
     '''To sort the hand'''
     len_count = len(hand)
     new_hand = []
+    #print(new_hand)
     for index in range(len_count):
         if hand[index][0] == 'A':
             new_hand.append(14)
@@ -20,7 +21,8 @@ def sort(hand):
             new_hand.append(10)
         else:
             new_hand.append(int(hand[index][0]))
-    return new_hand        
+    #print(new_hand,"My new_hand")
+    return new_hand
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -28,12 +30,16 @@ def is_straight(hand):
         There are multiple ways of checking if the hand is a straight.
         Do we need both the characters in the string? No.
         The first character is good enough to determine a straight
-        Think of an algorithm: given the card face value how to check if it a straight
+        Think of an algorithm: given the card face value how to check
+        if it a straight
         Write the code for it and return True if it is a straight 
         else return False
     '''
     count = len(hand)
+    #print(count)
     sorti = sorted(sort(hand))
+    #print(sorti)
+    #print("<---------->")
     for index in range(count-1):
         if sorti[index+1] - sorti[index] != 1:
             return False
@@ -44,6 +50,7 @@ def is_threeof_kind(hand):
     count = 0
     sorti=[]
     sorti = sorted(sort(hand))
+    print(sorti)
     for index in range(len(sorti)-2):
         if sorti[index] == sorti[index+1] == sorti[index+2]:
             count += 1
@@ -73,11 +80,22 @@ def is_fiveof_kind(hand):
         return True
     return False
 
+def is_highcard(hand):
+    count = 0
+    sorti = sorted(sort(hand))
+    setlist = set(sorti)
+    #print(setlist)
+    if len(sorti) - len(setlist) == 0:
+        return True
+    return False
+
+
 def is_onepair(hand):
     '''This funtion returns when one pair of a kind function calls'''
     _ = 0
     sorti = sorted(sort(hand))
     setlist = set(sorti)
+    #print(setlist)
     if len(sorti) - len(setlist) == 1:
         return True
     return False
