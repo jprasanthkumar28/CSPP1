@@ -21,8 +21,8 @@ def similarity(dict1, dict2):
     char = string.ascii_letters + ' '
     dict1 = ''.join(index for index in dict1 if index in char)
     dict2 = ''.join(index for index in dict2 if index in char)
-    dict1 = dict1.lower().strip().split('\n')
-    dict2 = dict2.lower().strip().split('\n')
+    dict1 = dict1.lower().strip().split()
+    dict2 = dict2.lower().strip().split()
     # str1 = re.findall(r"^\w", dict1, re.MULTILINE)
     finaldict = load_stopwords("stopwords.txt")
     for word in list(dict1):
