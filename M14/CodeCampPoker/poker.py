@@ -23,6 +23,7 @@ def sort(hand):
             new_hand.append(int(hand[index][0]))
     #print(new_hand,"My new_hand")
     return new_hand
+
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
