@@ -4,20 +4,8 @@
 import collections
 import math
 def similarity(dict1, dict2):
+    '''Plagiarism Detection'''
     import string
-    '''
-        Compute the document distance as given in the PDF
-    '''
-    '''file = open('hi.txt', 'r')
-                text = file.read().strip()
-                print(text)
-                file.close()
-                file = open('stopwords.txt', 'r')
-                text = file.read().strip()
-                print(text)
-                file.close()'''
-    # str2 = open("input002.txt").read()
-    # text2 = str2.read().strip()
     char = string.ascii_letters + ' '
     dict1 = ''.join(index for index in dict1 if index in char)
     dict2 = ''.join(index for index in dict2 if index in char)
@@ -50,17 +38,8 @@ def similarity(dict1, dict2):
         dict3_list.append(dict2_freq[word]**2)
     return sum(dict1_list)/(math.sqrt(sum(dict2_list))*math.sqrt(sum(dict3_list)))
 
-
-'''def data_format(data):
-    lower = data.lower()
-    case = re.sub('[^a-z/ ]', '', lower)
-    return case'''
-
-
 def load_stopwords(stopwords):
-    '''
-        loads stop words from a file and returns a dictionary
-    '''
+    '''loads stop words from a file and returns a dictionary'''
     dup_stopwords = []
     with open(stopwords, 'r') as words:
         for line in words:
@@ -68,9 +47,7 @@ def load_stopwords(stopwords):
     return dup_stopwords
 
 def main():
-    '''
-        take two inputs and call the similarity function
-    '''
+    '''take two inputs and call the similarity function'''
     input1 = input()
     input2 = input()
 
