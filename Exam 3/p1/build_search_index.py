@@ -16,8 +16,6 @@
     {
         word1: [(doc_id, frequency),(doc_id, frequency),...],
         word2: [(doc_id, frequency),(doc_id, frequency),...],
-        .
-        .
     }
 '''
 import string
