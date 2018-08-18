@@ -10,7 +10,7 @@ def similarity(dict1, dict2):
     dict1 = ''.join(index for index in dict1 if index in char)
     dict2 = ''.join(index for index in dict2 if index in char)
     dict1 = dict1.lower().strip().split()
-    dict2 = dict2.lower().strip().split()
+    dict2 = dict2.lower().strip().split()    
     # str1 = re.findall(r"^\w", dict1, re.MULTILINE)
     finaldict = load_stopwords("stopwords.txt")
     for word in list(dict1):
@@ -22,6 +22,7 @@ def similarity(dict1, dict2):
     #print(dict1)
     #print(dict1, dict2)
     dict1_freq = collections.Counter(dict1)
+    print(dict1_freq)
     dict2_freq = collections.Counter(dict2)
     # print(dict1_freq, dict2_freq)
     dict1_list = []
