@@ -1,1 +1,6 @@
 https://www.google.co.in/search?q=re+python+examples&oq=re&aqs=chrome.0.69i59j69i60l2j5j69i59j69i64.3332j0j9&sourceid=chrome&ie=UTF-8
+https://docs.python.org/3/library/re.html
+https://stackoverflow.com/questions/8266529/python-convert-string-to-list
+https://stackoverflow.com/questions/22171558/what-does-enumerate-mean
+https://stackoverflow.com/questions/15929233/writing-a-tokenizer-in-python
+https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string
