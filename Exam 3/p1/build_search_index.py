@@ -53,8 +53,23 @@ def build_search_index(docs):
 
     # initialize a search index (an empty dictionary)
     dict1 = {}
-    dict1 = collections.Counter(docs)
-    print(dict1)
+    length = len(docs)
+    for index in range(length):
+        res = word_list(docs[index])
+        for value in res:
+            word1 = res.count(value)
+            if value in dict1:
+                if (index, word1) not in dict1[value]:
+                    dict1[value].append(index, word1)
+            else:
+                dict1[value] = [(index, word1)]
+        dict1 = load_stopwords(dict1)
+    return dict1
+    # for count,l_index in enumerate(docs, 0):
+    #     dic = {}
+    #     for e_index in l_index:
+    #         if e_index not in dic:
+                
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
@@ -85,9 +100,9 @@ def main():
     # iterate for n times
     lines = int(input())
     # iterate through N times and add documents to the list
-    for i in range(lines):
+    for _ in range(lines):
         documents.append(input())
-        i += 1
+        #i += 1
 
     # call print to display the search index
     print_search_index(build_search_index(documents))

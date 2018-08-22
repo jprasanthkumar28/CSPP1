@@ -105,5 +105,5 @@ myHand.setDummyHand('aazzmsp')
 print(myHand)
 print(myHand.calculateLen())
 
-print(myHand.update('za'))
-# print(myHand)
+myHand.update('za')
+print(myHand)
