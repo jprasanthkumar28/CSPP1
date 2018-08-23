@@ -7,7 +7,18 @@ def mult_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
-    pass
+    if len(m1) != len(m2[0]):
+    	print("Error: Matrix shapes invalid for mult")
+    else:	
+	    mul = copy.deepcopy(m1)
+	    for index in range(0, len(m1), 1):
+	    	for jindex in range(0, len(m2[0]), 1):
+	    		mul[index][jindex] = 0
+	    		for k in range(0, len(m2), 1):
+	    			mul[index][jindex] = int(mul[index][jindex])
+	    			mul[index][jindex] += int(m1[index][k]) * int(m2[k][jindex])
+	    return mul
+
 
 def add_matrix(m1, m2):
     '''
@@ -26,6 +37,9 @@ def add_matrix(m1, m2):
     			temp += int(m2[i][j])
     			msum[i][j] = temp
     	return msum
+    else:
+    	print("Error: Matrix shapes invalid for addition")
+    	print("None")
 
 
 def read_matrix(size):
@@ -63,6 +77,7 @@ def main():
     # add matrix 1 and matrix 2
     print(add_matrix(m1, m2))
     # multiply matrix 1 and matrix 2
+    print(mult_matrix(m1, m2))
     pass
 
 if __name__ == '__main__':
