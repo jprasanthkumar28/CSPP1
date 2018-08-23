@@ -40,27 +40,8 @@
 # Remember that spaces and punctuation should not be changed by the cipher.
 
 # Helper code
-class Message(object):
-    ''' Grader's Implementation of Message Object '''
-
-    ### DO NOT MODIFY THIS METHOD ###
-    def __init__(self, text):
-        '''
-        Initializes a Message object
-
-        text (string): the message's text
-
-        a Message object has two attributes:
-            self.message_text (string, determined by input text)
-            self.valid_words (list, determined using helper function load_words
-        '''
-        self.message_text = text
-        self.valid_words = load_words("words.txt")
-        self.shift_dict = {}
-
-    ### DO NOT MODIFY THIS METHOD ###
-
-    def load_words(words):
+import string
+def load_words(words):
         '''
         file_name (string): the name of the file containing
         the list of words to load
@@ -80,7 +61,64 @@ class Message(object):
         in_file.close()
         return word_list
 
-    WORDLIST_FILENAME = 'words.txt'
+WORDLIST_FILENAME = 'words.txt'
+class Message(object):
+    ''' Grader's Implementation of Message Object '''
+
+    ### DO NOT MODIFY THIS METHOD ###
+    def __init__(self, text):
+        '''
+        Initializes a Message object
+
+        text (string): the message's text
+
+        a Message object has two attributes:
+            self.message_text (string, determined by input text)
+            self.valid_words (list, determined using helper function load_words
+        '''
+        self.message_text = text
+        self.valid_words = load_words("words.txt")
+        self.shift_dict = {}
+    def get_message_text(self):
+
+        return self.message_text
+
+        ### DO NOT MODIFY THIS METHOD ###
+    def get_valid_words(self):
+        '''
+        Used to safely access a copy of self.valid_words outside of the class
+
+        Returns: a COPY of self.valid_words
+        '''
+        return self.valid_words[:]
+    def build_shift_dict(self, shift):
+
+        lower_keys = list(string.ascii_lowercase)
+        lower_values = list(string.ascii_lowercase)
+        shift_lower_values = lower_values[shift:] + lower_values[:shift]
+
+        upper_keys = list(string.ascii_uppercase)
+        upper_values = list(string.ascii_uppercase)
+        upper_shift_values = upper_values[shift:] + upper_values[:shift]
+
+        full_keys = lower_keys + upper_keys
+        full_values = shift_lower_values + upper_shift_values
+
+        self.shift_dict = dict(zip(full_keys, full_values))
+        return self.shift_dict
+
+
+    def apply_shift(self, shift):
+        new_msg = []
+        for i in self.message_text:
+            if i not in self.build_shift_dict(shift).keys():
+                new_msg.append(i)
+                continue
+            else:
+                new_msg.append(self.build_shift_dict(shift)[i])
+        return ''.join(new_msg)
+
+    ### DO NOT MODIFY THIS METHOD ###
     # Helper code End
 
 
