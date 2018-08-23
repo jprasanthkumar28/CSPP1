@@ -132,7 +132,7 @@ class Message(object):
 
 ### Paste your implementation of the `PlaintextMessage` class here
 class PlaintextMessage():
-    
+
     def __init__(self, text, shift):
         self.text = text
         self.shift = shift
@@ -156,7 +156,8 @@ class PlaintextMessage():
         '''change shift'''
         self.shift = shift
         message = Message(self.text)
-        self.encrypting_dict = message.apply_shift(shift)
+        self.encrypting_dict = message.build_shift_dict(shift)
+        self.message_text_encrypted = message.apply_shift(shift)
 
 
 def main():
