@@ -32,7 +32,7 @@ def add_matrix(m1, m2):
     msum = copy.deepcopy(m1)
     if len(m1) == len(m2):
     	for i in range(len(m1)):
-    		for j in range(len(m2)):
+    		for j in range(len(m2[0])):
     			temp = int(msum[i][j])
     			temp += int(m2[i][j])
     			msum[i][j] = temp
