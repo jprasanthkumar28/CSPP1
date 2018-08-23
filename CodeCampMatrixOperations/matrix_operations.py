@@ -9,17 +9,16 @@ def mult_matrix(mat1, mat2):
     if len(mat1) != len(mat2[0]):
         print("Error: Matrix shapes invalid for mult")
         return None
-    else:
-        res = []
-        for index in range(0, len(mat1), 1):
-            list1 = []
-            for jindex in range(0, len(mat2[0]), 1):
-                mul = 0
-                for k in range(0, len(mat2), 1):
-                    mul += int(mat1[index][k]) * int(mat2[k][jindex])
-                list1.append(mul)
-            res.append(list1)
-        return res
+    res = []
+    for index in range(0, len(mat1), 1):
+        list1 = []
+        for jindex in range(0, len(mat2[0]), 1):
+            mul = 0
+            for k in range(0, len(mat2), 1):
+                mul += int(mat1[index][k]) * int(mat2[k][jindex])
+            list1.append(mul)
+        res.append(list1)
+    return res
 
 
 def add_matrix(mat1, mat2):
@@ -37,9 +36,8 @@ def add_matrix(mat1, mat2):
                 temp += int(mat2[i][j])
                 msum[i][j] = temp
         return msum
-    else:
-        print("Error: Matrix shapes invalid for addition")
-        return None
+    print("Error: Matrix shapes invalid for addition")
+    return None
 
 
 def read_matrix(size):
@@ -59,8 +57,7 @@ def read_matrix(size):
         total += len(row)
     if total != rows * columns:
         print("Error: Invalid input for the matrix")
-    else:
-        return matrix
+    return matrix
 
 def main():
     '''Main Function'''
@@ -72,7 +69,7 @@ def main():
     # read matrix 2
     numat2 = input().split(',')
     mat2 = read_matrix(numat2)
-    if mat1 == None or mat2 == None:
+    if mat1 is None or mat2 is None:
         return None
     # print(mat2,"<-------------second")
     # add matrix 1 and matrix 2
