@@ -100,10 +100,7 @@ class Message(object):
         Returns: a dictionary mapping a letter (string) to 
                  another letter (string). 
         '''
-        res = ''.join(chr(ord(char) + 5) for char in text)
-        print(res)
-
-
+        pass #delete this line and replace with your code here
 
     def apply_shift(self, shift):
         '''
