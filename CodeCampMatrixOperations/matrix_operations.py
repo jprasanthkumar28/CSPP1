@@ -9,16 +9,15 @@ def mult_matrix(mat1, mat2):
     if len(mat1) != len(mat2[0]):
         print("Error: Matrix shapes invalid for mult")
         return None
-    else:
-        res = []
-        for index in range(0, len(mat1), 1):
-            list1 = []
-            for jindex in range(0, len(mat2[0]), 1):
-                mul = 0
-                for k in range(0, len(mat2), 1):
-                    mul += int(mat1[index][k]) * int(mat2[k][jindex])
-                list1.append(mul)
-            res.append(list1)
+    res = []
+    for index in range(0, len(mat1), 1):
+        list1 = []
+        for jindex in range(0, len(mat2[0]), 1):
+            mul = 0
+            for k in range(0, len(mat2), 1):
+                mul += int(mat1[index][k]) * int(mat2[k][jindex])
+            list1.append(mul)
+        res.append(list1)
     return res
 
 
@@ -37,8 +36,7 @@ def add_matrix(mat1, mat2):
                 temp += int(mat2[i][j])
                 msum[i][j] = temp
         return msum
-    else:
-        print("Error: Matrix shapes invalid for addition")
+    print("Error: Matrix shapes invalid for addition")
     return None
 
 
@@ -59,8 +57,7 @@ def read_matrix(size):
         total += len(row)
     if total != rows * columns:
         print("Error: Invalid input for the matrix")
-    else:
-        return matrix
+    return matrix
 
 def main():
     '''Main Function'''
