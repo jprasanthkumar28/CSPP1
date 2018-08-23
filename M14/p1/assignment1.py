@@ -42,27 +42,18 @@
 # Helper code
 import string
 def load_words(words):
-        '''
-        file_name (string): the name of the file containing
-        the list of words to load
-
-        Returns: a list of valid words. Words are strings of lowercase letters.
-
-        Depending on the size of the word list, this function may
-        take a while to finish.
-        '''
-
-        # inFile: file
-        in_file = open(words, 'r')
-        # line: string
-        line = in_file.readline()
-        # word_list: list of strings
-        word_list = line.split()
-        in_file.close()
-        return word_list
+    '''Load words'''
+    # inFile: file
+    in_file = open(words, 'r')
+    # line: string
+    line = in_file.readline()
+    # word_list: list of strings
+    word_list = line.split()
+    in_file.close()
+    return word_list
 
 WORDLIST_FILENAME = 'words.txt'
-class Message(object):
+class Message:
     ''' Grader's Implementation of Message Object '''
 
     ### DO NOT MODIFY THIS METHOD ###
@@ -80,7 +71,7 @@ class Message(object):
         self.valid_words = load_words("words.txt")
         self.shift_dict = {}
     def get_message_text(self):
-
+        '''Get message'''
         return self.message_text
 
         ### DO NOT MODIFY THIS METHOD ###
@@ -124,8 +115,6 @@ class Message(object):
 
 
     ### Paste your implementation of the Message class here
-            
-    
 def main():
     '''Main method'''
     data = Message(input())
