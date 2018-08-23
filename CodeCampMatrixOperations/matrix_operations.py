@@ -55,10 +55,9 @@ def read_matrix(size):
         row = input().split()
         matrix.append(row)
         total += len(row)
-    if total != rows * columns:
-        print("Error: Invalid input for the matrix")
-    else:
+    if total == rows * columns:
         return matrix
+    print("Error: Invalid input for the matrix")
 
 def main():
     '''Main Function'''
