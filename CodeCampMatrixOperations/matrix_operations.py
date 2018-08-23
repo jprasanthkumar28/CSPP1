@@ -73,6 +73,8 @@ def main():
     # read matrix 2
     n2 = input().split(',')
     m2 = read_matrix(n2)
+    if m1 == None or m2 == None:
+    	return None
     # print(m2,"<-------------second")
     # add matrix 1 and matrix 2
     print(add_matrix(m1, m2))
