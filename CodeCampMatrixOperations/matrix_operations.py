@@ -1,86 +1,84 @@
+'''Mathematical Operations on Matrix'''
 import copy
-def mult_matrix(m1, m2):
-    '''
-        check if the matrix1 columns = matrix2 rows
+def mult_matrix(mat1, mat2):
+    '''check if the matrix1 columns = matrix2 rows
         mult the matrices and return the result matrix
         print an error message if the matrix shapes are not valid for mult
         and return None
-        error message should be "Error: Matrix shapes invalid for mult"
-    '''
-    if len(m1) != len(m2[0]):
-    	print("Error: Matrix shapes invalid for mult")
-    else:	
-	    mul = copy.deepcopy(m1)
-	    for index in range(0, len(m1), 1):
-	    	for jindex in range(0, len(m2[0]), 1):
-	    		mul[index][jindex] = 0
-	    		for k in range(0, len(m2), 1):
-	    			mul[index][jindex] = int(mul[index][jindex])
-	    			mul[index][jindex] += int(m1[index][k]) * int(m2[k][jindex])
-	    return mul
+        error message should be "Error: Matrix shapes invalid for mult"'''
+    if len(mat1) != len(mat2[0]):
+        print("Error: Matrix shapes invalid for mult")
+        return None
+    else:
+        res = []
+        for index in range(0, len(mat1), 1):
+            list1 = []
+            for jindex in range(0, len(mat2[0]), 1):
+                mul = 0
+                for k in range(0, len(mat2), 1):
+                    mul += int(mat1[index][k]) * int(mat2[k][jindex])
+                list1.append(mul)
+            res.append(list1)
+        return res
 
 
-def add_matrix(m1, m2):
-    '''
-        check if the matrix shapes are similar
+def add_matrix(mat1, mat2):
+    '''check if the matrix shapes are similar
         add the matrices and return the result matrix
         print an error message if the matrix shapes are not valid for addition
         and return None
-        error message should be "Error: Matrix shapes invalid for addition"
-    '''
+        error message should be "Error: Matrix shapes invalid for addition"'''
     # pass
-    msum = copy.deepcopy(m1)
-    if len(m1) == len(m2):
-    	for i in range(len(m1)):
-    		for j in range(len(m2[0])):
-    			temp = int(msum[i][j])
-    			temp += int(m2[i][j])
-    			msum[i][j] = temp
-    	return msum
+    msum = copy.deepcopy(mat1)
+    if len(mat1) == len(mat2):
+        for i in range(len(mat1)):
+            for j in range(len(mat2[0])):
+                temp = int(msum[i][j])
+                temp += int(mat2[i][j])
+                msum[i][j] = temp
+        return msum
     else:
-    	print("Error: Matrix shapes invalid for addition")
-    	print("None")
+        print("Error: Matrix shapes invalid for addition")
+        return None
 
 
 def read_matrix(size):
-    '''
-        read the matrix dimensions from input
+    '''read the matrix dimensions from input
         create a list of lists and read the numbers into it
         in case there are not enough numbers given in the input
         print an error message and return None
-        error message should be "Error: Invalid input for the matrix"
-    '''
+        error message should be "Error: Invalid input for the matrix"'''
     # pass
     rows = int(size[0])
     columns = int(size[1])
     total = 0
     matrix = []
-    for index in range(0, rows, 1):
-    	row = input().split()
-    	matrix.append(row)
-    	total += len(row)
+    for _ in range(0, rows, 1):
+        row = input().split()
+        matrix.append(row)
+        total += len(row)
     if total != rows * columns:
-    	print("Error: Invalid input for the matrix")
+        print("Error: Invalid input for the matrix")
     else:
-    	return matrix
+        return matrix
 
 def main():
+    '''Main Function'''
     # read matrix 1
-    n1 = input().split(',')
+    num1 = input().split(',')
     # print(n1)
-    m1 = read_matrix(n1)
-    # print(m1,"<-------------first")
+    mat1 = read_matrix(num1)
+    # print(mat1,"<-------------first")
     # read matrix 2
-    n2 = input().split(',')
-    m2 = read_matrix(n2)
-    if m1 == None or m2 == None:
-    	return None
-    # print(m2,"<-------------second")
+    numat2 = input().split(',')
+    mat2 = read_matrix(numat2)
+    if mat1 == None or mat2 == None:
+        return None
+    # print(mat2,"<-------------second")
     # add matrix 1 and matrix 2
-    print(add_matrix(m1, m2))
+    print(add_matrix(mat1, mat2))
     # multiply matrix 1 and matrix 2
-    print(mult_matrix(m1, m2))
-    pass
+    print(mult_matrix(mat1, mat2))
 
 if __name__ == '__main__':
     main()
