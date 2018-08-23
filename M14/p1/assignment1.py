@@ -92,7 +92,7 @@ class Message(object):
         '''
         return self.valid_words[:]
     def build_shift_dict(self, shift):
-
+        '''Build shift method'''
         lower_keys = list(string.ascii_lowercase)
         lower_values = list(string.ascii_lowercase)
         shift_lower_values = lower_values[shift:] + lower_values[:shift]
@@ -109,6 +109,7 @@ class Message(object):
 
 
     def apply_shift(self, shift):
+        '''Shift method'''
         new_msg = []
         for i in self.message_text:
             if i not in self.build_shift_dict(shift).keys():
@@ -124,47 +125,9 @@ class Message(object):
 
     ### Paste your implementation of the Message class here
             
-    def build_shift_dict(self, shift):
-        lower_keys = list(string.ascii_lowercase)
-        lower_values = list(string.ascii_lowercase)
-        shift_lower_values = lower_values[shift:] + lower_values[:shift]
-
-        upper_keys = list(string.ascii_uppercase)
-        upper_values = list(string.ascii_uppercase)
-        upper_shift_values = upper_values[shift:] + upper_values[:shift]
-
-        full_keys = lower_keys + upper_keys
-        full_values = shift_lower_values + upper_shift_values
-
-        self.shift_dict = dict(zip(full_keys, full_values))
-        return self.shift_dict
-
-
-        def apply_shift(self, shift):
-            '''
-            Applies the Caesar Cipher to self.message_text with the input shift.
-            Creates a new string that is self.message_text shifted down the
-            alphabet by some number of characters determined by the input shift
-
-            shift (integer): the shift with which to encrypt the message.
-            0 <= shift < 26
-
-            Returns: the message text (string) in which every character is shifted
-                 down the alphabet by the input shift
-            '''
-            new_msg = []
-            for i in self.message_text:
-                if i not in self.build_shift_dict(shift).keys():
-                    new_msg.append(i)
-                    continue
-                else:
-                    new_msg.append(self.build_shift_dict(shift)[i])
-            return ''.join(new_msg)
-
+    
 def main():
-    '''
-        Function to handle testcases
-    '''
+    '''Main method'''
     data = Message(input())
     data.get_message_text()
     print(data.apply_shift(int(input())))
