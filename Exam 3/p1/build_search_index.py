@@ -18,18 +18,26 @@
         word2: [(doc_id, frequency),(doc_id, frequency),...],
     }
 '''
-import string
-import collections
+# import string
+import re
 # helper function to load the stop words from a file
-def load_stopwords(stopwords):
+def delete_words(docs):
+    '''Delete Words'''
+    swords = load_stopwords('stopwords.txt')
+    for swords in swords:
+        if swords in docs:
+            del docs[swords]
+    return docs
+
+def load_stopwords(filename):
     '''
         loads stop words from a file and returns a dictionary
     '''
-    dup_stopwords = []
-    with open(stopwords, 'r') as f_stopwords:
+    stopwords = []
+    with open(filename, 'r') as f_stopwords:
         for line in f_stopwords:
-            dup_stopwords.append(line.strip())
-    return dup_stopwords
+            stopwords.append(line.strip())
+    return stopwords
 
 
 def word_list(text):
@@ -38,14 +46,12 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    char = string.ascii_letters + ' '
-    text = ''.join(index for index in text if index in char)
-    text = text.lower().split()
-    finaldict = load_stopwords("stopwords.txt")
-    for word in list(text):
-        if word in finaldict:
-            text.remove(word)
-    return text
+    text = text.lower()
+    # return text
+    newtext = re.sub('[^a-z ]', '', text)
+    newtext = newtext.split()
+    return newtext
+
 def build_search_index(docs):
     '''
         Process the docs step by step as given below
@@ -60,16 +66,12 @@ def build_search_index(docs):
             word1 = res.count(value)
             if value in dict1:
                 if (index, word1) not in dict1[value]:
-                    dict1[value].append(index, word1)
+                    dict1[value].append((index, word1))
             else:
                 dict1[value] = [(index, word1)]
-        dict1 = load_stopwords(dict1)
+        dict1 = delete_words(dict1)
     return dict1
-    # for count,l_index in enumerate(docs, 0):
-    #     dic = {}
-    #     for e_index in l_index:
-    #         if e_index not in dic:
-                
+
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
@@ -100,9 +102,9 @@ def main():
     # iterate for n times
     lines = int(input())
     # iterate through N times and add documents to the list
-    for _ in range(lines):
+    for i in range(lines):
         documents.append(input())
-        #i += 1
+        i += 1
 
     # call print to display the search index
     print_search_index(build_search_index(documents))

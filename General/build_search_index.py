@@ -81,7 +81,6 @@ def build_search_index(docs):
             else:
                 adict[jindex] = [(index, word_count)]
         adict = delete_stopwords(adict)
-
     return adict
 # helper function to print the search index
 # use this to verify how the search index looks
