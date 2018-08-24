@@ -36,10 +36,8 @@ def create_social_network(data):
 
     new = {}
     if 'follows' in data:
-        data = data.split('follows')
-        #print(data)
+        data = data.splitlines()
         for element in data:
-            
             key, value = element.split(' follows ')
             if key in new:
                 if value not in new[key]:
@@ -50,15 +48,13 @@ def create_social_network(data):
     return {}
 
 def main():
-    '''
-        handling testcase input and printing output
-    '''
+    '''handling testcase input and printing output'''
     string = ''
     lines = int(input())
     for i in range(lines):
         i += 1
         string += input()
-        #string += '\n'
+        string += '\n'
 
     print(create_social_network(string))
 
