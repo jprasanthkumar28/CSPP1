@@ -4,10 +4,23 @@ each word
 '''
 
 def tokenize(string):
-    pass
+    # pass
+    newdict = {}
+    string = string.split()
+    for word in string:
+   		if word in newdict:
+   			newdict[word] += 1
+   		else:
+   			# newdict[word][0].append(docs.index(line))
+   			newdict[word] = 1
+    return newdict 
             
 def main():
-    pass
+    doc = ''
+    lines = int(input())
+    for index in range(lines):
+    	doc = ''.join(input())
+    print(tokenize(doc))
 
 if __name__ == '__main__':
     main()
