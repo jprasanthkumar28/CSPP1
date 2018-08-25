@@ -14,13 +14,20 @@ def check_sudoku(sudoku):
         The function has to return True for a valid sudoku grid and false otherwise
     '''
     # pass
-    row = 0
     if len(sudoku) != 9:
         return False
     return True
-    if sum(len(row) == 9 for row in sudoku) != 9:
-        return False
-    return True
+    # hor = []
+    # ver = []
+    # diag = []
+    # for i in range(x):
+    #     for j in range(len(mat1[i])):
+    #         if i == m:
+    #             hor.append(mat1[i][j])
+    #         if j == n:
+    #             ver.append(mat1[i][j])
+    #         if m == n:
+    #             if i == j:
 
 
 def main():
