@@ -8,7 +8,7 @@ def print_dictionary(dictionary):
     '''To prnt a sorted dictionary'''
     # pass
     for key in sorted(dictionary):
-        print(key, dictionary[key])
+        print(key, '-', dictionary[key])
 
 def main():
     '''To print main function'''
