@@ -17,17 +17,16 @@ def check_sudoku(sudoku):
     if len(sudoku) != 9:
         return False
     return True
-    # hor = []
-    # ver = []
-    # diag = []
-    # for i in range(x):
-    #     for j in range(len(mat1[i])):
-    #         if i == m:
-    #             hor.append(mat1[i][j])
-    #         if j == n:
-    #             ver.append(mat1[i][j])
-    #         if m == n:
-    #             if i == j:
+    hor = []
+    ver = []
+    diag = []
+    count = 1
+    for i in range(sudoku):
+        for j in range(sudoku[i]):
+            count += 1
+        if count > 1:
+            return False
+        return True
 
 
 def main():
