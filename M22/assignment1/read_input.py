@@ -3,12 +3,13 @@ Write a python program to read multiple lines of text input and store the input 
 '''
 
 def main():
+    '''To read the input and print'''
     doc = ''
     lines = int(input())
-    for index in range(lines):
-    	# doc.append(input())
-    	doc = ''.join(input())
-    	print(doc)
+    for _ in range(lines):
+        # doc.append(input())
+        doc = ''.join(input())
+        print(doc)
 
 if __name__ == '__main__':
     main()
