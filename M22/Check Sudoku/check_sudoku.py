@@ -17,6 +17,7 @@ def check_sudoku(sudoku):
     row = 0
     if len(sudoku) != 9:
         return False
+    return True
     if sum(len(row) == 9 for row in sudoku) != 9:
         return False
     return True
