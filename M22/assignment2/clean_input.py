@@ -5,7 +5,7 @@ alphabets in both upper and lower case and numbers.
 import re
 def clean_string(string):
     '''To remove the special characters and merge the letters'''
-    newstring = re.sub('[^a-z]+', '', string)
+    newstring = re.sub('[^a-z,0-9]+', '', string)
     return newstring
 
 def main():
