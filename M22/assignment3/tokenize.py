@@ -9,6 +9,7 @@ def tokenize(string):
     newdict = {}
     string = re.sub('[^A-Z,a-z,0-9 ]', '', string)
     string = string.split()
+    print(string)
     for word in string:
         if word in newdict:
             newdict[word] += 1
