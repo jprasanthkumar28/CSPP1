@@ -20,10 +20,11 @@ def tokenize(string):
 def main():
     '''Main Function'''
     doc = ''
-    lines = int(input()).split()
+    lines = int(input())
     for _ in range(lines):
-        doc += ''.join(input())
-    print(tokenize(doc))
+        doc = ''.join(input()).split()
+        doc1 += doc
+    print(tokenize(doc1))
 
 if __name__ == '__main__':
     main()
