@@ -22,8 +22,8 @@ def main():
     doc = ''
     lines = int(input())
     for _ in range(lines):
-        doc = ''.join(input())
-        print(tokenize(doc))
+        doc += ''.join(input())
+    print(tokenize(doc))
 
 if __name__ == '__main__':
     main()
