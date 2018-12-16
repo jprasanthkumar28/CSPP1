@@ -20,7 +20,7 @@ def tokenize(string):
 def main():
     '''Main Function'''
     doc = ''
-    lines = int(input())
+    lines = int(input()).split()
     for _ in range(lines):
         doc += ''.join(input())
     print(tokenize(doc))
