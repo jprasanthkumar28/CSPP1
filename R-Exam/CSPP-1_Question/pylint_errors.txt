@@ -43,5 +43,5 @@ Sudoku2.py:54:0: C0111: Missing function docstring (missing-docstring)
 Sudoku2.py:64:12: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.58/10 (previous run: 3.02/10, +0.57)
+Your code has been rated at 3.58/10 (previous run: 3.58/10, +0.00)
 
