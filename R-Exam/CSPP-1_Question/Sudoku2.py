@@ -58,19 +58,19 @@ def main():
     i = 0
     sudoku =[]
 
-    # try:
-    while(i < 81):
-        row = []
-        for k in range(0,9):
-            row.append(data[i])
-            i = i + 1
-        sudoku.append(row)
-    # validInput(data1)
-    # validSudoku(sudoku)
-    possibilites(sudoku)
-# except Exception as e:
-#     print(e)
-# print(sudoku)
+    try:
+        while(i < 81):
+            row = []
+            for k in range(0,9):
+                row.append(data[i])
+                i = i + 1
+            sudoku.append(row)
+        validInput(data1)
+        validSudoku(sudoku)
+        possibilites(sudoku)
+    except Exception as e:
+        print(e)
+    # print(sudoku)
 
 if __name__ == '__main__':
     main()

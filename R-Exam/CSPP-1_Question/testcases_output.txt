@@ -1,9 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -411,15 +411,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-23456789
-13456789
-12456789
-12356789
-12346789
-12345789
-12345689
-12345679
-12345678
+duplicates are present
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -427,12 +419,7 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "Sudoku2.py", line 76, in <module>
-    main()
-  File "Sudoku2.py", line 65, in main
-    row.append(data[i])
-IndexError: list index out of range
+list index out of range
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -440,7 +427,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-7
+duplicates are present
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -582,12 +569,7 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "Sudoku2.py", line 76, in <module>
-    main()
-  File "Sudoku2.py", line 65, in main
-    row.append(data[i])
-IndexError: list index out of range
+list index out of range
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########

@@ -12,9 +12,9 @@ Sudoku2.py:59:11: C0326: Exactly one space required after assignment
     sudoku =[]
            ^ (bad-whitespace)
 Sudoku2.py:62:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-Sudoku2.py:64:24: C0326: Exactly one space required after comma
-        for k in range(0,9):
-                        ^ (bad-whitespace)
+Sudoku2.py:64:28: C0326: Exactly one space required after comma
+            for k in range(0,9):
+                            ^ (bad-whitespace)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku2.py:1:0: C0103: Function name "validInput" doesn't conform to snake_case naming style (invalid-name)
@@ -40,8 +40,10 @@ Sudoku2.py:47:16: C0103: Variable name "String" doesn't conform to snake_case na
 Sudoku2.py:48:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:50:24: C0103: Variable name "String" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:54:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:64:12: W0612: Unused variable 'k' (unused-variable)
+Sudoku2.py:71:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku2.py:71:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:64:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.58/10 (previous run: 3.58/10, +0.00)
+Your code has been rated at 3.79/10 (previous run: 3.58/10, +0.21)
 
