@@ -1,26 +1,80 @@
-data = input()
-# for i in range(9):
-if '.' not in data:
-	print("Given sudoku is solved")
-elif len(data) != 81:
-	print("Invalid input")
-else:
-	check = [False] * 9
-	count = 0
-	string = ''
-	for string in data:
-		if count == 9:
-			for i in range(9):
-				if check[i] == False:
-					print(i+1)
-			count = 0
-		count = count + 1
-		if (string == '.'):
-			continue
-		check[int(string) - 1] = True
-	if count == 9:
-		for j in range(9):
-			if check[j] == False:
-				print(j+1)
-		check = [False] * 9
-		count = 0
+def validInput(data):
+    if len(data) != 81:
+        raise Exception("Invalid input")
+    elif '.' not in data:
+        raise Exception("sudoku Solved")
+
+def validSudoku(sudoku):
+    for x in range(0,9):
+        var = getRow(x, sudoku)
+        if len(set(var)) != len(var):
+            raise Exception("duplicates are present")   
+            # print("duplicates are present")
+        colVar = getCol(x, sudoku)
+        if len(set(colVar)) != len(colVar):
+            raise Exception("duplicates are present")   
+            # print("duplicates are present")   
+
+def getRow(cell, sudoku):
+    row = []
+    for x in sudoku[cell]:
+        if x != '.':
+            row.append(x)
+    # print(row)
+    return row
+
+def getCol(cell, sudoku):
+    col = []
+    for row in sudoku:
+        if row[cell] != '.':
+            col.append(row[cell])
+    # print(col)
+    return col
+
+
+def getSubGrid(cell):
+    pass
+
+def possibilites(sudoku):
+    # print(len(sudoku))
+    for i in range(len(sudoku)):
+        for j in range(len(sudoku[0])):
+            # print(i, j)
+            if sudoku[i][j] == ".":
+                rowVal = getRow(i, sudoku)
+                colVal = getCol(j, sudoku)
+                newData = rowVal + colVal
+                String = ''
+                for l in range(1,10):
+                    if str(l) not in newData:
+                        String += str(l)
+                print(String)
+
+
+def main():
+    '''
+        main function
+    '''
+    # This line reads the String
+    data1 = input()
+    data = list(data1)
+    # print(data)
+    i=0
+    sudoku =[]
+
+    # try:
+    while(i<81):
+        row=[]
+        for k in range(0,9):
+            row.append(data[i])
+            i=i+1
+        sudoku.append(row)
+    # validInput(data1)
+    # validSudoku(sudoku)
+    possibilites(sudoku)
+# except Exception as e:
+#     print(e)
+# print(sudoku)
+
+if __name__ == '__main__':
+    main()
