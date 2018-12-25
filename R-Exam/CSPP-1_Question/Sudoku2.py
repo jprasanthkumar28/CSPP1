@@ -17,4 +17,4 @@ else:
 		count = count + 1
 		if (string == '.'):
 			continue
-		check[int[(string) - 1]] == True
+		check[int(string) - 1] == True

@@ -20,9 +20,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -39,9 +39,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -52,9 +52,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -65,9 +65,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -84,9 +84,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -103,9 +103,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -122,9 +122,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -160,9 +160,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -179,9 +179,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -198,9 +198,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -217,9 +217,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -236,9 +236,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -264,9 +264,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -317,9 +317,9 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 17: Passed ##########
@@ -336,9 +336,9 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -410,9 +410,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Passed ##########
@@ -479,9 +479,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -547,9 +547,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -581,9 +581,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -628,8 +628,8 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 20, in <module>
-    check[int[(string) - 1]] == True
-TypeError: unsupported operand type(s) for -: 'str' and 'int'
+  File "Sudoku2.py", line 14, in <module>
+    if check[index] == False:
+NameError: name 'index' is not defined
 ----------------------------------------
 
