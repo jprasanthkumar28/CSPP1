@@ -1,11 +1,11 @@
 data = list(input())
+check = [False] * 9
 # for i in range(9):
 if '.' not in data:
 	print("Given sudoku is solved")
 elif len(data) != 81:
 	print("Invalid input")
 else:
-	check = [False] * 9
 	count = 0
 	string = ''
 	for string in data:
