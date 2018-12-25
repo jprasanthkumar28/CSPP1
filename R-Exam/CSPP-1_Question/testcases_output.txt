@@ -428,9 +428,9 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 80, in <module>
+  File "Sudoku2.py", line 76, in <module>
     main()
-  File "Sudoku2.py", line 69, in main
+  File "Sudoku2.py", line 65, in main
     row.append(data[i])
 IndexError: list index out of range
 ----------------------------------------
@@ -583,9 +583,9 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku2.py", line 80, in <module>
+  File "Sudoku2.py", line 76, in <module>
     main()
-  File "Sudoku2.py", line 69, in main
+  File "Sudoku2.py", line 65, in main
     row.append(data[i])
 IndexError: list index out of range
 ----------------------------------------

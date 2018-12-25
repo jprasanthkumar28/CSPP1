@@ -2,7 +2,7 @@ def validInput(data):
     if len(data) != 81:
         raise Exception("Invalid input")
     elif '.' not in data:
-        raise Exception("sudoku Solved")
+        raise Exception("Given sudoku is solved")
 
 def validSudoku(sudoku):
     for x in range(0,9):
@@ -52,22 +52,18 @@ def possibilites(sudoku):
 
 
 def main():
-    '''
-        main function
-    '''
-    # This line reads the String
     data1 = input()
     data = list(data1)
     # print(data)
-    i=0
+    i = 0
     sudoku =[]
 
     # try:
-    while(i<81):
-        row=[]
+    while(i < 81):
+        row = []
         for k in range(0,9):
             row.append(data[i])
-            i=i+1
+            i = i + 1
         sudoku.append(row)
     # validInput(data1)
     # validSudoku(sudoku)
