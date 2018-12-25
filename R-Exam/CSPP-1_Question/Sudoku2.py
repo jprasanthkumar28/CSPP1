@@ -22,3 +22,5 @@ else:
 		for j in range(9):
 			if check[j] == False:
 				print(j+1)
+			check = [False] * 9
+			count = 0
