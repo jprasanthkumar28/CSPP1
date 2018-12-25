@@ -18,7 +18,6 @@ else:
 		if (string == '.'):
 			continue
 		check[int(string) - 1] = True
-
 	if count == 9:
 		for j in range(9):
 			if check[j] == False:

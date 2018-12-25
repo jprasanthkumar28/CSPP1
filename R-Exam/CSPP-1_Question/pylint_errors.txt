@@ -15,11 +15,11 @@ Sudoku2.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Sudoku2.py:18:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 Sudoku2.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:24:0: C0304: Final newline missing (missing-final-newline)
 Sudoku2.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku2.py:25:0: C0304: Final newline missing (missing-final-newline)
-Sudoku2.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku2.py:1:0: C0103: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -27,8 +27,8 @@ Sudoku2.py:8:1: C0103: Constant name "check" doesn't conform to UPPER_CASE namin
 Sudoku2.py:9:1: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 Sudoku2.py:10:1: C0103: Constant name "string" doesn't conform to UPPER_CASE naming style (invalid-name)
 Sudoku2.py:14:7: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
-Sudoku2.py:24:6: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
+Sudoku2.py:23:6: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.18/10 (previous run: -3.33/10, +0.15)
+Your code has been rated at -3.18/10 (previous run: -3.18/10, +0.00)
 
