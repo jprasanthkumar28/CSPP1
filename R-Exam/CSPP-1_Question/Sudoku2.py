@@ -17,4 +17,9 @@ else:
 		count = count + 1
 		if (string == '.'):
 			continue
-		check[int(string) - 1] == True
+		check[int(string) - 1] = True
+
+	if count == 9:
+		for j in range(9):
+			if check[j] == False:
+				print(j+1)
