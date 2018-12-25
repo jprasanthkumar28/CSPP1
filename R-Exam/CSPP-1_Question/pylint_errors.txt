@@ -23,10 +23,9 @@ Sudoku2.py:8:1: C0103: Constant name "check" doesn't conform to UPPER_CASE namin
 Sudoku2.py:9:1: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 Sudoku2.py:10:1: C0103: Constant name "string" doesn't conform to UPPER_CASE naming style (invalid-name)
 Sudoku2.py:14:7: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
-Sudoku2.py:14:13: E0602: Undefined variable 'index' (undefined-variable)
 Sudoku2.py:20:2: W0106: Expression "check[int(string) - 1] == True" is assigned to nothing (expression-not-assigned)
 Sudoku2.py:20:2: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 
----------------------------------------------------------------------
-Your code has been rated at -7.22/10 (previous run: -10.00/10, +2.78)
+--------------------------------------------------------------------
+Your code has been rated at -4.44/10 (previous run: -7.22/10, +2.78)
 

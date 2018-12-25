@@ -11,7 +11,7 @@ else:
 	for string in data:
 		if count == 9:
 			for i in range(9):
-				if check[index] == False:
+				if check[i] == False:
 					print(i+1)
 			count = 0
 		count = count + 1
