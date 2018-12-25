@@ -1,7 +1,7 @@
 data = list(input())
 # for i in range(9):
 if '.' not in data:
-	print("Sudoku Solved")
+	print("Given sudoku is solved")
 elif len(data) != 81:
 	print("Invalid input")
 else:
