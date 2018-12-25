@@ -1,16 +1,33 @@
 ************* Module Sudoku2
 Sudoku2.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku2.py:12:0: C0304: Final newline missing (missing-final-newline)
 Sudoku2.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:18:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Sudoku2.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku2.py:20:0: C0304: Final newline missing (missing-final-newline)
+Sudoku2.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku2.py:1:0: C0103: Constant name "data" doesn't conform to UPPER_CASE naming style (invalid-name)
-Sudoku2.py:9:1: C0103: Constant name "string" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku2.py:8:1: C0103: Constant name "check" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku2.py:9:1: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku2.py:10:1: C0103: Constant name "string" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku2.py:14:7: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
+Sudoku2.py:14:13: E0602: Undefined variable 'index' (undefined-variable)
+Sudoku2.py:20:2: W0104: Statement seems to have no effect (pointless-statement)
+Sudoku2.py:20:2: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:20:8: E1136: Value 'int' is unsubscriptable (unsubscriptable-object)
 
--------------------------------------------------------------------
-Your code has been rated at -2.22/10 (previous run: 0.00/10, -2.22)
+---------------------------------------------------------------------
+Your code has been rated at -10.00/10 (previous run: -2.22/10, -7.78)
 
