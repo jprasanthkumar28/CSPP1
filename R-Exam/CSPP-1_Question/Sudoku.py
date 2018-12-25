@@ -12,7 +12,7 @@ else:
             for index in range(9):
                 if check[index] == False:
                     print(index + 1)
-            check = [False] * 9
+            # check = [False] * 9
             count = 0
         count = count + 1
         if(string == '.'):
