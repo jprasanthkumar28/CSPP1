@@ -161,7 +161,7 @@ def main():
         while(i < 81):
             row = []
             for k in range(0,9):
-                row.append(int(data[i]))
+                row.append(data[i])
                 i = i + 1
             sudoku.append(row)
         validSudoku(sudoku)
