@@ -13,7 +13,7 @@ def validSudoku(sudoku):
         colVar = getCol(x, sudoku)
         if len(set(colVar)) != len(colVar):
             raise Exception("duplicates are present")   
-            # print("duplicates are present")   
+            # print("duplicates are present")
 
 def getRow(cell, sudoku):
     row = []
@@ -44,11 +44,11 @@ def possibilites(sudoku):
                 rowVal = getRow(i, sudoku)
                 colVal = getCol(j, sudoku)
                 newData = rowVal + colVal
-                String = ''
+                string = ''
                 for l in range(1,10):
                     if str(l) not in newData:
-                        String += str(l)
-                print(String)
+                        string += str(l)
+                print(string)
 
 
 def main():
@@ -56,7 +56,7 @@ def main():
     data = list(data1)
     # print(data)
     i = 0
-    sudoku =[]
+    sudoku = []
 
     try:
         while(i < 81):
