@@ -8,12 +8,12 @@ def validSudoku(sudoku):
     for x in range(0,9):
         var = getRow(x, sudoku)
         if len(set(var)) != len(var):
-            raise Exception("duplicates are present")   
-            # print("duplicates are present")
+            raise Exception("Invalid Sudoku:Duplicate values")   
+            # print("Invalid Sudoku:Duplicate values")
         colVar = getCol(x, sudoku)
         if len(set(colVar)) != len(colVar):
-            raise Exception("duplicates are present")   
-            # print("duplicates are present")
+            raise Exception("Invalid Sudoku:Duplicate values")   
+            # print("Invalid Sudoku:Duplicate values")
 
 def getRow(cell, sudoku):
     row = []
@@ -149,13 +149,13 @@ def main():
     sudoku = []
 
     try:
+        validInput(data1)
         while(i < 81):
             row = []
             for k in range(0,9):
                 row.append(data[i])
                 i = i + 1
             sudoku.append(row)
-        validInput(data1)
         validSudoku(sudoku)
         possibilites(sudoku)
     except Exception as e:

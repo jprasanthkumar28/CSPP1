@@ -2,8 +2,8 @@
 Sudoku2.py:8:20: C0326: Exactly one space required after comma
     for x in range(0,9):
                     ^ (bad-whitespace)
-Sudoku2.py:11:53: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:15:53: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:11:62: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:15:62: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:41:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:51:33: C0303: Trailing whitespace (trailing-whitespace)
@@ -21,8 +21,8 @@ Sudoku2.py:119:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:138:32: C0326: Exactly one space required after comma
                 for l in range(1,10):
                                 ^ (bad-whitespace)
-Sudoku2.py:152:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-Sudoku2.py:154:28: C0326: Exactly one space required after comma
+Sudoku2.py:153:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+Sudoku2.py:155:28: C0326: Exactly one space required after comma
             for k in range(0,9):
                             ^ (bad-whitespace)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
@@ -73,8 +73,8 @@ Sudoku2.py:138:20: C0103: Variable name "l" doesn't conform to snake_case naming
 Sudoku2.py:144:0: C0111: Missing function docstring (missing-docstring)
 Sudoku2.py:161:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku2.py:161:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:154:16: W0612: Unused variable 'k' (unused-variable)
+Sudoku2.py:155:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.73/10 (previous run: 4.58/10, +0.15)
+Your code has been rated at 4.73/10 (previous run: 4.73/10, +0.00)
 
