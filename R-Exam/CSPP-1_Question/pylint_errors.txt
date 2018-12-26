@@ -18,11 +18,12 @@ Sudoku2.py:100:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:107:16: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:110:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:119:33: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:138:32: C0326: Exactly one space required after comma
+Sudoku2.py:128:98: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:146:32: C0326: Exactly one space required after comma
                 for l in range(1,10):
                                 ^ (bad-whitespace)
-Sudoku2.py:153:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-Sudoku2.py:155:28: C0326: Exactly one space required after comma
+Sudoku2.py:161:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+Sudoku2.py:163:28: C0326: Exactly one space required after comma
             for k in range(0,9):
                             ^ (bad-whitespace)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
@@ -63,18 +64,19 @@ Sudoku2.py:122:7: C0121: Comparison to True should be just 'expr' or 'expr is Tr
 Sudoku2.py:35:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 Sudoku2.py:35:0: R0911: Too many return statements (9/6) (too-many-return-statements)
 Sudoku2.py:35:0: R0912: Too many branches (36/12) (too-many-branches)
-Sudoku2.py:127:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:129:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku2.py:133:16: C0103: Variable name "rowVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:134:16: C0103: Variable name "colVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:135:16: C0103: Variable name "gridVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:136:16: C0103: Variable name "newData" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:138:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:144:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:161:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku2.py:161:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:155:16: W0612: Unused variable 'k' (unused-variable)
+Sudoku2.py:134:0: C0111: Missing function docstring (missing-docstring)
+Sudoku2.py:136:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Sudoku2.py:140:16: C0103: Variable name "rowVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:141:16: C0103: Variable name "colVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:142:16: C0103: Variable name "gridVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:144:16: C0103: Variable name "newData" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:146:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:151:0: W0105: String statement has no effect (pointless-string-statement)
+Sudoku2.py:152:0: C0111: Missing function docstring (missing-docstring)
+Sudoku2.py:169:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku2.py:169:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:163:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.73/10 (previous run: 4.73/10, +0.00)
+Your code has been rated at 4.62/10 (previous run: 4.73/10, -0.11)
 

@@ -124,6 +124,13 @@ def getSubGrid(a, b, sudoku):
 
 
 
+##
+## @brief      to get the possibilites of the sudoku by using getRow, getCol, getSubGrid functions  
+##
+## @param      sudoku  The sudoku
+##
+## @return     { description_of_the_return_value }
+##
 def possibilites(sudoku):
     # print(len(sudoku))
     for i in range(len(sudoku)):
@@ -133,6 +140,7 @@ def possibilites(sudoku):
                 rowVal = getRow(i, sudoku)
                 colVal = getCol(j, sudoku)
                 gridVal = getSubGrid(i, j, sudoku)
+                # storing all the values of the row, col and grid in a new list
                 newData = rowVal + colVal + gridVal
                 string = ''
                 for l in range(1,10):
@@ -140,7 +148,7 @@ def possibilites(sudoku):
                         string += str(l)
                 print(string)
 
-
+'''Main function'''
 def main():
     data1 = input()
     data = list(data1)
@@ -153,7 +161,7 @@ def main():
         while(i < 81):
             row = []
             for k in range(0,9):
-                row.append(data[i])
+                row.append(int(data[i]))
                 i = i + 1
             sudoku.append(row)
         validSudoku(sudoku)
