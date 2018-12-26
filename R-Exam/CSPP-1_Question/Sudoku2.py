@@ -32,7 +32,7 @@ def getCol(cell, sudoku):
     return col
 
 
-def getSubGrid(a, b , sudoku):
+def getSubGrid(a, b, sudoku):
     subGrid = []
     # grid = []
     var1 = False
@@ -132,7 +132,7 @@ def possibilites(sudoku):
             if sudoku[i][j] == ".":
                 rowVal = getRow(i, sudoku)
                 colVal = getCol(j, sudoku)
-                gridVal = getSubGrid(i,j, sudoku)
+                gridVal = getSubGrid(i, j, sudoku)
                 newData = rowVal + colVal + gridVal
                 string = ''
                 for l in range(1,10):

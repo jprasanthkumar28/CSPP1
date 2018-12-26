@@ -4,9 +4,6 @@ Sudoku2.py:8:20: C0326: Exactly one space required after comma
                     ^ (bad-whitespace)
 Sudoku2.py:11:53: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:15:53: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:35:20: C0326: No space allowed before comma
-def getSubGrid(a, b , sudoku):
-                    ^ (bad-whitespace)
 Sudoku2.py:41:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:51:33: C0303: Trailing whitespace (trailing-whitespace)
@@ -21,9 +18,6 @@ Sudoku2.py:100:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:107:16: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:110:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:119:33: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:135:38: C0326: Exactly one space required after comma
-                gridVal = getSubGrid(i,j, sudoku)
-                                      ^ (bad-whitespace)
 Sudoku2.py:138:32: C0326: Exactly one space required after comma
                 for l in range(1,10):
                                 ^ (bad-whitespace)
@@ -82,5 +76,5 @@ Sudoku2.py:161:4: C0103: Variable name "e" doesn't conform to snake_case naming 
 Sudoku2.py:154:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.58/10 (previous run: 4.20/10, +0.38)
+Your code has been rated at 4.73/10 (previous run: 4.58/10, +0.15)
 
