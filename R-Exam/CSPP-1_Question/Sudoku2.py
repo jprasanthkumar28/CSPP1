@@ -132,7 +132,7 @@ def possibilites(sudoku):
             if sudoku[i][j] == ".":
                 rowVal = getRow(i, sudoku)
                 colVal = getCol(j, sudoku)
-                gridVal = subGrid(i,j, sudoku)
+                gridVal = getSubGrid(i,j, sudoku)
                 newData = rowVal + colVal + gridVal
                 string = ''
                 for l in range(1,10):

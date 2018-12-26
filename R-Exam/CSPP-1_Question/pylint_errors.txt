@@ -21,9 +21,9 @@ Sudoku2.py:100:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:107:16: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:110:33: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:119:33: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:135:35: C0326: Exactly one space required after comma
-                gridVal = subGrid(i,j, sudoku)
-                                   ^ (bad-whitespace)
+Sudoku2.py:135:38: C0326: Exactly one space required after comma
+                gridVal = getSubGrid(i,j, sudoku)
+                                      ^ (bad-whitespace)
 Sudoku2.py:138:32: C0326: Exactly one space required after comma
                 for l in range(1,10):
                                 ^ (bad-whitespace)
@@ -74,7 +74,6 @@ Sudoku2.py:129:4: C0200: Consider using enumerate instead of iterating with rang
 Sudoku2.py:133:16: C0103: Variable name "rowVal" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:134:16: C0103: Variable name "colVal" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:135:16: C0103: Variable name "gridVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:135:26: E0602: Undefined variable 'subGrid' (undefined-variable)
 Sudoku2.py:136:16: C0103: Variable name "newData" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:138:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:144:0: C0111: Missing function docstring (missing-docstring)
@@ -83,5 +82,5 @@ Sudoku2.py:161:4: C0103: Variable name "e" doesn't conform to snake_case naming 
 Sudoku2.py:154:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.20/10 (previous run: 4.48/10, -0.28)
+Your code has been rated at 4.58/10 (previous run: 4.20/10, +0.38)
 
