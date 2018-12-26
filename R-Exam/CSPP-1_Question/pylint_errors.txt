@@ -4,11 +4,31 @@ Sudoku2.py:8:20: C0326: Exactly one space required after comma
                     ^ (bad-whitespace)
 Sudoku2.py:11:53: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku2.py:15:53: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku2.py:48:32: C0326: Exactly one space required after comma
+Sudoku2.py:35:20: C0326: No space allowed before comma
+def getSubGrid(a, b , sudoku):
+                    ^ (bad-whitespace)
+Sudoku2.py:41:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:51:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:60:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:65:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:70:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:80:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:90:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:95:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:97:16: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:100:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:107:16: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:110:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:119:33: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku2.py:135:35: C0326: Exactly one space required after comma
+                gridVal = subGrid(i,j, sudoku)
+                                   ^ (bad-whitespace)
+Sudoku2.py:138:32: C0326: Exactly one space required after comma
                 for l in range(1,10):
                                 ^ (bad-whitespace)
-Sudoku2.py:62:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-Sudoku2.py:64:28: C0326: Exactly one space required after comma
+Sudoku2.py:152:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+Sudoku2.py:154:28: C0326: Exactly one space required after comma
             for k in range(0,9):
                             ^ (bad-whitespace)
 Sudoku2.py:1:0: C0103: Module name "Sudoku2" doesn't conform to snake_case naming style (invalid-name)
@@ -25,19 +45,43 @@ Sudoku2.py:20:8: C0103: Variable name "x" doesn't conform to snake_case naming s
 Sudoku2.py:26:0: C0103: Function name "getCol" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:26:0: C0111: Missing function docstring (missing-docstring)
 Sudoku2.py:35:0: C0103: Function name "getSubGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:35:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:35:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
 Sudoku2.py:35:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:35:15: W0613: Unused argument 'cell' (unused-argument)
-Sudoku2.py:38:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:40:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku2.py:44:16: C0103: Variable name "rowVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:45:16: C0103: Variable name "colVal" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:46:16: C0103: Variable name "newData" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:48:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:54:0: C0111: Missing function docstring (missing-docstring)
-Sudoku2.py:71:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku2.py:71:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-Sudoku2.py:64:16: W0612: Unused variable 'k' (unused-variable)
+Sudoku2.py:36:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:44:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:48:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:54:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:57:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:63:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:67:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:73:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:77:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:83:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:87:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:93:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:97:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:103:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:107:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:113:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:116:4: C0103: Variable name "subGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:122:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku2.py:35:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Sudoku2.py:35:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+Sudoku2.py:35:0: R0912: Too many branches (36/12) (too-many-branches)
+Sudoku2.py:127:0: C0111: Missing function docstring (missing-docstring)
+Sudoku2.py:129:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Sudoku2.py:133:16: C0103: Variable name "rowVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:134:16: C0103: Variable name "colVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:135:16: C0103: Variable name "gridVal" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:135:26: E0602: Undefined variable 'subGrid' (undefined-variable)
+Sudoku2.py:136:16: C0103: Variable name "newData" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:138:20: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:144:0: C0111: Missing function docstring (missing-docstring)
+Sudoku2.py:161:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku2.py:161:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku2.py:154:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.48/10 (previous run: 3.79/10, +0.69)
+Your code has been rated at 4.20/10 (previous run: 4.48/10, -0.28)
 

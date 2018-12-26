@@ -32,8 +32,97 @@ def getCol(cell, sudoku):
     return col
 
 
-def getSubGrid(cell):
-    pass
+def getSubGrid(a, b , sudoku):
+    subGrid = []
+    # grid = []
+    var1 = False
+    for i in range(0, 3):
+        for j in range(0, 3):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+    
+
+    subGrid = []
+    for i in range(0, 3):
+        for j in range(3, 6):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+    subGrid = []
+    for i in range(0, 3):
+        for j in range(6, 9):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+    
+
+    subGrid = []
+    for i in range(3, 6):
+        for j in range(0, 3):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+
+    subGrid = []
+    for i in range(3, 6):
+        for j in range(3, 6):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+
+    subGrid = []
+    for i in range(3, 6):
+        for j in range(6, 9):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+    
+
+    subGrid = []    
+    for i in range(6, 9):
+        for j in range(0, 3):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+
+    subGrid = []     
+    for i in range(6, 9):
+        for j in range(3, 6):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+    subGrid = []
+    for i in range(6, 9):
+        for j in range(6, 9):
+            if i == a and j == b:   
+                var1 = True
+            subGrid.append(sudoku[i][j])
+    if var1 == True:
+        return subGrid
+
+
 
 def possibilites(sudoku):
     # print(len(sudoku))
@@ -43,7 +132,8 @@ def possibilites(sudoku):
             if sudoku[i][j] == ".":
                 rowVal = getRow(i, sudoku)
                 colVal = getCol(j, sudoku)
-                newData = rowVal + colVal
+                gridVal = subGrid(i,j, sudoku)
+                newData = rowVal + colVal + gridVal
                 string = ''
                 for l in range(1,10):
                     if str(l) not in newData:
