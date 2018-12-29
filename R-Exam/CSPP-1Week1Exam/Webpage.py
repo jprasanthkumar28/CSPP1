@@ -10,23 +10,7 @@ def backgroundColors(data):
             index = item.index(tag)
             item = item[index + len(tag) :]
             result.append(item)
-    # print(list_color[1])
-    # for val in list_color:
-    #     if "background-color" in val:
-    #         index = val.index(tag)
-    #         val = val[index + len(tag) :]
-    #         result.append(val)
-            # end = val.index(endtag)
-            # print(val[:end])
-    # print(result)
-    # tag1 = ":"
-    # final = []
-    # for color in result:
-    #     if ":" in color:
-    #         index = color.index(tag1)
-    #         color = color[index + len(tag1) :]
-    #         # print(color)
-    #         final.append(color)
+    result.replace(":","")
     set_color = set(result)
     sort = sorted(set_color)
     # print(sort)

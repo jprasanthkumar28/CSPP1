@@ -1,21 +1,25 @@
 ************* Module Webpage
-Webpage.py:73:44: C0303: Trailing whitespace (trailing-whitespace)
-Webpage.py:78:40: C0326: No space allowed around keyword argument assignment
+Webpage.py:13:22: C0326: Exactly one space required after comma
+    result.replace(":","")
+                      ^ (bad-whitespace)
+Webpage.py:57:44: C0303: Trailing whitespace (trailing-whitespace)
+Webpage.py:62:40: C0326: No space allowed around keyword argument assignment
     data = open("webpage5.html", errors = 'ignore').read()
                                         ^ (bad-whitespace)
-Webpage.py:89:0: C0304: Final newline missing (missing-final-newline)
+Webpage.py:73:0: C0304: Final newline missing (missing-final-newline)
 Webpage.py:1:0: C0103: Module name "Webpage" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:1:0: C0111: Missing module docstring (missing-docstring)
 Webpage.py:1:0: C0103: Function name "backgroundColors" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:1:0: C0111: Missing function docstring (missing-docstring)
+Webpage.py:13:4: E1101: Instance of 'list' has no 'replace' member (no-member)
 Webpage.py:5:4: W0612: Unused variable 'endtag' (unused-variable)
-Webpage.py:37:0: C0111: Missing function docstring (missing-docstring)
-Webpage.py:44:4: W0612: Unused variable 'string' (unused-variable)
-Webpage.py:66:0: C0103: Function name "getList" doesn't conform to snake_case naming style (invalid-name)
-Webpage.py:66:0: C0111: Missing function docstring (missing-docstring)
-Webpage.py:66:12: W0613: Unused argument 'data' (unused-argument)
-Webpage.py:77:0: C0111: Missing function docstring (missing-docstring)
+Webpage.py:21:0: C0111: Missing function docstring (missing-docstring)
+Webpage.py:28:4: W0612: Unused variable 'string' (unused-variable)
+Webpage.py:50:0: C0103: Function name "getList" doesn't conform to snake_case naming style (invalid-name)
+Webpage.py:50:0: C0111: Missing function docstring (missing-docstring)
+Webpage.py:50:12: W0613: Unused argument 'data' (unused-argument)
+Webpage.py:61:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.82/10 (previous run: 5.68/10, +1.14)
+Your code has been rated at 5.56/10 (previous run: 6.82/10, -1.26)
 
