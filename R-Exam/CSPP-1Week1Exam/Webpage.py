@@ -11,7 +11,7 @@ def backgroundColors(data):
             index = item.index(tag)
             item = item[index + len(tag) :]
             end = item.index(tag1)
-            result.append(item[:end])
+            result.append(item[end:])
     # print(list_color[1])
     final = []
     for color in result:
