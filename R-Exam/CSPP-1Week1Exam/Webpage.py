@@ -1,5 +1,3 @@
-
-
 def backgroundColors(data):
     list_color = []
     colors = data.split(";")
@@ -28,19 +26,22 @@ def backgroundColors(data):
             final.append(color)
     set_color = set(final)
     sort = sorted(set_color)
+    # print(sort)
     for i in sort:
-      print(i)
+        print(i)
+
 
 def image(data):
-    img = data.split("><")
+    img = data.split("<img")
     # print(img)
-    tag = "img src="
-    endtag = " data-"
+    img = img[1:]
+    tag = "src=\""
+    endtag = "\""
     # string = ""
     string = []
     count = 0
     for item in img:
-        if "img src=\"" in item and " data-" in item:
+        if "src=\"" in item:
             # string += item
             index = item.index(tag)
             item = item[index+len(tag):]
@@ -49,9 +50,9 @@ def image(data):
             # string += item
             # string.append(item)
             print(item[:end])
-            # string.append(item[:end])
-    print(count)
+    #         string.append(item)
     # print(string)
+    print(count)
     # image_res = string.split(" data")
 
     # for res in image_res:
@@ -61,7 +62,15 @@ def image(data):
     # <img src=
 def getList(data):
     pass
-
+    # get_List = list(data)
+    # # print(get_List)
+    # string = []
+    # for i in range(len(get_List)):
+    #     if get_List[i] == ">":
+    #         string.append(get_List[i + 1])          
+    #         if get_List[i] == "<":
+    #             break
+    # print(string)
 def main():
     data = open("webpage5.html", errors = 'ignore').read()
     # print(data)
