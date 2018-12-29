@@ -19,15 +19,15 @@ def backgroundColors(data):
             # end = val.index(endtag)
             # print(val[:end])
     # print(result)
-    tag1 = ":"
-    final = []
-    for color in result:
-        if ":" in color:
-            index = color.index(tag1)
-            color = color[index + len(tag1) :]
-            # print(color)
-            final.append(color)
-    set_color = set(final)
+    # tag1 = ":"
+    # final = []
+    # for color in result:
+    #     if ":" in color:
+    #         index = color.index(tag1)
+    #         color = color[index + len(tag1) :]
+    #         # print(color)
+    #         final.append(color)
+    set_color = set(result)
     sort = sorted(set_color)
     # print(sort)
     for i in sort:
