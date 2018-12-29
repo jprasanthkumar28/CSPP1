@@ -13,7 +13,7 @@ def backgroundColors(data):
             end = item.index(tag1)
             result.append(item[end:])
     # print(list_color[1])
-    set_color = set(final)
+    set_color = set(result)
     sort = sorted(set_color)
     # print(sort)
     for i in sort:
