@@ -8,7 +8,6 @@ Webpage.py:1:0: C0103: Module name "Webpage" doesn't conform to snake_case namin
 Webpage.py:1:0: C0111: Missing module docstring (missing-docstring)
 Webpage.py:1:0: C0103: Function name "backgroundColors" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:1:0: C0111: Missing function docstring (missing-docstring)
-Webpage.py:11:19: E0602: Undefined variable 'val' (undefined-variable)
 Webpage.py:5:4: W0612: Unused variable 'endtag' (unused-variable)
 Webpage.py:37:0: C0111: Missing function docstring (missing-docstring)
 Webpage.py:44:4: W0612: Unused variable 'string' (unused-variable)
@@ -18,5 +17,5 @@ Webpage.py:66:12: W0613: Unused argument 'data' (unused-argument)
 Webpage.py:77:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.68/10 (previous run: 4.55/10, +1.14)
+Your code has been rated at 6.82/10 (previous run: 5.68/10, +1.14)
 
