@@ -166,9 +166,9 @@ Traceback (most recent call last):
     main()
   File "Webpage.py", line 84, in main
     backgroundColors(data)
-  File "Webpage.py", line 8, in backgroundColors
-    index = val.index(tag)
-UnboundLocalError: local variable 'val' referenced before assignment
+  File "Webpage.py", line 9, in backgroundColors
+    item = val[index + len(tag) :]
+NameError: name 'val' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########

@@ -5,9 +5,9 @@ def backgroundColors(data):
     for item in colors:
         if "background-color" in item:
             list_color.append(item)
-            index = val.index(tag)
-            val = val[index + len(tag) :]
-            result.append(val)
+            index = item.index(tag)
+            item = val[index + len(tag) :]
+            result.append(item)
     # print(list_color[1])
     endtag = ";"
     result = []
