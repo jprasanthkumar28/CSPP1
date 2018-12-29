@@ -28,8 +28,8 @@ def backgroundColors(data):
             final.append(color)
     set_color = set(final)
     sort = sorted(set_color)
-    # for i in sort:
-    #   print(i)
+    for i in sort:
+      print(i)
 
 def image(data):
     img = data.split("><")
