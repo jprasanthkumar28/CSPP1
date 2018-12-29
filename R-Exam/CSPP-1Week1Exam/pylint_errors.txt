@@ -18,5 +18,5 @@ Webpage.py:54:12: W0613: Unused argument 'data' (unused-argument)
 Webpage.py:65:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.81/10 (previous run: 6.81/10, +0.00)
+Your code has been rated at 6.74/10 (previous run: 6.81/10, -0.07)
 
