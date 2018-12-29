@@ -13,13 +13,11 @@ def backgroundColors(data):
     set_color = set(result)
     sort = sorted(set_color)
     # print(sort)
-    # string = ""
+    string = ""
     for i in sort:
-        # string += i
-        i = i[0:]
-        print(i)
-        # string.replace(":","")
-    # print(string)
+        string += i
+        string.replace(":","")
+    print(string)
 
 
 def image(data):
