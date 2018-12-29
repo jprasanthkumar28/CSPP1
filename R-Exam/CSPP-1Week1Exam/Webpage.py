@@ -10,7 +10,6 @@ def backgroundColors(data):
             index = item.index(tag)
             item = item[index + len(tag) :]
             result.append(item)
-    result.replace(":","")
     set_color = set(result)
     sort = sorted(set_color)
     # print(sort)
