@@ -13,13 +13,33 @@ def backgroundColors(data):
             end = item.index(tag1)
             result.append(item[end:])
     # print(list_color[1])
-    set_color = set(result)
-    sort = sorted(set_color)
-    # print(sort)
-    sort.remove(sort[12])
-    # sort.remove(sort[12])
+    sort = set(result)
+    # sort = sorted(set_color)
+    count = 0
+    final = []
     for i in sort:
-        print(i)
+        if "!" not in i:
+            i = i[1:].replace(" ","")
+            final.append(i)
+            count += 1
+            # if "{" in i:
+            #     i = i[:7]
+            #     final.append(i)            
+            #     count += 1
+    # prashu = []
+    for p in final:
+        if "}" in p:
+            index = p.index("}")
+            # print(index)
+            p = p[:index]
+            final.append(p)
+    final1 = sorted(final)
+    # print(final1)
+    for x in final1:
+        if "}" not in x:
+            print(x)
+    print(count)
+        # pass
 
 
 def image(data):
@@ -40,17 +60,10 @@ def image(data):
             count += 1
             # string += item
             # string.append(item)
-            print(item[:end])
+            # print(item[:end])
     #         string.append(item)
     # print(string)
-    print(count)
-    # image_res = string.split(" data")
-
-    # for res in image_res:
-    # #     if "src=\"":
-    # #         pass
-    #   print(res)
-    # <img src=
+    # print(count)
 def getList(data):
     pass
     # get_List = list(data)
@@ -65,13 +78,13 @@ def getList(data):
 def main():
     data = open("webpage5.html", errors = 'ignore').read()
     # print(data)
-    choice = input()
-    if choice == "image":
-        image(data)
-    elif choice == "background":
-        backgroundColors(data)
-    elif choice == "list":
-        getList(data)
+    # choice = input()
+    # if choice == "image":
+    image(data)
+    # elif choice == "background":
+    backgroundColors(data)
+    # elif choice == "list":
+    getList(data)
 
 if __name__ == '__main__':
     main()
