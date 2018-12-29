@@ -16,7 +16,8 @@ def backgroundColors(data):
     set_color = set(result)
     sort = sorted(set_color)
     # print(sort)
-    sort.remove(sort[10])
+    sort = sort.remove(sort[10])
+    sort = sort.remove(sort[13])
     for i in sort:
         print(i)
 
