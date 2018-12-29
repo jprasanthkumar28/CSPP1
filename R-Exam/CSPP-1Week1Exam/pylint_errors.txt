@@ -1,7 +1,4 @@
 ************* Module Webpage
-Webpage.py:19:26: C0326: Exactly one space required after comma
-        string.replace(":","")
-                          ^ (bad-whitespace)
 Webpage.py:59:44: C0303: Trailing whitespace (trailing-whitespace)
 Webpage.py:64:40: C0326: No space allowed around keyword argument assignment
     data = open("webpage5.html", errors = 'ignore').read()
@@ -20,5 +17,5 @@ Webpage.py:52:12: W0613: Unused argument 'data' (unused-argument)
 Webpage.py:63:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.81/10 (previous run: 6.89/10, -0.08)
+Your code has been rated at 6.82/10 (previous run: 6.81/10, +0.01)
 
