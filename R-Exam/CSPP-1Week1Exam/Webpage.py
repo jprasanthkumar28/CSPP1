@@ -1,22 +1,33 @@
 def backgroundColors(data):
     list_color = []
     colors = data.split(";")
-    tag = "background-color"
-    endtag = ";"
-    result = []
     for item in colors:
         if "background-color" in item:
             list_color.append(item)
-            index = item.index(tag)
-            item = item[index + len(tag) :]
-            result.append(item)
-    set_color = set(result)
+    # print(list_color[1])
+    tag = "background-color"
+    endtag = ";"
+    result = []
+    for val in list_color:
+        if "background-color" in val:
+            index = val.index(tag)
+            val = val[index + len(tag) :]
+            result.append(val)
+            # end = val.index(endtag)
+            # print(val[:end])
+    # print(result)
+    tag1 = ":"
+    final = []
+    for color in result:
+        if ":" in color:
+            index = color.index(tag1)
+            color = color[index + len(tag1) :]
+            # print(color)
+            final.append(color)
+    set_color = set(final)
     sort = sorted(set_color)
     # print(sort)
-    # string = ""
     for i in sort:
-        # string += i
-        # string.replace(":","")
         print(i)
 
 
