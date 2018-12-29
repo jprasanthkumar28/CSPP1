@@ -161,7 +161,7 @@ transparent
 20
 
 Your Output: 
-: #000: #E10C16: #FF0000: #d3d3d3: black: rgb(247, 247, 247): rgba(0, 0, 0, 0.7): rgba(0,0,0,.6):#004681:#1955a5:#1955a5}@media only screen and (max-width:665px){#i_rmlmessage{max-width:calc(100% - 15px)}#rml_email{margin:auto !important:#c39190:#d5d5d5:#e1e1e1}.usw-close-icon{float:right:#efdede:#f0f0f0:#f1f1f1:#fff:#fff !important}.besttvslider-display-right{position:absolute:#fff!important}.swg-toast{position:fixed!important:inherit:rgba(0,0,0,0.4):transparent:transparent!important
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########

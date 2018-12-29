@@ -16,7 +16,8 @@ def backgroundColors(data):
     string = ""
     for i in sort:
         string += i
-    print(string)
+        string.replace(":","")
+    # print(string)
 
 
 def image(data):
