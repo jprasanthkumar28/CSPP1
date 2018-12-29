@@ -78,13 +78,13 @@ def getList(data):
 def main():
     data = open("webpage5.html", errors = 'ignore').read()
     # print(data)
-    # choice = input()
-    # if choice == "image":
-    image(data)
-    # elif choice == "background":
-    backgroundColors(data)
-    # elif choice == "list":
-    getList(data)
+    choice = input()
+    if choice == "image":
+        image(data)
+    elif choice == "background":
+        backgroundColors(data)
+    elif choice == "list":
+        getList(data)
 
 if __name__ == '__main__':
     main()
