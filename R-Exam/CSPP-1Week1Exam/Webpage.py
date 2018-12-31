@@ -90,8 +90,8 @@ def getList(data):
             index2 = x.index("<")
             x = x[:index2+len("<") - 1]
             text_count += 1
-    #         print(x)
-    # print(text_count)
+            print(x)
+    print(text_count)
 def main():
     data = open("webpage5.html", errors = 'ignore').read()
     # print(data)

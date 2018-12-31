@@ -29,5 +29,5 @@ Webpage.py:76:12: W0612: Unused variable 'mid_index' (unused-variable)
 Webpage.py:95:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.96/10 (previous run: 6.80/10, +0.16)
+Your code has been rated at 7.04/10 (previous run: 6.96/10, +0.08)
 
