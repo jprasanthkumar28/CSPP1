@@ -3,10 +3,10 @@ Webpage.py:22:33: C0326: Exactly one space required after comma
             i = i[1:].replace(" ","")
                                  ^ (bad-whitespace)
 Webpage.py:27:33: C0303: Trailing whitespace (trailing-whitespace)
-Webpage.py:96:40: C0326: No space allowed around keyword argument assignment
+Webpage.py:97:40: C0326: No space allowed around keyword argument assignment
     data = open("webpage5.html", errors = 'ignore').read()
                                         ^ (bad-whitespace)
-Webpage.py:107:0: C0304: Final newline missing (missing-final-newline)
+Webpage.py:108:0: C0304: Final newline missing (missing-final-newline)
 Webpage.py:1:0: C0103: Module name "Webpage" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:1:0: C0111: Missing module docstring (missing-docstring)
 Webpage.py:1:0: C0103: Function name "backgroundColors" doesn't conform to snake_case naming style (invalid-name)
@@ -26,8 +26,8 @@ Webpage.py:91:12: C0103: Variable name "x" doesn't conform to snake_case naming 
 Webpage.py:69:4: W0612: Unused variable 'endtag' (unused-variable)
 Webpage.py:71:4: W0612: Unused variable 'count' (unused-variable)
 Webpage.py:76:12: W0612: Unused variable 'mid_index' (unused-variable)
-Webpage.py:95:0: C0111: Missing function docstring (missing-docstring)
+Webpage.py:96:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.04/10 (previous run: 6.96/10, +0.08)
+Your code has been rated at 7.04/10 (previous run: 7.04/10, +0.00)
 
