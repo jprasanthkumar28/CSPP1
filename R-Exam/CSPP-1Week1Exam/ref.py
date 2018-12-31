@@ -66,13 +66,13 @@ def image(data):
     # print(count)
 def getList(data):
     list1 = data.split("</li>")
-    tag = "<li>"
+    tag = "<li"
     mid = ">"
     endtag = "<"
     string = []
     count = 0
     for item in list1:
-        if "<li>" in item:
+        if "<li>" in item and "<li" in item:
             # string += item
             index = item.index(tag)
             mid_index = index + item.index(mid)
@@ -81,8 +81,8 @@ def getList(data):
             item = item[index+len(tag):]
             # count += 1
             # string += item
-            string.append(item)
             # print(item)
+            string.append(item)
             # string.append(item)
     text_count = 0
     for x in string:
