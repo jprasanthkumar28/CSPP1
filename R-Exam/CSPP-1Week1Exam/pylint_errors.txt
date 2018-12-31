@@ -11,12 +11,12 @@ Webpage.py:1:0: C0103: Module name "Webpage" doesn't conform to snake_case namin
 Webpage.py:1:0: C0111: Missing module docstring (missing-docstring)
 Webpage.py:1:0: C0103: Function name "backgroundColors" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:1:0: C0111: Missing function docstring (missing-docstring)
-Webpage.py:1:0: R0914: Too many local variables (16/15) (too-many-locals)
+Webpage.py:1:0: R0914: Too many local variables (17/15) (too-many-locals)
 Webpage.py:30:8: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:34:12: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+Webpage.py:38:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:2:4: W0612: Unused variable 'list_color' (unused-variable)
 Webpage.py:5:4: W0612: Unused variable 'endtag' (unused-variable)
-Webpage.py:36:4: W0612: Unused variable 'final1' (unused-variable)
 Webpage.py:43:0: C0111: Missing function docstring (missing-docstring)
 Webpage.py:65:0: C0103: Function name "getList" doesn't conform to snake_case naming style (invalid-name)
 Webpage.py:65:0: C0111: Missing function docstring (missing-docstring)
@@ -29,5 +29,5 @@ Webpage.py:76:12: W0612: Unused variable 'mid_index' (unused-variable)
 Webpage.py:95:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.80/10 (previous run: 6.75/10, +0.05)
+Your code has been rated at 6.96/10 (previous run: 6.80/10, +0.16)
 
