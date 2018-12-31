@@ -61,8 +61,6 @@ def image(data):
             # print(item[:end])
             string.append(item)
     # print(string)
-    return string
-    return count
     # print(count)
 def getList(data):
     list1 = data.split("</li>")
