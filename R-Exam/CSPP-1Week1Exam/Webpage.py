@@ -35,12 +35,10 @@ def backgroundColors(data):
             final.append(p)
     final1 = sorted(final)
     # print(final1)
-    # for x in final1:
-    #     if "}" not in x:
-    #         print(x)
-    # print(count)
-        # pass
-
+    for x in final1:
+        if "}" not in x:
+            print(x)
+    print(count)
 
 def image(data):
     img = data.split("<img")
