@@ -37,9 +37,10 @@ def main():
             print("Added", choice[1], "more rooms")
 
         if choice[0] == "cancel":
-            for key, value in room_data.items():
+            dict1 = room_data.copy()
+            for key, value in dict1.items():
                 if value == choice[1]:
-                    room_data.pop(key, value)
+                    dict1.pop(key, value)
                     print(choice[1]," now has no reservations.")
 if __name__ == '__main__':
     main()

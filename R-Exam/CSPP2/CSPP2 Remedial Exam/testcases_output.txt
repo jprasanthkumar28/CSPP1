@@ -256,10 +256,10 @@ kumar 4
 swathi 5
 kumar  now has no reservations.
 Traceback (most recent call last):
-  File "Reservation.py", line 45, in <module>
+  File "Reservation.py", line 46, in <module>
     main()
-  File "Reservation.py", line 40, in main
-    for key, value in room_data.items():
+  File "Reservation.py", line 41, in main
+    for key, value in dict1.items():
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
@@ -313,10 +313,10 @@ kumar 4
 kumar 5
 kumar  now has no reservations.
 Traceback (most recent call last):
-  File "Reservation.py", line 45, in <module>
+  File "Reservation.py", line 46, in <module>
     main()
-  File "Reservation.py", line 40, in main
-    for key, value in room_data.items():
+  File "Reservation.py", line 41, in main
+    for key, value in dict1.items():
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
