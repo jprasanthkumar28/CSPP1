@@ -37,7 +37,7 @@ def main():
         if choice[0] == "build":
             count +=  int(choice[1])
             print("Added", choice[1], "more rooms")
-    j += 1
+        j += 1
 
 if __name__ == '__main__':
     main()
