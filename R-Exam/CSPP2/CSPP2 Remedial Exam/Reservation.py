@@ -8,7 +8,7 @@ def main():
             if room_data == {}:
                 room_data[1] = choice[1]
                 print(choice[1], 1)
-            if i >= count:
+            if len(room_data) >= count:
                 print("All Rooms are reserved")
                 # print("i value")
                 break

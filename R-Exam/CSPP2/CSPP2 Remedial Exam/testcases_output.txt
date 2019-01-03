@@ -13,12 +13,11 @@ rajiv 5
 
 Your Output: 
 rehana 1
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+rehana 2
+karan 3
+murthy 4
+rajiv 5
+All Rooms are reserved
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -38,12 +37,10 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -64,15 +61,13 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -91,15 +86,18 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+kalyani 3
+kumar 4
+swathi 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -122,12 +120,19 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+kalyani 3
+kumar 4
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+manasa 7
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -169,15 +174,30 @@ reddy 10
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+kumar 3
+Room is already reserved
+murthy 1
+kiran 2
+kumar 3
+Added 5 more rooms
+alekhya 6
+manasa 4
+kumar 5
+karthik 7
+manohar 8
+kumar 9
+murthy 1
+kiran 2
+kumar 3
+manasa 4
+kumar 5
+alekhya 6
+karthik 7
+manohar 8
+kumar 9
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -211,15 +231,33 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+kumar now has no reservations.
+murthy 1
+kiran 2
+kalyani 3
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 4
+kumar 7
+murthy 1
+kiran 2
+kalyani 3
+manasa 4
+swathi 5
+alekhya 6
+kumar 7
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -259,11 +297,35 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "Reservation.py", line 50, in <module>
-    main()
-  File "Reservation.py", line 11, in main
-    if i >= count:
-UnboundLocalError: local variable 'i' referenced before assignment
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+kumar now has no reservations.
+murthy 1
+kiran 2
+kalyani 3
+Added 5 more rooms
+alekhya 6
+manasa 4
+kumar 5
+karthik 7
+manohar 8
+swetha 9
+reddy 10
+murthy 1
+kiran 2
+kalyani 3
+manasa 4
+kumar 5
+alekhya 6
+karthik 7
+manohar 8
+swetha 9
+reddy 10
 ----------------------------------------
 
