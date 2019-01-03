@@ -1,6 +1,6 @@
 def main():
     room_data = {}
-    count = 6
+    count = 5
     number = int(input())
     for j in range(number):
         choice = input().split()
@@ -9,8 +9,9 @@ def main():
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
-                for i in range(1,count):
+                for i in range(1,count+1):
                     if i not in room_data.keys():
+                        # print(i)
                         if i >= count:
                             print("All rooms are reserved")
                             break
@@ -18,6 +19,7 @@ def main():
                         print(choice[1], i)
                         break
         if choice[0] == "reserveN":
+            # print(len(room_data), "dict_len")
             if len(room_data) >= count:
                 print("All rooms are reserved")
             elif int(choice[2]) in room_data.keys():

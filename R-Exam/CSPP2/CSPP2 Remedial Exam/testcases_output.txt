@@ -43,12 +43,12 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
-kumar 5
+All rooms are reserved
+All rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-kumar 5
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -71,13 +71,14 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
-kumar 5
-Room is already reserved
+All rooms are reserved
+All rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-kumar 5
+alekhya 5
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -101,13 +102,13 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
-Room is already reserved
+All rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
+alekhya 5
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -135,13 +136,13 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
+All rooms are reserved
 alekhya 6
+All rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
 alekhya 6
 ----------------------------------------
 
@@ -191,12 +192,14 @@ kiran 2
 kumar 3
 alekhya 6
 manasa 4
-kumar 5
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
 murthy 1
 kiran 2
 kumar 3
 manasa 4
-kumar 5
 alekhya 6
 ----------------------------------------
 
@@ -236,23 +239,22 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
+All rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
 alekhya 6
+All rooms are reserved
+All rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
 alekhya 6
 ----------------------------------------
 
@@ -298,23 +300,26 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-kumar 5
+All rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
 alekhya 6
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
+All rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
 alekhya 6
 ----------------------------------------
 
