@@ -23,9 +23,9 @@ karan 3
 kalyani 4
 rajiv 5
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 7, in main
+  File "Reservation.py", line 9, in main
     if choice[0] == "reserve":
 IndexError: list index out of range
 ----------------------------------------
@@ -56,9 +56,9 @@ rajiv 3
 kalyani 4
 kumar 5
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -91,9 +91,9 @@ rajiv 3
 kalyani 4
 kumar 5
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -127,9 +127,9 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -171,9 +171,9 @@ swathi 5
 alekhya 6
 manasa 7
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -239,9 +239,9 @@ karthik 7
 manohar 8
 kumar 9
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -304,9 +304,9 @@ swathi 5
 alekhya 6
 manasa 7
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
@@ -381,9 +381,9 @@ kumar 8
 karthik 9
 manohar 10
 Traceback (most recent call last):
-  File "Reservation.py", line 40, in <module>
+  File "Reservation.py", line 43, in <module>
     main()
-  File "Reservation.py", line 6, in main
+  File "Reservation.py", line 8, in main
     choice = input().split( )
 EOFError: EOF when reading a line
 ----------------------------------------
