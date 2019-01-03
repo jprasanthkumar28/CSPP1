@@ -1,6 +1,6 @@
 def main():
     room_data = {}
-    count = 6
+    count = 5
     number = int(input())
     for j in range(number):
         choice = input().split( )
