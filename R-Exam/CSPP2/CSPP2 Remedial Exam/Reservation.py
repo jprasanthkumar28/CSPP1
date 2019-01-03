@@ -14,6 +14,7 @@ def main():
                         # print(i)
                         if i >= count:
                             print("All Rooms are reserved")
+                            # print("i value")
                             break
                         room_data[i] = choice[1]
                         print(choice[1], i)
@@ -21,6 +22,7 @@ def main():
         if choice[0] == "reserveN":
             # print(len(room_data), "dict_len")
             if len(room_data) >= count:
+                # print("length------------")
                 print("All Rooms are reserved")
             elif int(choice[2]) in room_data.keys():
                 print("Room is already reserved")
