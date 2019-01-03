@@ -1,6 +1,6 @@
 def main():
     room_data = {}
-    count = 6
+    count = 5
     number = int(input())
     j = 0
     # for j in range(number+1):
@@ -11,7 +11,7 @@ def main():
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
-                for i in range(1,count):
+                for i in range(1,count+1):
                     if i not in room_data.keys():
                         # print(i)
                         if i >= count:
