@@ -9,7 +9,7 @@ def main():
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
-                for i in range(1,count+1):
+                for i in range(1,count):
                     if i not in room_data.keys():
                         # print(i)
                         if i >= count:
