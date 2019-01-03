@@ -14,5 +14,5 @@ Reservation.py:5:8: W0612: Unused variable 'j' (unused-variable)
 Reservation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.35/10 (previous run: 7.27/10, +0.08)
+Your code has been rated at 7.35/10 (previous run: 7.35/10, +0.00)
 
