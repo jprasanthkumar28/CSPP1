@@ -12,14 +12,14 @@ def main():
                 for i in range(1,count):
                     if i not in room_data.keys():
                         if i >= count:
-                            print("All room are reserved")
+                            print("All rooms are reserved")
                             break
                         room_data[i] = choice[1]
                         print(choice[1], i)
                         break
         if choice[0] == "reserveN":
             if len(room_data) >= count:
-                print("All room are reserved")
+                print("All rooms are reserved")
             elif int(choice[2]) in room_data.keys():
                 print("Room is already reserved")
             else:
