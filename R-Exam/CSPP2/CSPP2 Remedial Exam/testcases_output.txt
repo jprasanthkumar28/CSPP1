@@ -24,7 +24,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -44,6 +44,7 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
+All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -51,7 +52,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -72,6 +73,7 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
@@ -329,6 +331,7 @@ kumar 7
 karthik 8
 manohar 9
 swetha 10
+All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
