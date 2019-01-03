@@ -1,6 +1,6 @@
 def main():
     room_data = {}
-    count = 5
+    count = 6
     number = int(input())
     for j in range(number):
         choice = input().split()
@@ -9,7 +9,7 @@ def main():
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
-                for i in range(1,count+1):
+                for i in range(1,count):
                     if i not in room_data.keys():
                         # print(i)
                         if i >= count:
