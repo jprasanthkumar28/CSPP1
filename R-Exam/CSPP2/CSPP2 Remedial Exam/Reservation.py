@@ -32,11 +32,9 @@ def main():
         if choice[0] == "print":
             for key, value in sorted(room_data.items()):
                 print(value, str(key))
-    # for key, value in room_data.items():
-    #     print(value + " " + str(key))
-    # # print(room_data)
-    # for key, value in sorted(room_data.items()):
-    #     print(value + " " + str(key))
+        if choice[0] == "build":
+            count +=  int(choice[1])
+            print("Added", choice[1], "more rooms")
 
 if __name__ == '__main__':
     main()

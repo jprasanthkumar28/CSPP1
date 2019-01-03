@@ -2,14 +2,17 @@
 Reservation.py:12:32: C0326: Exactly one space required after comma
                 for i in range(1,count+1):
                                 ^ (bad-whitespace)
-Reservation.py:42:0: C0304: Final newline missing (missing-final-newline)
+Reservation.py:36:18: C0326: Exactly one space required after assignment
+            count +=  int(choice[1])
+                  ^^ (bad-whitespace)
+Reservation.py:40:0: C0304: Final newline missing (missing-final-newline)
 Reservation.py:1:0: C0103: Module name "Reservation" doesn't conform to snake_case naming style (invalid-name)
 Reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 Reservation.py:1:0: C0111: Missing function docstring (missing-docstring)
 Reservation.py:5:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
 Reservation.py:5:8: W0612: Unused variable 'j' (unused-variable)
-Reservation.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
+Reservation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.33/10 (previous run: 7.33/10, +0.00)
+Your code has been rated at 7.27/10 (previous run: 7.33/10, -0.06)
 
