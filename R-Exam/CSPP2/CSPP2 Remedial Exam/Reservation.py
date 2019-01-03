@@ -8,7 +8,7 @@ def main():
             if len(room_data) >= count:
                 print("All Rooms are reserved")
                 # print("i value")
-                break
+                # break
             elif room_data == {}:
                 room_data[1] = choice[1]
                 print(choice[1], 1)
@@ -30,10 +30,10 @@ def main():
                 room_data[int(choice[2])] = choice[1]
                 print(choice[1], choice[2])
 
-
         elif choice[0] == "print":
             for key, value in sorted(room_data.items()):
                 print(value, str(key))
+        
         elif choice[0] == "build":
             # print(count, "  before count")
             count +=  int(choice[1])
@@ -46,5 +46,6 @@ def main():
                 if value == choice[1]:
                     room_data.pop(key, value)
             print(choice[1],"now has no reservations.")
+
 if __name__ == '__main__':
     main()
