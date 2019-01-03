@@ -19,7 +19,7 @@ def main():
                         room_data[i] = choice[1]
                         print(choice[1], i)
                         break
-        if choice[0] == "reserveN":
+        elif choice[0] == "reserveN":
             # print(len(room_data), "dict_len")
             if len(room_data) >= count:
                 # print("length------------")
@@ -31,16 +31,16 @@ def main():
                 print(choice[1], choice[2])
 
 
-        if choice[0] == "print":
+        elif choice[0] == "print":
             for key, value in sorted(room_data.items()):
                 print(value, str(key))
-        if choice[0] == "build":
+        elif choice[0] == "build":
             # print(count, "  before count")
             count +=  int(choice[1])
             # print(count, "  count")
             print("Added", choice[1], "more rooms")
 
-        if choice[0] == "cancel":
+        elif choice[0] == "cancel":
             dict1 = room_data.copy()
             for key, value in dict1.items():
                 if value == choice[1]:
