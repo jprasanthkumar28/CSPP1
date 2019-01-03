@@ -2,7 +2,7 @@ def main():
     room_data = {}
     count = 6
     number = int(input())
-    for i in range(number):
+    for i in range(number+1):
         choice = input().split()
         if choice[0] == "reserve":
             if room_data == {}:
@@ -29,7 +29,7 @@ def main():
 
         if choice[0] == "print":
             for key, value in sorted(room_data.items()):
-                print(value + " " + str(key))
+                print(value, str(key))
     # for key, value in room_data.items():
     #     print(value + " " + str(key))
     # # print(room_data)
