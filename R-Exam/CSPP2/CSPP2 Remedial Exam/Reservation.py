@@ -8,14 +8,14 @@ def main():
             if room_data == {}:
                 room_data[1] = choice[1]
                 print(choice[1], 1)
+            if i >= count:
+                print("All Rooms are reserved")
+                # print("i value")
+                break
             else:
                 for i in range(1,count+1):
                     if i not in room_data.keys():
                         # print(i)
-                        if i >= count:
-                            print("All Rooms are reserved")
-                            # print("i value")
-                            break
                         room_data[i] = choice[1]
                         print(choice[1], i)
                         break

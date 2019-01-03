@@ -5,7 +5,7 @@ Reservation.py:6:30: C0326: No space allowed after bracket
 Reservation.py:6:32: C0326: No space allowed before bracket
         choice = input().split( )
                                 ^ (bad-whitespace)
-Reservation.py:12:32: C0326: Exactly one space required after comma
+Reservation.py:16:32: C0326: Exactly one space required after comma
                 for i in range(1,count+1):
                                 ^ (bad-whitespace)
 Reservation.py:39:18: C0326: Exactly one space required after assignment
@@ -18,10 +18,9 @@ Reservation.py:50:0: C0304: Final newline missing (missing-final-newline)
 Reservation.py:1:0: C0103: Module name "Reservation" doesn't conform to snake_case naming style (invalid-name)
 Reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 Reservation.py:1:0: C0111: Missing function docstring (missing-docstring)
-Reservation.py:5:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
 Reservation.py:5:8: W0612: Unused variable 'j' (unused-variable)
 Reservation.py:1:0: R0912: Too many branches (17/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.92/10 (previous run: 6.92/10, +0.00)
+Your code has been rated at 7.18/10 (previous run: 6.92/10, +0.26)
 
