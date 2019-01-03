@@ -1,17 +1,15 @@
 def main():
     room_data = {}
-    count = 5
+    count = 6
     number = int(input())
-    j = 0
-    # for j in range(number+1):
-    while j < number:
+    for j in range(0,number+1,1):
         choice = input().split( )
         if choice[0] == "reserve":
             if room_data == {}:
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
-                for i in range(1,count+1):
+                for i in range(1,count):
                     if i not in room_data.keys():
                         # print(i)
                         if i >= count:
@@ -37,7 +35,6 @@ def main():
         if choice[0] == "build":
             count +=  int(choice[1])
             print("Added", choice[1], "more rooms")
-        j += 1
 
 if __name__ == '__main__':
     main()
