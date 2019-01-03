@@ -1,14 +1,16 @@
 def reserve(data, room_Num):
     count = 5
+    c = 1
     if room_Num == {}:
         room_Num[1] = data[1]
     else:
         for i in range(1,count+1):
             if i not in room_Num.keys():
                 room_Num[i] = data[1]
+                c += 1
                 # print(data[1], i)
                 break
-            # print(i)
+    print(c)
         # room_Num = 
         # sorted
     # return room_Num
