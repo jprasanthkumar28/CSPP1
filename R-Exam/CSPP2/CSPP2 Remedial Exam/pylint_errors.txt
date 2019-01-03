@@ -1,6 +1,12 @@
 ************* Module Reservation
+Reservation.py:6:30: C0326: No space allowed after bracket
+        choice = input().split( )
+                              ^ (bad-whitespace)
+Reservation.py:6:32: C0326: No space allowed before bracket
+        choice = input().split( )
+                                ^ (bad-whitespace)
 Reservation.py:12:32: C0326: Exactly one space required after comma
-                for i in range(1,count+1):
+                for i in range(1,count):
                                 ^ (bad-whitespace)
 Reservation.py:36:18: C0326: Exactly one space required after assignment
             count +=  int(choice[1])
@@ -14,5 +20,5 @@ Reservation.py:5:8: W0612: Unused variable 'j' (unused-variable)
 Reservation.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.27/10 (previous run: 7.27/10, +0.00)
+Your code has been rated at 6.67/10 (previous run: 7.27/10, -0.61)
 
