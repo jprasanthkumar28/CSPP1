@@ -20,7 +20,7 @@ def main():
                         break
         if choice[0] == "reserveN":
             # print(len(room_data), "dict_len")
-            if len(room_data) >= 5:
+            if len(room_data) >= count:
                 print("All Rooms are reserved")
                 break
             elif int(choice[2]) in room_data.keys():
