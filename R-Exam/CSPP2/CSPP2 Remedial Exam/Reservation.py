@@ -9,7 +9,7 @@ def main():
                 print("All Rooms are reserved")
                 # print("i value")
                 break
-            if room_data == {}:
+            elif room_data == {}:
                 room_data[1] = choice[1]
                 print(choice[1], 1)
             else:
