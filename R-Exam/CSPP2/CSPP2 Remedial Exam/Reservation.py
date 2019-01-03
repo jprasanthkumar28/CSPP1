@@ -2,7 +2,7 @@ def main():
     room_data = {}
     count = 6
     number = int(input())
-    for j in range(1,number+1):
+    for j in range(number+1):
         choice = input().split( )
         if choice[0] == "reserve":
             if room_data == {}:

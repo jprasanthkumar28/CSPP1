@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -22,6 +22,12 @@ murthy 2
 karan 3
 kalyani 4
 rajiv 5
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 7, in main
+    if choice[0] == "reserve":
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -49,6 +55,12 @@ kiran 2
 rajiv 3
 kalyani 4
 kumar 5
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -78,6 +90,12 @@ kiran 2
 rajiv 3
 kalyani 4
 kumar 5
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -108,9 +126,15 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -146,6 +170,12 @@ kumar 4
 swathi 5
 alekhya 6
 manasa 7
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -208,6 +238,12 @@ alekhya 6
 karthik 7
 manohar 8
 kumar 9
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -267,6 +303,12 @@ kumar 4
 swathi 5
 alekhya 6
 manasa 7
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -338,5 +380,11 @@ manasa 7
 kumar 8
 karthik 9
 manohar 10
+Traceback (most recent call last):
+  File "Reservation.py", line 40, in <module>
+    main()
+  File "Reservation.py", line 6, in main
+    choice = input().split( )
+EOFError: EOF when reading a line
 ----------------------------------------
 
