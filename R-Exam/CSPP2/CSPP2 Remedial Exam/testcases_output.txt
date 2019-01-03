@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -12,9 +12,6 @@ kalyani 4
 rajiv 5
 
 Your Output: 
-1
-2
-2
 rehana 1
 karan 3
 murthy 2
@@ -42,10 +39,6 @@ kalyani 4
 kumar 5
 
 Your Output: 
-2
-2
-2
-1
 kiran 2
 murthy 1
 rajiv 3
@@ -74,10 +67,6 @@ kalyani 4
 kumar 5
 
 Your Output: 
-2
-2
-2
-1
 kiran 2
 murthy 1
 rajiv 3
@@ -106,9 +95,6 @@ kumar 4
 swathi 5
 
 Your Output: 
-2
-2
-2
 rajiv 2
 murthy 1
 kalyani 3
@@ -141,10 +127,6 @@ alekhya 6
 manasa 7
 
 Your Output: 
-2
-2
-2
-1
 rajiv 2
 murthy 1
 kalyani 3
@@ -196,12 +178,6 @@ swetha 9
 reddy 10
 
 Your Output: 
-2
-2
-2
-1
-1
-1
 kiran 2
 murthy 1
 kumar 3
@@ -247,11 +223,6 @@ alekhya 6
 kumar 7
 
 Your Output: 
-2
-2
-2
-1
-1
 rajiv 2
 murthy 1
 kalyani 3
@@ -303,15 +274,6 @@ swetha 9
 reddy 10
 
 Your Output: 
-2
-2
-2
-1
-1
-1
-1
-1
-1
 rajiv 2
 murthy 1
 kalyani 3
