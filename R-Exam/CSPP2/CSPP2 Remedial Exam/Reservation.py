@@ -22,7 +22,7 @@ def main():
             # print(len(room_data), "dict_len")
             if len(room_data) >= 5:
                 print("All Rooms are reserved")
-                # break
+                break
             elif int(choice[2]) in room_data.keys():
                 print("Room is already reserved")
             else:
