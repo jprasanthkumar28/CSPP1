@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -13,11 +13,15 @@ rajiv 5
 
 Your Output: 
 rehana 1
-rehana 2
 karan 3
-murthy 4
+murthy 2
 rajiv 5
-All Rooms are reserved
+kalyani 4
+rehana 1
+murthy 2
+karan 3
+kalyani 4
+rajiv 5
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########

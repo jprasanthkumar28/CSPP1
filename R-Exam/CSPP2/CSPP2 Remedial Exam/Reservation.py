@@ -5,13 +5,13 @@ def main():
     for j in range(number):
         choice = input().split( )
         if choice[0] == "reserve":
-            if room_data == {}:
-                room_data[1] = choice[1]
-                print(choice[1], 1)
             if len(room_data) >= count:
                 print("All Rooms are reserved")
                 # print("i value")
                 break
+            if room_data == {}:
+                room_data[1] = choice[1]
+                print(choice[1], 1)
             else:
                 for i in range(1,count+1):
                     if i not in room_data.keys():
