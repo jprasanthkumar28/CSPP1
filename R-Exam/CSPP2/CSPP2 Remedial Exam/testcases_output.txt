@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -12,12 +12,16 @@ kalyani 4
 rajiv 5
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 9, in main
-    room_data[1] = data[1]
-NameError: name 'data' is not defined
+rehana 1
+karan 3
+murthy 2
+rajiv 5
+kalyani 4
+rehana 1
+murthy 2
+karan 3
+kalyani 4
+rajiv 5
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -35,12 +39,16 @@ kalyani 4
 kumar 5
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -59,12 +67,17 @@ kalyani 4
 kumar 5
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+rajiv 3
+kalyani 4
+kumar 5
+Room is already reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -83,12 +96,18 @@ kumar 4
 swathi 5
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+Room is already reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -111,12 +130,19 @@ alekhya 6
 manasa 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -156,12 +182,22 @@ swetha 9
 reddy 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+kumar 3
+Room is already reserved
+murthy 1
+kiran 2
+kumar 3
+alekhya 6
+manasa 4
+kumar 5
+murthy 1
+kiran 2
+kumar 3
+manasa 4
+kumar 5
+alekhya 6
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -195,12 +231,29 @@ alekhya 6
 kumar 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -240,11 +293,28 @@ swetha 9
 reddy 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "Reservation.py", line 25, in <module>
-    main()
-  File "Reservation.py", line 13, in main
-    room_data[i] = data[1]
-NameError: name 'data' is not defined
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+alekhya 6
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+kumar 5
+alekhya 6
 ----------------------------------------
 
