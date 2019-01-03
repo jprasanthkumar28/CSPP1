@@ -36,5 +36,10 @@ def main():
             count +=  int(choice[1])
             print("Added", choice[1], "more rooms")
 
+        if choice[0] == "cancel":
+            for key, value in room_data.items():
+                if value == choice[1]:
+                    room_data.pop(key, value)
+                    print(choice[1]," now has no reservations.")
 if __name__ == '__main__':
     main()
