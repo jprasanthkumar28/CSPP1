@@ -24,7 +24,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -43,16 +43,15 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
-kumar 5
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-kumar 5
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -72,17 +71,17 @@ kiran 2
 murthy 1
 rajiv 3
 kalyani 4
-kumar 5
 All Rooms are reserved
 All Rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-kumar 5
+alekhya 5
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -103,13 +102,13 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
 All Rooms are reserved
+alekhya 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
+alekhya 5
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -137,16 +136,16 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
-Added 2 more rooms
 All Rooms are reserved
-manasa 6
+Added 2 more rooms
+alekhya 6
+manasa 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
-manasa 6
+manasa 5
+alekhya 6
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -247,28 +246,25 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-swathi 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-Added 2 more rooms
 All Rooms are reserved
-manasa 6
-kumar 7
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-swathi 5
-manasa 6
-kumar 7
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+Added 2 more rooms
+alekhya 6
+manasa 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+manasa 5
+alekhya 6
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -313,34 +309,31 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-kumar 5
+All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
 Added 5 more rooms
-All Rooms are reserved
-manasa 6
+alekhya 6
+manasa 5
 kumar 7
 karthik 8
 manohar 9
-swetha 10
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
-kumar 5
-manasa 6
+manasa 5
+alekhya 6
 kumar 7
 karthik 8
 manohar 9
-swetha 10
 ----------------------------------------
 
