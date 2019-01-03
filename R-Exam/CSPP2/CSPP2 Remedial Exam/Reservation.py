@@ -33,14 +33,16 @@ def main():
             for key, value in sorted(room_data.items()):
                 print(value, str(key))
         if choice[0] == "build":
+            # print(count, "  before count")
             count +=  int(choice[1])
+            # print(count, "  count")
             print("Added", choice[1], "more rooms")
 
         if choice[0] == "cancel":
             dict1 = room_data.copy()
             for key, value in dict1.items():
                 if value == choice[1]:
-                    dict1.pop(key, value)
-                    print(choice[1]," now has no reservations.")
+                    room_data.pop(key, value)
+            print(choice[1],"now has no reservations.")
 if __name__ == '__main__':
     main()
