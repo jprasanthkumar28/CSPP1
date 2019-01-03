@@ -24,7 +24,6 @@ def main():
             if len(room_data) >= count:
                 # print("length------------")
                 print("All Rooms are reserved")
-                break
             elif int(choice[2]) in room_data.keys():
                 print("Room is already reserved")
             else:
