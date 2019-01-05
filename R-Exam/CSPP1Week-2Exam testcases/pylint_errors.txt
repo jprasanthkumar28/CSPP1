@@ -1,0 +1,33 @@
+************* Module Deep_List
+Deep_List.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:38:0: C0304: Final newline missing (missing-final-newline)
+Deep_List.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:1:0: C0103: Module name "Deep_List" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:1:0: C0111: Missing module docstring (missing-docstring)
+Deep_List.py:1:0: C0111: Missing function docstring (missing-docstring)
+Deep_List.py:10:0: C0111: Missing function docstring (missing-docstring)
+Deep_List.py:12:1: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:17:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Deep_List.py:19:3: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:22:0: C0111: Missing function docstring (missing-docstring)
+Deep_List.py:25:8: W0123: Use of eval (eval-used)
+
+------------------------------------
+Your code has been rated at -2.73/10
+
