@@ -2,7 +2,8 @@ def total(lst):
 	sum1 = 0
 	for value in lst:
 		try:
-			sum1 += value
+			if type(value) != str:
+				sum1 += value
 		except TypeError:
 			sum1 += total(value)
 	return sum1
