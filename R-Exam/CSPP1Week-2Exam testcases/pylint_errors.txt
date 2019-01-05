@@ -1,35 +1,23 @@
 ************* Module Deep_List
-Deep_List.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep_List.py:39:0: C0304: Final newline missing (missing-final-newline)
-Deep_List.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep_List.py:26:22: C0326: Exactly one space required around comparison
+        if type(value)==type([]):
+                      ^^ (bad-whitespace)
+Deep_List.py:66:0: C0304: Final newline missing (missing-final-newline)
 Deep_List.py:1:0: C0103: Module name "Deep_List" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:1:0: C0111: Missing module docstring (missing-docstring)
 Deep_List.py:1:0: C0111: Missing function docstring (missing-docstring)
-Deep_List.py:5:6: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+Deep_List.py:5:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 Deep_List.py:11:0: C0111: Missing function docstring (missing-docstring)
-Deep_List.py:13:1: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Deep_List.py:18:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Deep_List.py:20:3: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:13:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:18:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Deep_List.py:20:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:23:0: C0103: Function name "getDeep" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:23:0: C0111: Missing function docstring (missing-docstring)
-Deep_List.py:26:8: W0123: Use of eval (eval-used)
+Deep_List.py:24:4: W0621: Redefining name 'count' from outer scope (line 11) (redefined-outer-name)
+Deep_List.py:26:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+Deep_List.py:49:0: C0111: Missing function docstring (missing-docstring)
+Deep_List.py:52:11: W0123: Use of eval (eval-used)
 
---------------------------------------------------------------------
-Your code has been rated at -3.04/10 (previous run: -2.73/10, -0.32)
+-------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: -3.04/10, +7.71)
 
