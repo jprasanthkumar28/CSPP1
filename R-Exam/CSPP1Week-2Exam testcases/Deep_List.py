@@ -31,31 +31,31 @@ def count(lst):
     return c
 
 def getDeep(lst):
-    count = 1
-    for value in lst:
-        if type(value) == list:
-            count += 1
-
-    print(count)
-    # c = []
-    # count = 0
-    # string = ""
-    # string = ''.join(str(e) for e in lst)
-    # # data = list(string)
-    # # print(data)
-    # # for i in data:
-    # for i in range(len(string)):
-    #     # pass
-    #     if string[i] == '[':
+    # count = 1
+    # for value in lst:
+    #     if type(value) == list:
     #         count += 1
-    #         if string[i] == ']':
-    # #         count += 1
-    # #         if i == ']':
-    #             break
-    # # c.append(count)
-    # print(count)
 
+    # print(count)
+    c = []
+    count = 0
+    string = ""
+    string = ''.join(str(e) for e in lst)
+    # data = list(string)
     # print(data)
+    # for i in data:
+    for i in range(len(string)):
+        # pass
+        if string[i] == '[':
+            count += 1
+            if string[i] == ']':
+    #         count += 1
+    #         if i == ']':
+                break
+    # c.append(count)
+    print(count)
+
+    print(data)
 
 def main():
     # lst = []

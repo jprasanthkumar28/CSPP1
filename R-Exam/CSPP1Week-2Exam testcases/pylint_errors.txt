@@ -17,11 +17,14 @@ Deep_List.py:28:4: C0200: Consider using enumerate instead of iterating with ran
 Deep_List.py:30:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:33:0: C0103: Function name "getDeep" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:33:0: C0111: Missing function docstring (missing-docstring)
-Deep_List.py:34:4: W0621: Redefining name 'count' from outer scope (line 21) (redefined-outer-name)
-Deep_List.py:36:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+Deep_List.py:41:4: W0621: Redefining name 'count' from outer scope (line 21) (redefined-outer-name)
+Deep_List.py:40:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Deep_List.py:47:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Deep_List.py:58:10: E0602: Undefined variable 'data' (undefined-variable)
+Deep_List.py:40:4: W0612: Unused variable 'c' (unused-variable)
 Deep_List.py:60:0: C0111: Missing function docstring (missing-docstring)
 Deep_List.py:63:11: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.41/10 (previous run: 0.77/10, +1.64)
+Your code has been rated at 1.71/10 (previous run: 2.41/10, -0.70)
 

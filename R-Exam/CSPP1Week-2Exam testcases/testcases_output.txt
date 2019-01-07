@@ -6,7 +6,15 @@ Expected Output:
 Your Output: 
 76.8
 6
-4
+6
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -17,7 +25,15 @@ Expected Output:
 Your Output: 
 5.5
 1
-2
+1
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -28,7 +44,15 @@ Expected Output:
 Your Output: 
 1
 6
-2
+6
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -39,7 +63,15 @@ Expected Output:
 Your Output: 
 5
 4
-2
+4
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -50,7 +82,15 @@ Expected Output:
 Your Output: 
 0
 8
-2
+8
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -61,6 +101,14 @@ Expected Output:
 Your Output: 
 5654134.9
 10
-4
+10
+Traceback (most recent call last):
+  File "Deep_List.py", line 77, in <module>
+    main()
+  File "Deep_List.py", line 66, in main
+    getDeep(data)
+  File "Deep_List.py", line 58, in getDeep
+    print(data)
+NameError: name 'data' is not defined
 ----------------------------------------
 
