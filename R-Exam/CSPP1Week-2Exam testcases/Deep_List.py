@@ -48,7 +48,7 @@ def getDeep(lsts):
     for item in lsts:
         if type(item) is list:
             sublistcount = sublistcount + 1
-            s += sum_all(item) 
+            s += getDeep(item) 
         elif type(item) is str:
             ss += item
         else:

@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 76.8
 6
@@ -6,17 +6,9 @@ Expected Output:
 Your Output: 
 76.8
 6
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 5.5
 1
@@ -24,17 +16,9 @@ Expected Output:
 Your Output: 
 5.5
 1
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 6
@@ -42,17 +26,9 @@ Expected Output:
 Your Output: 
 1
 6
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 4
@@ -60,17 +36,9 @@ Expected Output:
 Your Output: 
 5
 4
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 0
 8
@@ -78,17 +46,9 @@ Expected Output:
 Your Output: 
 0
 8
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 5654134.9
 10
@@ -96,13 +56,5 @@ Expected Output:
 Your Output: 
 5654134.9
 10
-Traceback (most recent call last):
-  File "Deep_List.py", line 75, in <module>
-    main()
-  File "Deep_List.py", line 64, in main
-    getDeep(data)
-  File "Deep_List.py", line 51, in getDeep
-    s += sum_all(item) 
-NameError: name 'sum_all' is not defined
 ----------------------------------------
 
