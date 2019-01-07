@@ -4,10 +4,9 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+76.8
+6
+6
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,10 +15,9 @@ Expected Output:
 1
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+5.5
+1
+1
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -28,10 +26,9 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+1
+6
+6
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -40,10 +37,9 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+5
+4
+4
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -52,10 +48,9 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+0
+8
+8
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -64,9 +59,8 @@ Expected Output:
 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep_List.py", line 1, in <module>
-    from pythonds.basic.stack import Stack
-ModuleNotFoundError: No module named 'pythonds'
+5654134.9
+10
+10
 ----------------------------------------
 
