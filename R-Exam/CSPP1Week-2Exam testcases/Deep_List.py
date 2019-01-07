@@ -1,4 +1,4 @@
-import stack
+from pythonds.basic.stack import Stack
 def total(lst):
     sum1 = 0
     for value in lst:

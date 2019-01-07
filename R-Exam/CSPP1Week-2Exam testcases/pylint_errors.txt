@@ -8,7 +8,7 @@ Deep_List.py:17:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-ind
 Deep_List.py:82:0: C0304: Final newline missing (missing-final-newline)
 Deep_List.py:1:0: C0103: Module name "Deep_List" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:1:0: C0111: Missing module docstring (missing-docstring)
-Deep_List.py:1:0: E0401: Unable to import 'stack' (import-error)
+Deep_List.py:1:0: E0401: Unable to import 'pythonds.basic.stack' (import-error)
 Deep_List.py:2:0: C0111: Missing function docstring (missing-docstring)
 Deep_List.py:11:15: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 Deep_List.py:13:20: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
@@ -21,8 +21,8 @@ Deep_List.py:34:0: C0111: Missing function docstring (missing-docstring)
 Deep_List.py:36:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 Deep_List.py:65:0: C0111: Missing function docstring (missing-docstring)
 Deep_List.py:68:11: W0123: Use of eval (eval-used)
-Deep_List.py:1:0: W0611: Unused import stack (unused-import)
+Deep_List.py:1:0: W0611: Unused Stack imported from pythonds.basic.stack (unused-import)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.00/10 (previous run: 2.94/10, -1.94)
+Your code has been rated at 1.00/10 (previous run: 1.00/10, +0.00)
 
