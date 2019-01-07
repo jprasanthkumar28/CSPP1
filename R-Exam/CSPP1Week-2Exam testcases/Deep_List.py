@@ -61,7 +61,7 @@ def main():
     data = eval(input())
     print(total(data))
     print(count(data))
-    getDeep(data)
+    print(getDeep(data))
     # for value in data:
     #   if ']' != value or '[' != value:
     #       sum1 += value
