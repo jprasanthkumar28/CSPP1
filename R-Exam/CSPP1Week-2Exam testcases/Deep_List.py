@@ -1,3 +1,4 @@
+import stack
 def total(lst):
     sum1 = 0
     for value in lst:
@@ -31,27 +32,31 @@ def count(lst):
     return c
 
 def getDeep(lst):
+    for value in lst:
+        if type(value) == list:
+            value.push()
+            print(value)
     # count = 1
     # for value in lst:
     #     if type(value) == list:
     #         count += 1
 
     # print(count)
-    c = []
-    count = 0
-    string = ""
-    string = ''.join(str(e) for e in lst)
-    # data = list(string)
-    # print(data)
-    # for i in data:
-    for i in range(len(string)):
-        # pass
-        if string[i] == '[':
-            count += 1
-            if string[i] == ']':
+    # c = []
+    # count = 0
+    # string = ""
+    # string = ''.join(str(e) for e in lst)
+    # # data = list(string)
+    # # print(data)
+    # # for i in data:
+    # for i in range(len(string)):
+    #     # pass
+    #     if string[i] == '[':
     #         count += 1
-    #         if i == ']':
-                break
+    #         if string[i] == ']':
+    # #         count += 1
+    # #         if i == ']':
+    #             break
     # c.append(count)
     print(count)
 
