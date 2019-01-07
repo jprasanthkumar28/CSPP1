@@ -55,7 +55,7 @@ def getDeep(lst):
     # c.append(count)
     print(count)
 
-    print(data)
+    # print(data)
 
 def main():
     # lst = []
