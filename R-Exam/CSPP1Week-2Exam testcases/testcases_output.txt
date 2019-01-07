@@ -6,7 +6,14 @@ Expected Output:
 Your Output: 
 76.8
 6
-76.8
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -17,7 +24,14 @@ Expected Output:
 Your Output: 
 5.5
 1
-5.5
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -28,7 +42,14 @@ Expected Output:
 Your Output: 
 1
 6
-1
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -39,7 +60,14 @@ Expected Output:
 Your Output: 
 5
 4
-5
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -50,7 +78,14 @@ Expected Output:
 Your Output: 
 0
 8
-0
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -61,6 +96,13 @@ Expected Output:
 Your Output: 
 5654134.9
 10
-5654134.9
+Traceback (most recent call last):
+  File "Deep_List.py", line 75, in <module>
+    main()
+  File "Deep_List.py", line 64, in main
+    getDeep(data)
+  File "Deep_List.py", line 48, in getDeep
+    for item in lsts:
+NameError: name 'lsts' is not defined
 ----------------------------------------
 

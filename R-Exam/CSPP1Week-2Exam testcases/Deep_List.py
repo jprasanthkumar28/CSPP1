@@ -21,6 +21,7 @@ def total(lst):
     return sum1
 
 
+
 def count(lst):
     # result = lst.split("]")
     c = 0
@@ -33,25 +34,21 @@ def count(lst):
             c += 1
     return c
 
-def getDeep(lsts):
+def getDeep(lst):
     # count = 1
     # for value in lst:
     #     if type(value) == list:
     #         count += 1
 
     # print(count)
-    global sublistcount
-    # sublistcount = 0
-    global depth
-    # depth = 0
     # def sum_all(lsts):
-    sublistcount = 0
+    global sublistcount
     s = 0
     ss = ''
     for item in lsts:
         if type(item) is list:
             sublistcount = sublistcount + 1
-            s += getDeep(item) 
+            s += sum_all(item) 
         elif type(item) is str:
             ss += item
         else:
@@ -59,10 +56,19 @@ def getDeep(lsts):
     return s
 
 def main():
+    # lst = []
+    # sum1 = 0
     data = eval(input())
     print(total(data))
     print(count(data))
-    print(getDeep(data))
+    getDeep(data)
+    # for value in data:
+    #   if ']' != value or '[' != value:
+    #       sum1 += value
+    #   # for x in value:
+    #       # print(value)
+
+
 
 
 if __name__ == '__main__':
