@@ -37,23 +37,23 @@ def getDeep(lsts):
     #         count += 1
 
     # print(count)
-    # global sublistcount
-    # sublistcount = 0
-    # global depth
-    # depth = 0
+    global sublistcount
+    sublistcount = 0
+    global depth
+    depth = 0
     # def sum_all(lsts):
-        sublistcount = 0
-        s = 0
-        ss = ''
-        for item in lsts:
-            if type(item) is list:
-                sublistcount = sublistcount + 1
-                s += getDeep(item) 
-            elif type(item) is str:
-                ss += item
-            else:
-                s += item
-        return s
+    sublistcount = 0
+    s = 0
+    ss = ''
+    for item in lsts:
+        if type(item) is list:
+            sublistcount = sublistcount + 1
+            s += getDeep(item) 
+        elif type(item) is str:
+            ss += item
+        else:
+            s += item
+    return s
 
 def main():
     # lst = []
