@@ -28,17 +28,15 @@ Deep_List.py:45:4: C0103: Constant name "sublistcount" doesn't conform to UPPER_
 Deep_List.py:45:4: W0603: Using the global statement (global-statement)
 Deep_List.py:46:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:47:4: C0103: Variable name "ss" doesn't conform to snake_case naming style (invalid-name)
-Deep_List.py:48:16: E0602: Undefined variable 'lsts' (undefined-variable)
 Deep_List.py:49:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 Deep_List.py:51:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:51:17: E0602: Undefined variable 'sum_all' (undefined-variable)
 Deep_List.py:52:13: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 Deep_List.py:53:12: C0103: Variable name "ss" doesn't conform to snake_case naming style (invalid-name)
 Deep_List.py:55:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Deep_List.py:37:12: W0613: Unused argument 'lst' (unused-argument)
 Deep_List.py:58:0: C0111: Missing function docstring (missing-docstring)
 Deep_List.py:61:11: W0123: Use of eval (eval-used)
 
--------------------------------------------------------------------
-Your code has been rated at -2.05/10 (previous run: 0.98/10, -3.03)
+--------------------------------------------------------------------
+Your code has been rated at -0.51/10 (previous run: -2.05/10, +1.54)
 

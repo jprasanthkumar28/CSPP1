@@ -34,7 +34,7 @@ def count(lst):
             c += 1
     return c
 
-def getDeep(lst):
+def getDeep(lsts):
     # count = 1
     # for value in lst:
     #     if type(value) == list:
