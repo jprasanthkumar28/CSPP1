@@ -41,16 +41,17 @@ Poll.py:64:20: C0326: Exactly one space required after comma
                     ^ (bad-whitespace)
 Poll.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:68:17: C0326: Exactly one space required after comma
+	for x in range(1,4):
+                 ^ (bad-whitespace)
 Poll.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:69:90: C0326: Exactly one space required after comma
-		print("Highest number of votes for question : Who should be the next Prime Minister? : ",x )
-                                                                                          ^ (bad-whitespace)
-Poll.py:69:93: C0326: No space allowed before bracket
-		print("Highest number of votes for question : Who should be the next Prime Minister? : ",x )
-                                                                                             ^ (bad-whitespace)
 Poll.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:75:0: C0304: Final newline missing (missing-final-newline)
-Poll.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:70:91: C0326: Exactly one space required after comma
+			print("Highest number of votes for question : Who should be the next Prime Minister? : ",res)
+                                                                                           ^ (bad-whitespace)
+Poll.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:76:0: C0304: Final newline missing (missing-final-newline)
+Poll.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:2:0: C0111: Missing function docstring (missing-docstring)
@@ -67,6 +68,6 @@ Poll.py:47:5: W0612: Unused variable 'i' (unused-variable)
 Poll.py:61:5: W0612: Unused variable 'j' (unused-variable)
 Poll.py:62:2: W0612: Unused variable 'p_name' (unused-variable)
 
-------------------------------------
-Your code has been rated at -4.62/10
+--------------------------------------------------------------------
+Your code has been rated at -4.50/10 (previous run: -4.62/10, +0.12)
 

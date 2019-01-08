@@ -65,8 +65,9 @@ def main():
 		# p_option.append(p_name)
 	# print(data, p_option)
 	res = winner(p_option)
-	for x in range(3):
-		print("Highest number of votes for question : Who should be the next Prime Minister? : ",x )
+	for x in range(1,4):
+		if x == 1:
+			print("Highest number of votes for question : Who should be the next Prime Minister? : ",res)
 	data.append(res)
 
 	# print(data)

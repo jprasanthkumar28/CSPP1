@@ -3,9 +3,7 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? :  0
-Highest number of votes for question : Who should be the next Prime Minister? :  1
-Highest number of votes for question : Who should be the next Prime Minister? :  2
+Highest number of votes for question : Who should be the next Prime Minister? :  {1: {' NarendraModi': 2, ' RahulGandhi': 1}, 2: {}, 3: {}}
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -15,9 +13,7 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? :  0
-Highest number of votes for question : Who should be the next Prime Minister? :  1
-Highest number of votes for question : Who should be the next Prime Minister? :  2
+Highest number of votes for question : Who should be the next Prime Minister? :  {1: {' RahulGandhi': 1, ' NarendraModi': 2}, 2: {' KTR': 1, ' KCR': 2}, 3: {' CBN': 2, ' Jagan': 1}}
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -27,8 +23,6 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? :  0
-Highest number of votes for question : Who should be the next Prime Minister? :  1
-Highest number of votes for question : Who should be the next Prime Minister? :  2
+Highest number of votes for question : Who should be the next Prime Minister? :  {1: {' RahulGandhi': 4, ' NarendraModi': 2}, 2: {' KTR': 4, ' KCR': 2}, 3: {' CBN': 5, ' Jagan': 1}}
 ----------------------------------------
 
