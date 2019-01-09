@@ -95,5 +95,5 @@ Poll.py:82:5: W0612: Unused variable 'j' (unused-variable)
 Poll.py:83:2: W0612: Unused variable 'p_name' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.19/10 (previous run: -5.56/10, +0.37)
+Your code has been rated at -5.19/10 (previous run: -5.19/10, +0.00)
 
