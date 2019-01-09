@@ -1,24 +1,45 @@
 ************* Module Poll
+Poll.py:1:27: C0326: Exactly one space required after comma
+def count_option(a, options,options1):
+                           ^ (bad-whitespace)
+Poll.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:16:19: C0326: Exactly one space required after comma
+			options.insert(x,str(input()))
+                   ^ (bad-whitespace)
 Poll.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:21:8: C0326: Exactly one space required after comma
-	for key,val in value.items():
-        ^ (bad-whitespace)
+Poll.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:31:45: C0326: Exactly one space required after comma
+			options1 = count_option(int(string[0]) - 1,string[1],options)
+                                             ^ (bad-whitespace)
+Poll.py:31:55: C0326: Exactly one space required after comma
+			options1 = count_option(int(string[0]) - 1,string[1],options)
+                                                       ^ (bad-whitespace)
 Poll.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:35:6: C0326: Exactly one space required after comma
-	for k,v in ques1.items():
-      ^ (bad-whitespace)
 Poll.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -26,74 +47,20 @@ Poll.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:42:7: C0326: Exactly one space required after comma
-		for k,v in ques2.items():
-       ^ (bad-whitespace)
 Poll.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:48:0: C0304: Final newline missing (missing-final-newline)
 Poll.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:49:7: C0326: Exactly one space required after comma
-		for k,v in ques3.items():
-       ^ (bad-whitespace)
-Poll.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:73:19: C0326: Exactly one space required after comma
-			options.insert(x,str(input()))
-                   ^ (bad-whitespace)
-Poll.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:79:12: C0303: Trailing whitespace (trailing-whitespace)
-Poll.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:85:20: C0326: Exactly one space required after comma
-			p_option.insert(k,input())
-                    ^ (bad-whitespace)
-Poll.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:96:0: C0304: Final newline missing (missing-final-newline)
-Poll.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
-Poll.py:2:0: C0111: Missing function docstring (missing-docstring)
-Poll.py:26:5: C0122: Comparison should be key[0] == '1' (misplaced-comparison-constant)
-Poll.py:29:7: C0122: Comparison should be key[0] == '2' (misplaced-comparison-constant)
-Poll.py:31:7: C0122: Comparison should be key[0] == '3' (misplaced-comparison-constant)
-Poll.py:35:7: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:37:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:41:4: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-Poll.py:42:8: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:44:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:48:4: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-Poll.py:49:8: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:51:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:15:1: W0612: Unused variable 'res1' (unused-variable)
-Poll.py:35:5: W0612: Unused variable 'k' (unused-variable)
-Poll.py:2:0: R0912: Too many branches (15/12) (too-many-branches)
-Poll.py:63:0: C0111: Missing function docstring (missing-docstring)
-Poll.py:72:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:80:1: C0103: Variable name "parti_Count" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:65:1: W0612: Unused variable 'parti' (unused-variable)
-Poll.py:68:5: W0612: Unused variable 'i' (unused-variable)
-Poll.py:82:5: W0612: Unused variable 'j' (unused-variable)
-Poll.py:83:2: W0612: Unused variable 'p_name' (unused-variable)
+Poll.py:1:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:1:0: C0111: Missing function docstring (missing-docstring)
+Poll.py:8:0: C0111: Missing function docstring (missing-docstring)
+Poll.py:8:0: R0914: Too many local variables (16/15) (too-many-locals)
+Poll.py:15:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:27:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:33:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:28:2: W0612: Unused variable 'p_name' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.19/10 (previous run: -5.19/10, +0.00)
+Your code has been rated at -2.93/10 (previous run: -5.19/10, +2.26)
 
