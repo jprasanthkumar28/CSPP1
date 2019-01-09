@@ -36,7 +36,7 @@ def winner(data):
 		lst1.append(v)
 	for x in ques1:
 		if ques1[x] == max(lst1):
-			print("Highest number of votes for question : Who should be the next Prime Minister? : "+x)
+			print("Highest number of votes for question : Who should be the next Prime Minister? :"+x)
 	lst2 = []
 	if len(ques2) != 0:
 		for k,v in ques2.items():
