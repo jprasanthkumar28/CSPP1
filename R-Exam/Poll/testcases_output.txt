@@ -14,8 +14,8 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
-Highest number of votes for question : Who should be the next Prime Minister? :   KCR
-Highest number of votes for question : Who should be the next Prime Minister? :   CBN
+Highest number of votes for question : Who should be the next Prime Minister? :  KCR
+Highest number of votes for question : Who should be the next Prime Minister? :  CBN
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -26,7 +26,7 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
-Highest number of votes for question : Who should be the next Prime Minister? :   KTR
-Highest number of votes for question : Who should be the next Prime Minister? :   CBN
+Highest number of votes for question : Who should be the next Prime Minister? :  KTR
+Highest number of votes for question : Who should be the next Prime Minister? :  CBN
 ----------------------------------------
 

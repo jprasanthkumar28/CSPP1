@@ -33,9 +33,9 @@ Poll.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:46:92: C0326: Exactly one space required after comma
-				print("Highest number of votes for question : Who should be the next Prime Minister? : ",x)
-                                                                                            ^ (bad-whitespace)
+Poll.py:46:91: C0326: Exactly one space required after comma
+				print("Highest number of votes for question : Who should be the next Prime Minister? :",x)
+                                                                                           ^ (bad-whitespace)
 Poll.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -46,9 +46,9 @@ Poll.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:53:92: C0326: Exactly one space required after comma
-				print("Highest number of votes for question : Who should be the next Prime Minister? : ",x)
-                                                                                            ^ (bad-whitespace)
+Poll.py:53:91: C0326: Exactly one space required after comma
+				print("Highest number of votes for question : Who should be the next Prime Minister? :",x)
+                                                                                           ^ (bad-whitespace)
 Poll.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
