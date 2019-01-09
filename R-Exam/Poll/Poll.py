@@ -30,8 +30,29 @@ def winner(data):
 			ques2.update({key[1:]:val})
 		elif '3' == key[0]:
 			ques3.update({key[1:]:val})
-	result = {1:ques1, 2:ques2, 3:ques3}
-	return result
+
+	lst1 = []
+	for k,v in ques1.items():
+		lst1.append(v)
+	for x in ques1:
+		if ques1[x] == max(lst1):
+			print("Highest number of votes for question : Who should be the next Prime Minister? :",x)
+	lst2 = []
+	if len(ques2) != 0:
+		for k,v in ques2.items():
+			lst2.append(v)
+		for x in ques2:
+			if ques2[x] == max(lst2):
+				print("Highest number of votes for question : Who should be the next Prime Minister? :",x)
+	lst3 = []
+	if len(ques3) != 0:
+		for k,v in ques3.items():
+			lst3.append(v)
+		for x in ques3:
+			if ques3[x] == max(lst3):
+				print("Highest number of votes for question : Who should be the next Prime Minister? :",x)
+	# result = {1:ques1, 2:ques2, 3:ques3}
+	# return result
 	# print(result)
 	# print(ques1)
 	# print(ques2)
@@ -64,11 +85,10 @@ def main():
 			p_option.insert(k,input())
 		# p_option.append(p_name)
 	# print(data, p_option)
-	res = winner(p_option)
-	for x in range(1,4):
-		if x == 1:
-			print("Highest number of votes for question : Who should be the next Prime Minister? : ",res)
-	data.append(res)
+	winner(p_option)
+	# for x in range(1,4):
+	# 	if x == 1:
+	# 		data.append(res)
 
 	# print(data)
 
