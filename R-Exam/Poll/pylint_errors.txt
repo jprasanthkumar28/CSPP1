@@ -62,5 +62,5 @@ Poll.py:33:5: C0103: Variable name "x" doesn't conform to snake_case naming styl
 Poll.py:28:2: W0612: Unused variable 'p_name' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.93/10 (previous run: -5.19/10, +2.26)
+Your code has been rated at -2.93/10 (previous run: -2.93/10, +0.00)
 

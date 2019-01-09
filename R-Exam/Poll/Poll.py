@@ -37,7 +37,7 @@ def main():
 				final.append(val)
 	i = 0
 	for key in dict1:
-		print("Highest number of votes for question:"+ key + ":" + final[i])
+		print("Highest number of votes for question : "+ key + " : " + final[i])
 		i = i + 1
 		if i == q_count:
 			break
