@@ -1,0 +1,55 @@
+def load_ques(data):
+	global ques
+	print("|----------------|")
+	print("| Load Questions |")
+	print("|----------------|")
+	q_count = int(data[1])
+	# print(q_count)
+	for i in range(q_count):
+		ques.append(input().split(":"))
+	# print(ques)
+	if q_count > 1:
+		print(q_count,"Questions are added")
+	else:
+		print("No Questions are added")
+
+def start_quiz(data):
+	print("|------------|")
+	print("| Start Quiz |")
+	print("|------------|")
+	option = int(data[1])
+	for q in ques:
+		ans = input().split(" ")
+		# print(ans)
+		q.append(ans[1])
+		# print(q)
+		print(q[0],"(",q[3],")")
+		option = q[1].split(",")
+		print(option[0]," ",option[1]," ",option[2]," ",option[3])
+
+
+def display(data):
+	print("|--------------|")
+	print("| Score Report |")
+	print("|--------------|")
+	# print("Hiiiiiiiiiiiiiii")
+
+def main():
+	global ques
+	ques = []
+	while True:
+		try:
+			line = input().split(" ")
+		except EOFError:
+			break
+		# print(q_count)
+		if line[0] == "LOAD_QUESTIONS":
+			load_ques(line)
+		elif line[0] == "START_QUIZ":
+			start_quiz(line)
+		else:
+			display(line)
+
+		
+if __name__ == '__main__':
+	main()
