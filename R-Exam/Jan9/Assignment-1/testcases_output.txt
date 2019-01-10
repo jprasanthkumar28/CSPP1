@@ -353,21 +353,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question text 1
+Wrong Answer! - Penality: -4
+Total Score -4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -418,21 +416,26 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question text 1
+Wrong Answer! - Penality: 
+Traceback (most recent call last):
+  File "Quiz.py", line 66, in <module>
+    main()
+  File "Quiz.py", line 62, in main
+    display(line)
+  File "Quiz.py", line 45, in display
+    totalscore += int(q[4])
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -452,21 +455,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question text 1
+Wrong Answer! - Penality: -1
+Total Score -1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -486,21 +487,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+trick question  ( 1 )
+Traceback (most recent call last):
+  File "Quiz.py", line 66, in <module>
+    main()
+  File "Quiz.py", line 60, in main
+    start_quiz(line)
+  File "Quiz.py", line 29, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -526,21 +525,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question about sony ( 1 )
+Traceback (most recent call last):
+  File "Quiz.py", line 66, in <module>
+    main()
+  File "Quiz.py", line 60, in main
+    start_quiz(line)
+  File "Quiz.py", line 29, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -560,21 +557,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question about sony ( -1 )
+Traceback (most recent call last):
+  File "Quiz.py", line 66, in <module>
+    main()
+  File "Quiz.py", line 60, in main
+    start_quiz(line)
+  File "Quiz.py", line 29, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -594,21 +589,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+question about sony ( 1 )
+Traceback (most recent call last):
+  File "Quiz.py", line 66, in <module>
+    main()
+  File "Quiz.py", line 60, in main
+    start_quiz(line)
+  File "Quiz.py", line 29, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -628,20 +621,18 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
+ ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
+
+Wrong Answer! - Penality: -1
+Total Score -1
 ----------------------------------------
 

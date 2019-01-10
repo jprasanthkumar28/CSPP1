@@ -4,16 +4,16 @@ Quiz.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Quiz.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
 Quiz.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:10:15: C0326: Exactly one space required after comma
-		print(q_count,"are added to the quiz")
-               ^ (bad-whitespace)
 Quiz.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+Quiz.py:13:15: C0326: Exactly one space required after comma
+		print(q_count,"are added to the quiz")
+               ^ (bad-whitespace)
+Quiz.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -92,7 +92,7 @@ Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:2:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming style (invalid-name)
 Quiz.py:2:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
-Quiz.py:12:6: W0612: Unused variable 'i' (unused-variable)
+Quiz.py:9:5: W0612: Unused variable 'i' (unused-variable)
 Quiz.py:17:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:22:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:32:0: C0111: Missing function docstring (missing-docstring)
@@ -103,5 +103,5 @@ Quiz.py:49:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming s
 Quiz.py:49:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.00/10 (previous run: -5.10/10, +0.10)
+Your code has been rated at -5.29/10 (previous run: -5.00/10, -0.29)
 
