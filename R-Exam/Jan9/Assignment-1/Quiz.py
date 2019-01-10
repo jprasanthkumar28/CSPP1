@@ -33,6 +33,16 @@ def display(data):
 	print("| Score Report |")
 	print("|--------------|")
 	# print("Hiiiiiiiiiiiiiii")
+	totalscore = 0
+	for q in ques:
+		print(q[0])
+		if q[2] == q[5]:
+			print("Correct Answer! - Marks awarded:",q[3])
+			totalscore += int(q[3])
+		else:
+			print("Wrong Answer! - Penality:", q[4])
+			totalscore += int(q[4])
+	print(totalscore)
 
 def main():
 	global ques
