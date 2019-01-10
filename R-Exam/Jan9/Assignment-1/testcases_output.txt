@@ -353,7 +353,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -416,7 +416,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -455,7 +455,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -487,7 +487,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -525,7 +525,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -557,7 +557,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -589,7 +589,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -621,7 +621,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|

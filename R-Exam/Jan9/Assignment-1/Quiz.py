@@ -4,12 +4,12 @@ def load_ques(data):
 	print("| Load Questions |")
 	print("|----------------|")
 	q_count = int(data[1])
-	
+
 	# print(q_count)
 	for i in range(q_count):
 		ques.append(input().split(":"))
 	# print(ques)
-	if q_count > 1:
+	if q_count >= 1:
 		print(q_count,"are added to the quiz")
 	else:
 		print("Quiz does not have questions")

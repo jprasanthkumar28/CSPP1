@@ -4,7 +4,6 @@ Quiz.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Quiz.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
 Quiz.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -103,5 +102,5 @@ Quiz.py:49:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming s
 Quiz.py:49:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.29/10 (previous run: -5.00/10, -0.29)
+Your code has been rated at -5.10/10 (previous run: -5.29/10, +0.20)
 
