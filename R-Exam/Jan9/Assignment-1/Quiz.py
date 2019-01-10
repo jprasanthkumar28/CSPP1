@@ -5,7 +5,7 @@ def load_ques(data):
 	print("|----------------|")
 	print("| Load Questions |")
 	print("|----------------|")
-	q_count = int(data[1])
+	# q_count = int(data[1])
 	# print(q_count)
 	for i in range(q_count):
 		ques.append(input().split(":"))
@@ -14,7 +14,7 @@ def load_ques(data):
 		if '' in item:
 			print("Error! Malformed question")
 			flag = 1
-		elif q_count == 0:
+		elif int(item[1]) == 0:
 			print("Quiz does not have questions")
 			flag = 1
 		elif flag != 1: 
