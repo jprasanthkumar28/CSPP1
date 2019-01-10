@@ -33,19 +33,10 @@ question text 4
 Total Score: 10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -83,19 +74,10 @@ question text 4
 Total Score: -10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -133,19 +115,10 @@ question text 4
 Total Score: -5
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -213,25 +186,10 @@ question j
 Total Score: 3
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -254,16 +212,10 @@ question text 1
 Total Score: -4
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -280,15 +232,10 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -305,29 +252,10 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-Error! Malformed question
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Wrong Answer! - Penality: 
-Traceback (most recent call last):
-  File "Quiz.py", line 79, in <module>
-    main()
-  File "Quiz.py", line 75, in main
-    display(line)
-  File "Quiz.py", line 55, in display
-    totalscore += int(q[4])
-ValueError: invalid literal for int() with base 10: ''
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -344,16 +272,10 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -370,16 +292,10 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -402,16 +318,10 @@ question about sony
 Total Score: 1
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -428,16 +338,10 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -454,16 +358,10 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -480,21 +378,9 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-Error! Malformed question
-|------------|
-| Start Quiz |
-|------------|
- ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-
-Wrong Answer! - Penality: -1
-Total Score -1
+  File "Quiz.py", line 28
+    option = int(data[1])
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
