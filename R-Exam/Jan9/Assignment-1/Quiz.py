@@ -1,6 +1,7 @@
 def load_ques(data):
 	global ques
-	# global flag
+	global flag
+	flag = 0
 	print("|----------------|")
 	print("| Load Questions |")
 	print("|----------------|")
@@ -55,8 +56,8 @@ def display(data):
 		print("Total Score",totalscore)
 
 def main():
-	global flag
-	flag = 0
+	# global flag
+	# flag = 0
 	global ques
 	ques = []
 	while True:
