@@ -63,7 +63,7 @@ question text 3
 Correct Answer! - Marks awarded: 3
 question text 4
 Correct Answer! - Marks awarded: 4
-10
+Total Score 10
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -131,7 +131,7 @@ question text 3
 Wrong Answer! - Penality: -2
 question text 4
 Wrong Answer! - Penality: -1
--10
+Total Score -10
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -199,7 +199,7 @@ question text 3
 Wrong Answer! - Penality: -2
 question text 4
 Wrong Answer! - Penality: -1
--5
+Total Score -5
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -327,7 +327,7 @@ question i
 Wrong Answer! - Penality: 0
 question j
 Wrong Answer! - Penality: 0
-0
+Total Score 0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -365,7 +365,7 @@ choice 1 	 choice 2 	 choice 3 	 choice 4
 |--------------|
 question text 1
 Wrong Answer! - Penality: -4
--4
+Total Score -4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -392,11 +392,11 @@ Quiz does not have questions
 |--------------|
 | Score Report |
 |--------------|
-0
+Total Score 0
 |--------------|
 | Score Report |
 |--------------|
-0
+Total Score 0
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -467,7 +467,7 @@ choice 1 	 choice 2 	 choice 3 	 choice 4
 |--------------|
 question text 1
 Wrong Answer! - Penality: -1
--1
+Total Score -1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -633,6 +633,6 @@ choice 1 	 choice 2 	 choice 3 	 choice 4
 |--------------|
 
 Wrong Answer! - Penality: -1
--1
+Total Score -1
 ----------------------------------------
 

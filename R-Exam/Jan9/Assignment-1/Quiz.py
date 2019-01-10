@@ -42,7 +42,7 @@ def display(data):
 		else:
 			print("Wrong Answer! - Penality:", q[4])
 			totalscore += int(q[4])
-	print(totalscore)
+	print("Total Score",totalscore)
 
 def main():
 	global ques
