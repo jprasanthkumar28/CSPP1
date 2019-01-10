@@ -23,7 +23,7 @@ def start_quiz(data):
 		# print(ans)
 		q.append(ans[1])
 		# print(q)
-		print(q[0],q[3])
+		print(q[0])
 		option = q[1].split(",")
 		print(option[0]," ",option[1]," ",option[2]," ",option[3])
 
