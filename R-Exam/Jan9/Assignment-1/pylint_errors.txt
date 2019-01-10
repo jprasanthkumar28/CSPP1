@@ -4,103 +4,104 @@ Quiz.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Quiz.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:12:15: C0326: Exactly one space required after comma
+Quiz.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:10:15: C0326: Exactly one space required after comma
 		print(q_count,"are added to the quiz")
                ^ (bad-whitespace)
+Quiz.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
 Quiz.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:26:12: C0326: Exactly one space required after comma
+Quiz.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:27:12: C0326: Exactly one space required after comma
 		print(q[0],"(",q[3],")")
             ^ (bad-whitespace)
-Quiz.py:26:16: C0326: Exactly one space required after comma
+Quiz.py:27:16: C0326: Exactly one space required after comma
 		print(q[0],"(",q[3],")")
                 ^ (bad-whitespace)
-Quiz.py:26:21: C0326: Exactly one space required after comma
+Quiz.py:27:21: C0326: Exactly one space required after comma
 		print(q[0],"(",q[3],")")
                      ^ (bad-whitespace)
-Quiz.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:28:17: C0326: Exactly one space required after comma
+Quiz.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:29:17: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                  ^ (bad-whitespace)
-Quiz.py:28:22: C0326: Exactly one space required after comma
+Quiz.py:29:22: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                       ^ (bad-whitespace)
-Quiz.py:28:32: C0326: Exactly one space required after comma
+Quiz.py:29:32: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                                 ^ (bad-whitespace)
-Quiz.py:28:37: C0326: Exactly one space required after comma
+Quiz.py:29:37: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                                      ^ (bad-whitespace)
-Quiz.py:28:47: C0326: Exactly one space required after comma
+Quiz.py:29:47: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                                                ^ (bad-whitespace)
-Quiz.py:28:52: C0326: Exactly one space required after comma
+Quiz.py:29:52: C0326: Exactly one space required after comma
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
                                                     ^ (bad-whitespace)
-Quiz.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:40:43: C0326: Exactly one space required after comma
+Quiz.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:41:43: C0326: Exactly one space required after comma
 			print("Correct Answer! - Marks awarded:",q[3])
                                            ^ (bad-whitespace)
-Quiz.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:45:20: C0326: Exactly one space required after comma
+Quiz.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:46:20: C0326: Exactly one space required after comma
 	print("Total Score",totalscore)
                     ^ (bad-whitespace)
-Quiz.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
-Quiz.py:65:0: C0304: Final newline missing (missing-final-newline)
-Quiz.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+Quiz.py:66:0: C0304: Final newline missing (missing-final-newline)
+Quiz.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:2:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming style (invalid-name)
 Quiz.py:2:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
-Quiz.py:8:5: W0612: Unused variable 'i' (unused-variable)
-Quiz.py:16:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:21:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-Quiz.py:31:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:37:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-Quiz.py:31:12: W0613: Unused argument 'data' (unused-argument)
-Quiz.py:47:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:48:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming style (invalid-name)
-Quiz.py:48:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
+Quiz.py:12:6: W0612: Unused variable 'i' (unused-variable)
+Quiz.py:17:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:22:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:32:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:38:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:32:12: W0613: Unused argument 'data' (unused-argument)
+Quiz.py:48:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:49:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming style (invalid-name)
+Quiz.py:49:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.10/10 (previous run: -4.90/10, -0.20)
+Your code has been rated at -5.00/10 (previous run: -5.10/10, +0.10)
 
