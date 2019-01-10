@@ -25,17 +25,17 @@ def start_quiz(data):
 	print("|------------|")
 	print("| Start Quiz |")
 	print("|------------|")
-		option = int(data[1])
-		for q in ques:
-			if flag == 0:
-				ans = input().split(" ")
-				# print(ans)
-				q.append(ans[1])
-				# print(q)
-				print(q[0],"(",q[3],")")
-				option = q[1].split(",")
-				print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-				print()
+	option = int(data[1])
+	for q in ques:
+		if flag == 0:
+			ans = input().split(" ")
+			# print(ans)
+			q.append(ans[1])
+			# print(q)
+			print(q[0],"(",q[3],")")
+			option = q[1].split(",")
+			print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+			print()
 		break
 
 def display(data):
