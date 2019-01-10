@@ -1,6 +1,6 @@
 def load_ques(data):
 	global ques
-	global flag
+	# global flag
 	print("|----------------|")
 	print("| Load Questions |")
 	print("|----------------|")
