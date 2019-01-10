@@ -33,22 +33,10 @@ question text 4
 Total Score: 10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -86,22 +74,10 @@ question text 4
 Total Score: -10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -139,22 +115,10 @@ question text 4
 Total Score: -5
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -222,28 +186,10 @@ question j
 Total Score: 3
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question a ( 1 )
-choice a 	 choice b 	 choice c 	 choice d
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -266,19 +212,10 @@ question text 1
 Total Score: -4
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -295,15 +232,10 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -320,25 +252,10 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-Error! Malformed question
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 76, in main
-    display(line)
-  File "Quiz.py", line 51, in display
-    if q[2] == q[5]:
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -355,19 +272,10 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -384,22 +292,10 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-trick question  ( 1 )
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 74, in main
-    start_quiz(line)
-  File "Quiz.py", line 37, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -422,22 +318,10 @@ question about sony
 Total Score: 1
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( 1 )
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 74, in main
-    start_quiz(line)
-  File "Quiz.py", line 37, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -454,22 +338,10 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( -1 )
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 74, in main
-    start_quiz(line)
-  File "Quiz.py", line 37, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -486,22 +358,10 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( 1 )
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 74, in main
-    start_quiz(line)
-  File "Quiz.py", line 37, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -518,24 +378,9 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-Error! Malformed question
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
-
-Traceback (most recent call last):
-  File "Quiz.py", line 80, in <module>
-    main()
-  File "Quiz.py", line 76, in main
-    display(line)
-  File "Quiz.py", line 51, in display
-    if q[2] == q[5]:
-IndexError: list index out of range
+  File "Quiz.py", line 47
+    totalscore = 0
+    ^
+IndentationError: unexpected indent
 ----------------------------------------
 
