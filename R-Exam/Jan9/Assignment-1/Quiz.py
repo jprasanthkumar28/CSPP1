@@ -26,7 +26,7 @@ def start_quiz(data):
 		print(q[0],"(",q[3],")")
 		option = q[1].split(",")
 		print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-
+		print()
 
 def display(data):
 	print("|--------------|")
