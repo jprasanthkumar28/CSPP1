@@ -36,37 +36,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 2 ( 2 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 3 ( 3 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 4 ( 4 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Correct Answer! - Marks awarded: 1
-question text 2
-Correct Answer! - Marks awarded: 2
-question text 3
-Correct Answer! - Marks awarded: 3
-question text 4
-Correct Answer! - Marks awarded: 4
-Total Score 10
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -107,37 +84,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 2 ( 2 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 3 ( 3 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 4 ( 4 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Wrong Answer! - Penality: -4
-question text 2
-Wrong Answer! - Penality: -3
-question text 3
-Wrong Answer! - Penality: -2
-question text 4
-Wrong Answer! - Penality: -1
-Total Score -10
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -178,37 +132,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 2 ( 2 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 3 ( 3 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-question text 4 ( 4 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Correct Answer! - Marks awarded: 1
-question text 2
-Wrong Answer! - Penality: -3
-question text 3
-Wrong Answer! - Penality: -2
-question text 4
-Wrong Answer! - Penality: -1
-Total Score -5
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -279,73 +210,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-10 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question a ( 1 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question b ( 2 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question c ( 3 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question d ( 4 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question e ( 1 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question f ( 2 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question g ( 3 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question h ( 4 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question i ( 1 )
-choice a 	 choice b 	 choice c 	 choice d
-
-question j ( 2 )
-choice a 	 choice b 	 choice c 	 choice d
-
-|--------------|
-| Score Report |
-|--------------|
-question a
-Wrong Answer! - Penality: 0
-question b
-Wrong Answer! - Penality: 0
-question c
-Wrong Answer! - Penality: 0
-question d
-Wrong Answer! - Penality: 0
-question e
-Wrong Answer! - Penality: 0
-question f
-Wrong Answer! - Penality: 0
-question g
-Wrong Answer! - Penality: 0
-question h
-Wrong Answer! - Penality: 0
-question i
-Wrong Answer! - Penality: 0
-question j
-Wrong Answer! - Penality: 0
-Total Score 0
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -371,19 +243,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Wrong Answer! - Penality: -4
-Total Score -4
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -409,14 +276,9 @@ Your Output:
 |--------------|
 | Score Report |
 |--------------|
-Total Score 0
-|--------------|
-| Score Report |
-|--------------|
-Total Score 0
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -433,26 +295,13 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
-Wrong Answer! - Penality: 
-Traceback (most recent call last):
-  File "Quiz.py", line 69, in <module>
-    main()
-  File "Quiz.py", line 65, in main
-    display(line)
-  File "Quiz.py", line 48, in display
-    totalscore += int(q[4])
-ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -472,19 +321,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1 ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
-Wrong Answer! - Penality: -1
-Total Score -1
+Traceback (most recent call last):
+  File "Quiz.py", line 78, in <module>
+    main()
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -504,19 +348,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-trick question  ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 69, in <module>
+  File "Quiz.py", line 78, in <module>
     main()
-  File "Quiz.py", line 63, in main
-    start_quiz(line)
-  File "Quiz.py", line 32, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -542,19 +381,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 69, in <module>
+  File "Quiz.py", line 78, in <module>
     main()
-  File "Quiz.py", line 63, in main
-    start_quiz(line)
-  File "Quiz.py", line 32, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -574,19 +408,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( -1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 69, in <module>
+  File "Quiz.py", line 78, in <module>
     main()
-  File "Quiz.py", line 63, in main
-    start_quiz(line)
-  File "Quiz.py", line 32, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -606,22 +435,17 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 69, in <module>
+  File "Quiz.py", line 78, in <module>
     main()
-  File "Quiz.py", line 63, in main
-    start_quiz(line)
-  File "Quiz.py", line 32, in start_quiz
-    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
-IndexError: list index out of range
+  File "Quiz.py", line 70, in main
+    load_ques(line)
+  File "Quiz.py", line 19, in load_ques
+    elif flag != 1: 
+UnboundLocalError: local variable 'flag' referenced before assignment
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -638,18 +462,12 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
- ( 1 )
-choice 1 	 choice 2 	 choice 3 	 choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-
-Wrong Answer! - Penality: -1
-Total Score -1
 ----------------------------------------
 
