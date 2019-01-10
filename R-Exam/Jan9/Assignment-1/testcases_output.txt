@@ -36,17 +36,17 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 Questions are added
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
-question text 2
+question text 2 ( 2 )
 choice 1   choice 2   choice 3   choice 4
-question text 3
+question text 3 ( 3 )
 choice 1   choice 2   choice 3   choice 4
-question text 4
+question text 4 ( 4 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -100,17 +100,17 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 Questions are added
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
-question text 2
+question text 2 ( 2 )
 choice 1   choice 2   choice 3   choice 4
-question text 3
+question text 3 ( 3 )
 choice 1   choice 2   choice 3   choice 4
-question text 4
+question text 4 ( 4 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -164,17 +164,17 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-4 Questions are added
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
-question text 2
+question text 2 ( 2 )
 choice 1   choice 2   choice 3   choice 4
-question text 3
+question text 3 ( 3 )
 choice 1   choice 2   choice 3   choice 4
-question text 4
+question text 4 ( 4 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -258,29 +258,29 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-10 Questions are added
+10 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
-question a
+question a ( 1 )
 choice a   choice b   choice c   choice d
-question b
+question b ( 2 )
 choice a   choice b   choice c   choice d
-question c
+question c ( 3 )
 choice a   choice b   choice c   choice d
-question d
+question d ( 4 )
 choice a   choice b   choice c   choice d
-question e
+question e ( 1 )
 choice a   choice b   choice c   choice d
-question f
+question f ( 2 )
 choice a   choice b   choice c   choice d
-question g
+question g ( 3 )
 choice a   choice b   choice c   choice d
-question h
+question h ( 4 )
 choice a   choice b   choice c   choice d
-question i
+question i ( 1 )
 choice a   choice b   choice c   choice d
-question j
+question j ( 2 )
 choice a   choice b   choice c   choice d
 |--------------|
 | Score Report |
@@ -331,11 +331,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -362,7 +362,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
@@ -393,11 +393,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -431,11 +431,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 1 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |
@@ -462,11 +462,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-trick question 
+trick question  ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 65, in <module>
     main()
@@ -500,11 +500,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 65, in <module>
     main()
@@ -532,11 +532,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( -1 )
 Traceback (most recent call last):
   File "Quiz.py", line 65, in <module>
     main()
@@ -564,11 +564,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 65, in <module>
     main()
@@ -596,11 +596,11 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-No Questions are added
+Quiz does not have questions
 |------------|
 | Start Quiz |
 |------------|
-
+ ( 1 )
 choice 1   choice 2   choice 3   choice 4
 |--------------|
 | Score Report |

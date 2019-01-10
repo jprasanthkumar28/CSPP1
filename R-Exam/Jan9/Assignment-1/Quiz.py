@@ -9,9 +9,9 @@ def load_ques(data):
 		ques.append(input().split(":"))
 	# print(ques)
 	if q_count > 1:
-		print(q_count,"Questions are added")
+		print(q_count,"are added to the quiz")
 	else:
-		print("No Questions are added")
+		print("Quiz does not have questions")
 
 def start_quiz(data):
 	print("|------------|")
@@ -23,7 +23,7 @@ def start_quiz(data):
 		# print(ans)
 		q.append(ans[1])
 		# print(q)
-		print(q[0])
+		print(q[0],"(",q[3],")")
 		option = q[1].split(",")
 		print(option[0]," ",option[1]," ",option[2]," ",option[3])
 
