@@ -12,12 +12,12 @@ Quiz.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Quiz.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:17:20: C0303: Trailing whitespace (trailing-whitespace)
+Quiz.py:17:21: C0303: Trailing whitespace (trailing-whitespace)
 Quiz.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:18:15: C0326: Exactly one space required after comma
-		print(q_count,"are added to the quiz")
-               ^ (bad-whitespace)
+Quiz.py:18:16: C0326: Exactly one space required after comma
+			print(q_count,"are added to the quiz")
+                ^ (bad-whitespace)
 Quiz.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -96,7 +96,7 @@ Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:2:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming style (invalid-name)
 Quiz.py:2:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
-Quiz.py:17:6: C0121: Comparison to False should be 'expr' or 'expr is not False' (singleton-comparison)
+Quiz.py:17:7: C0121: Comparison to False should be 'expr' or 'expr is not False' (singleton-comparison)
 Quiz.py:9:5: W0612: Unused variable 'i' (unused-variable)
 Quiz.py:20:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:25:5: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
@@ -108,5 +108,5 @@ Quiz.py:52:1: C0103: Constant name "ques" doesn't conform to UPPER_CASE naming s
 Quiz.py:52:1: W0601: Global variable 'ques' undefined at the module level (global-variable-undefined)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.82/10 (previous run: -5.10/10, +0.28)
+Your code has been rated at -4.82/10 (previous run: -4.82/10, +0.00)
 

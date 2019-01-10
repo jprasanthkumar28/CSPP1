@@ -9,13 +9,13 @@ def load_ques(data):
 	for i in range(q_count):
 		ques.append(input().split(":"))
 	# print(ques)
-	if ' ' in ques:
-		print("Error! Malformed question")
-		flag = False
-	elif q_count == 0:
-		print("Quiz does not have questions")
-	elif flag != False: 
-		print(q_count,"are added to the quiz")
+		if '' in ques:
+			print("Error! Malformed question")
+			flag = False
+		elif q_count == 0:
+			print("Quiz does not have questions")
+		elif flag != False: 
+			print(q_count,"are added to the quiz")
 
 def start_quiz(data):
 	print("|------------|")
