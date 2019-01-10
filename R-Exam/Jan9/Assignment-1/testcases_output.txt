@@ -36,14 +36,22 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+Correct Answer! - Marks awarded: 1
+Total Score 1
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -84,14 +92,22 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+Wrong Answer! - Penality: -4
+Total Score -4
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -132,14 +148,22 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+Correct Answer! - Marks awarded: 1
+Total Score 1
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -210,14 +234,28 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question a ( 1 )
+choice a 	 choice b 	 choice c 	 choice d
+
+|--------------|
+| Score Report |
+|--------------|
+question a
+Wrong Answer! - Penality: 0
+Total Score 0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -243,14 +281,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+Wrong Answer! - Penality: -4
+Total Score -4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -270,14 +313,12 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -297,14 +338,14 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+Total Score 0
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -324,14 +365,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1 ( 1 )
+choice 1 	 choice 2 	 choice 3 	 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+Wrong Answer! - Penality: -1
+Total Score -1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -351,14 +397,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+trick question  ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 81, in <module>
     main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+  File "Quiz.py", line 75, in main
+    start_quiz(line)
+  File "Quiz.py", line 37, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -384,14 +435,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question about sony ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 81, in <module>
     main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+  File "Quiz.py", line 75, in main
+    start_quiz(line)
+  File "Quiz.py", line 37, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -411,14 +467,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question about sony ( -1 )
 Traceback (most recent call last):
   File "Quiz.py", line 81, in <module>
     main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+  File "Quiz.py", line 75, in main
+    start_quiz(line)
+  File "Quiz.py", line 37, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -438,14 +499,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question about sony ( 1 )
 Traceback (most recent call last):
   File "Quiz.py", line 81, in <module>
     main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+  File "Quiz.py", line 75, in main
+    start_quiz(line)
+  File "Quiz.py", line 37, in start_quiz
+    print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -465,13 +531,13 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Quiz.py", line 81, in <module>
-    main()
-  File "Quiz.py", line 73, in main
-    load_ques(line)
-  File "Quiz.py", line 10, in load_ques
-    for i in range(q_count):
-NameError: name 'q_count' is not defined
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+Total Score 0
 ----------------------------------------
 
