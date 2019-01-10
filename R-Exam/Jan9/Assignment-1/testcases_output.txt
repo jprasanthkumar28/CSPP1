@@ -429,11 +429,11 @@ choice 1 	 choice 2 	 choice 3 	 choice 4
 question text 1
 Wrong Answer! - Penality: 
 Traceback (most recent call last):
-  File "Quiz.py", line 66, in <module>
+  File "Quiz.py", line 69, in <module>
     main()
-  File "Quiz.py", line 62, in main
+  File "Quiz.py", line 65, in main
     display(line)
-  File "Quiz.py", line 45, in display
+  File "Quiz.py", line 48, in display
     totalscore += int(q[4])
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -493,11 +493,11 @@ Your Output:
 |------------|
 trick question  ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 66, in <module>
+  File "Quiz.py", line 69, in <module>
     main()
-  File "Quiz.py", line 60, in main
+  File "Quiz.py", line 63, in main
     start_quiz(line)
-  File "Quiz.py", line 29, in start_quiz
+  File "Quiz.py", line 32, in start_quiz
     print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -531,11 +531,11 @@ Your Output:
 |------------|
 question about sony ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 66, in <module>
+  File "Quiz.py", line 69, in <module>
     main()
-  File "Quiz.py", line 60, in main
+  File "Quiz.py", line 63, in main
     start_quiz(line)
-  File "Quiz.py", line 29, in start_quiz
+  File "Quiz.py", line 32, in start_quiz
     print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -563,11 +563,11 @@ Your Output:
 |------------|
 question about sony ( -1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 66, in <module>
+  File "Quiz.py", line 69, in <module>
     main()
-  File "Quiz.py", line 60, in main
+  File "Quiz.py", line 63, in main
     start_quiz(line)
-  File "Quiz.py", line 29, in start_quiz
+  File "Quiz.py", line 32, in start_quiz
     print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
 IndexError: list index out of range
 ----------------------------------------
@@ -595,11 +595,11 @@ Your Output:
 |------------|
 question about sony ( 1 )
 Traceback (most recent call last):
-  File "Quiz.py", line 66, in <module>
+  File "Quiz.py", line 69, in <module>
     main()
-  File "Quiz.py", line 60, in main
+  File "Quiz.py", line 63, in main
     start_quiz(line)
-  File "Quiz.py", line 29, in start_quiz
+  File "Quiz.py", line 32, in start_quiz
     print(option[0],"\t",option[1],"\t",option[2],"\t",option[3])
 IndexError: list index out of range
 ----------------------------------------
