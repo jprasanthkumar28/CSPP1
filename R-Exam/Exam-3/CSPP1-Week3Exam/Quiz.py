@@ -5,31 +5,29 @@ def check_response(data):
     global flag
     flag = 0
     full_Score = {}
-    for text in data:
-        # print(type(int(text[4])))
+    for item in data:
+        # print(type(int(item[4])))
         try:
-            if int(text[4]) == type(int):
+            if int(item[4]) == type(int):
                 print("OKOK")
         except ValueError:
             print("Invalid Points")
             flag = 1
             break
-
-            
-            # print("Hi")
-        # if text[4] == "":
+        # print("Hi")
+        # if item[4] == "":
         #     pass
-        if text[0] not in scored:
-                full_Score[text[0]] = int(text[4])
+        if item[0] not in scored:
+                full_Score[item[0]] = int(item[4])
                 # print(full_Score)
-                scored[text[0]] = 0
-                # print(scored[text[0]],"-----------")
+                scored[item[0]] = 0
+                # print(scored[item[0]],"-----------")
         else:
-            full_Score[text[0]] += int(text[4])
-        if text[2] == text[3]:
-            scored[text[0]] += int(text[4])
+            full_Score[item[0]] += int(item[4])
+        if item[2] == item[3]:
+            scored[item[0]] += int(item[4])
         else:
-            scored[text[0]] -= int(text[4])
+            scored[item[0]] -= int(item[4])
 
     # scored = sorted(scored)
     # total_score = sorted(total_score)
