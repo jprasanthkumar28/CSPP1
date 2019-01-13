@@ -29,14 +29,7 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 58, in <module>
-    main()
-  File "Quiz.py", line 55, in main
-    check_response(questions)
-  File "Quiz.py", line 13, in check_response
-    full_Score[text[0]] += int(text[4])
-ValueError: invalid literal for int() with base 10: 'a'
+Invalid
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########

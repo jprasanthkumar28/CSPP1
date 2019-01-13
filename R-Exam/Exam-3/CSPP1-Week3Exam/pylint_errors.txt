@@ -1,17 +1,21 @@
 ************* Module Quiz
-Quiz.py:8:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-Quiz.py:10:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-Quiz.py:58:0: C0304: Final newline missing (missing-final-newline)
+Quiz.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+Quiz.py:23:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+Quiz.py:25:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
+Quiz.py:74:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:5:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:5:4: C0103: Constant name "flag" doesn't conform to UPPER_CASE naming style (invalid-name)
+Quiz.py:5:4: W0601: Global variable 'flag' undefined at the module level (global-variable-undefined)
+Quiz.py:7:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:3:4: W0612: Unused variable 'total_score' (unused-variable)
-Quiz.py:48:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:50:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
-Quiz.py:50:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
-Quiz.py:52:8: W0612: Unused variable 'i' (unused-variable)
+Quiz.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
+Quiz.py:64:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:66:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
+Quiz.py:66:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
+Quiz.py:68:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.86/10 (previous run: 4.48/10, +1.38)
+Your code has been rated at 5.90/10 (previous run: 5.86/10, +0.04)
 
