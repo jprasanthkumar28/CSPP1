@@ -26,9 +26,9 @@ def check_response(data):
                 final = int((scored[got]/full_Score[total]) * 100)
                 if final <= 0:
                     final = 0.0
-                    print(got,":",final, "%")
+                    print(got + ": " + str(final) + "%")
                 else:
-                    print(got,":",float(final), "%")
+                    print(got + ": " + str(float(final)) + "%")
 
 
     #     if int(value[0]) in dict1:

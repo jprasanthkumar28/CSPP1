@@ -1,18 +1,6 @@
 ************* Module Quiz
 Quiz.py:8:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
 Quiz.py:10:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-Quiz.py:29:29: C0326: Exactly one space required after comma
-                    print(got,":",final, "%")
-                             ^ (bad-whitespace)
-Quiz.py:29:33: C0326: Exactly one space required after comma
-                    print(got,":",final, "%")
-                                 ^ (bad-whitespace)
-Quiz.py:31:29: C0326: Exactly one space required after comma
-                    print(got,":",float(final), "%")
-                             ^ (bad-whitespace)
-Quiz.py:31:33: C0326: Exactly one space required after comma
-                    print(got,":",float(final), "%")
-                                 ^ (bad-whitespace)
 Quiz.py:58:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -25,5 +13,5 @@ Quiz.py:50:4: W0601: Global variable 'questions' undefined at the module level (
 Quiz.py:52:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.48/10 (previous run: 4.62/10, -0.13)
+Your code has been rated at 5.86/10 (previous run: 4.48/10, +1.38)
 
