@@ -24,7 +24,12 @@ def check_response(data):
         for total in sorted(full_Score):
             if got == total:
                 final = int((scored[got]/full_Score[total]) * 100)
-                print(got,":",float(final), "%")
+                if final <= 0:
+                    final = 0.0
+                    print(got,":",final, "%")
+                else:
+                    print(got,":",float(final), "%")
+
 
     #     if int(value[0]) in dict1:
     #         # if value[2] == value[3]:

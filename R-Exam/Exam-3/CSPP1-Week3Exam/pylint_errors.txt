@@ -1,23 +1,29 @@
 ************* Module Quiz
 Quiz.py:8:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
 Quiz.py:10:0: W0311: Bad indentation. Found 16 spaces, expected 12 (bad-indentation)
-Quiz.py:27:25: C0326: Exactly one space required after comma
-                print(got,":",float(final), "%")
-                         ^ (bad-whitespace)
-Quiz.py:27:29: C0326: Exactly one space required after comma
-                print(got,":",float(final), "%")
+Quiz.py:29:29: C0326: Exactly one space required after comma
+                    print(got,":",final, "%")
                              ^ (bad-whitespace)
-Quiz.py:53:0: C0304: Final newline missing (missing-final-newline)
+Quiz.py:29:33: C0326: Exactly one space required after comma
+                    print(got,":",final, "%")
+                                 ^ (bad-whitespace)
+Quiz.py:31:29: C0326: Exactly one space required after comma
+                    print(got,":",float(final), "%")
+                             ^ (bad-whitespace)
+Quiz.py:31:33: C0326: Exactly one space required after comma
+                    print(got,":",float(final), "%")
+                                 ^ (bad-whitespace)
+Quiz.py:58:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:5:4: C0103: Variable name "full_Score" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:3:4: W0612: Unused variable 'total_score' (unused-variable)
-Quiz.py:43:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:45:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
-Quiz.py:45:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
-Quiz.py:47:8: W0612: Unused variable 'i' (unused-variable)
+Quiz.py:48:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:50:4: C0103: Constant name "questions" doesn't conform to UPPER_CASE naming style (invalid-name)
+Quiz.py:50:4: W0601: Global variable 'questions' undefined at the module level (global-variable-undefined)
+Quiz.py:52:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.62/10 (previous run: 5.00/10, -0.38)
+Your code has been rated at 4.48/10 (previous run: 4.62/10, -0.13)
 
