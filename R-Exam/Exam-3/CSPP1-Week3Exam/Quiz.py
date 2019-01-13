@@ -11,7 +11,7 @@ def check_response(data):
             if int(text[4]) == type(int):
                 print("OKOK")
         except ValueError:
-            print("Invalid")
+            print("Invalid Points")
             flag = 1
             break
 
