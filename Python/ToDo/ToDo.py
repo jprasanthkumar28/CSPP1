@@ -1,3 +1,6 @@
+def addTask(data):
+	while True:
+		doTask(data)
 def doTask(data):
 	# print(data)
 	strr = ""
@@ -31,11 +34,16 @@ def doTask(data):
 
 
 def main():
-	string = input().split(",")
-	if string[0] == "task":
-		doTask(string)
-	elif string[0] == "add-task":
-		doTask(string)
+	while True:
+		try:
+			string = input().split(",")
+			if string[0] == "task":
+				doTask(string)
+			elif string[0] == "add-task":
+				doTask(string)
+		except EOFError:
+			# print("Hiiiiiiiiiiiiiii")
+			break
 
 if __name__ == '__main__':
 	main()
