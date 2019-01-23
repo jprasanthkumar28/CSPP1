@@ -27,13 +27,14 @@ def doTask(data):
 			strr += ", "+data[6]
 		else:
 			strr = "Invalid status dud"
-
 	print(strr)
 
 
 def main():
 	string = input().split(",")
 	if string[0] == "task":
+		doTask(string)
+	elif string[0] == "add-task":
 		doTask(string)
 
 if __name__ == '__main__':

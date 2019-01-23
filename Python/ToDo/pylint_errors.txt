@@ -26,19 +26,21 @@ ToDo.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 ToDo.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-ToDo.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-ToDo.py:40:0: C0304: Final newline missing (missing-final-newline)
-ToDo.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:41:0: C0304: Final newline missing (missing-final-newline)
+ToDo.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:1:0: C0103: Module name "ToDo" doesn't conform to snake_case naming style (invalid-name)
 ToDo.py:1:0: C0111: Missing module docstring (missing-docstring)
 ToDo.py:1:0: C0103: Function name "doTask" doesn't conform to snake_case naming style (invalid-name)
 ToDo.py:1:0: C0111: Missing function docstring (missing-docstring)
 ToDo.py:1:0: R0912: Too many branches (13/12) (too-many-branches)
-ToDo.py:34:0: C0111: Missing function docstring (missing-docstring)
+ToDo.py:33:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.00/10 (previous run: -2.76/10, -0.24)
+Your code has been rated at -2.81/10 (previous run: -3.00/10, +0.19)
 
