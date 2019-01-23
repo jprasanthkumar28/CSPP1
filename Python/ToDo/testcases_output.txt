@@ -35,7 +35,7 @@ Expected Output:
 Invalid timeToComplete -1
 
 Your Output: 
-Invalid timeToComplete -1, Important, Urgent, todo
+Invalid timeToComplete -1, todo
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -43,7 +43,7 @@ Expected Output:
 Title not provided
 
 Your Output: 
-Title not provided1, Important, Urgent, todo
+Title not provided, todo
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
