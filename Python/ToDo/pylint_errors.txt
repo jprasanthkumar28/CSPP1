@@ -14,17 +14,24 @@ ToDo.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 ToDo.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-ToDo.py:26:0: C0304: Final newline missing (missing-final-newline)
-ToDo.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+ToDo.py:34:0: C0304: Final newline missing (missing-final-newline)
+ToDo.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 ToDo.py:1:0: C0103: Module name "ToDo" doesn't conform to snake_case naming style (invalid-name)
 ToDo.py:1:0: C0111: Missing module docstring (missing-docstring)
 ToDo.py:1:0: C0103: Function name "doTask" doesn't conform to snake_case naming style (invalid-name)
 ToDo.py:1:0: C0111: Missing function docstring (missing-docstring)
-ToDo.py:20:0: C0111: Missing function docstring (missing-docstring)
+ToDo.py:28:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.16/10 (previous run: -3.16/10, +0.00)
+Your code has been rated at -3.33/10 (previous run: -3.16/10, -0.18)
 

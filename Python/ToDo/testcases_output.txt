@@ -35,7 +35,7 @@ Expected Output:
 Invalid timeToComplete -1
 
 Your Output: 
-taskb, ram, -1, Important, Urgent, todo
+Invalid timeToComplete -1, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -43,7 +43,7 @@ Expected Output:
 Title not provided
 
 Your Output: 
-, ram, 1, Important, Urgent, todo
+Title not provided1, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
