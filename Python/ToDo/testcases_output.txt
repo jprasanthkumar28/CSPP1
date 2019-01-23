@@ -30,20 +30,20 @@ Your Output:
 Invalid status dud
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Invalid timeToComplete -1
 
 Your Output: 
-Invalid timeToComplete -1, todo
+Invalid timeToComplete -1
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 Title not provided
 
 Your Output: 
-Title not provided, todo
+Title not provided
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########

@@ -22,10 +22,11 @@ def doTask(data):
 			strr += ", Urgent"
 		else:
 			strr += ", Not Urgent"
-	if data[6] == "todo" or data[6] == "done":
-		strr += ", "+data[6]
-	else:
-		strr = "Invalid status dud"
+	if flag == 0:
+		if data[6] == "todo" or data[6] == "done":
+			strr += ", "+data[6]
+		else:
+			strr = "Invalid status dud"
 
 	print(strr)
 
