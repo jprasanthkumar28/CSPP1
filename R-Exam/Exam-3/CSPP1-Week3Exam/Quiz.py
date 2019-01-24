@@ -31,7 +31,7 @@ def check_response(data):
 
     # scored = sorted(scored)
     # total_score = sorted(total_score)
-    # print(scored)
+    # print(scored,"Scored")
     # print(full_Score)
     for got in sorted(scored):
         for total in sorted(full_Score):

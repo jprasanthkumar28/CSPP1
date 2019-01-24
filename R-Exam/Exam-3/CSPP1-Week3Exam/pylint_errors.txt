@@ -16,5 +16,5 @@ Quiz.py:64:4: W0601: Global variable 'questions' undefined at the module level (
 Quiz.py:66:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.15/10 (previous run: 5.90/10, +0.26)
+Your code has been rated at 6.15/10 (previous run: 6.15/10, +0.00)
 
