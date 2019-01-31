@@ -1,0 +1,90 @@
+************* Module Complete
+Complete.py:39:48: C0303: Trailing whitespace (trailing-whitespace)
+Complete.py:54:42: C0326: No space allowed around keyword argument assignment
+    for k in sorted(storage_Food, reverse = True):
+                                          ^ (bad-whitespace)
+Complete.py:56:28: C0326: No space allowed around keyword argument assignment
+        print(temp+":", end = "\n")
+                            ^ (bad-whitespace)
+Complete.py:60:43: C0326: No space allowed around keyword argument assignment
+    for k in sorted(storage_Water, reverse = True):
+                                           ^ (bad-whitespace)
+Complete.py:61:29: C0326: No space allowed around keyword argument assignment
+        print(temp1+":", end = "\n")
+                             ^ (bad-whitespace)
+Complete.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+Complete.py:65:46: C0326: No space allowed around keyword argument assignment
+    for k in sorted(storage_Physical, reverse = True):
+                                              ^ (bad-whitespace)
+Complete.py:66:29: C0326: No space allowed around keyword argument assignment
+        print(temp2+":", end = "\n")
+                             ^ (bad-whitespace)
+Complete.py:69:0: C0303: Trailing whitespace (trailing-whitespace)
+Complete.py:70:44: C0326: No space allowed around keyword argument assignment
+    for k in sorted(storage_Weight, reverse = True):
+                                            ^ (bad-whitespace)
+Complete.py:72:29: C0326: No space allowed around keyword argument assignment
+        print(temp3+":", end = "\n")
+                             ^ (bad-whitespace)
+Complete.py:75:0: C0303: Trailing whitespace (trailing-whitespace)
+Complete.py:76:43: C0326: No space allowed around keyword argument assignment
+    for k in sorted(storage_Sleep, reverse = True):
+                                           ^ (bad-whitespace)
+Complete.py:77:29: C0326: No space allowed around keyword argument assignment
+        print(temp4+":", end = "\n")
+                             ^ (bad-whitespace)
+Complete.py:98:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
+Complete.py:152:0: C0304: Final newline missing (missing-final-newline)
+Complete.py:1:0: C0103: Module name "Complete" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:1:0: C0111: Missing module docstring (missing-docstring)
+Complete.py:12:0: C0103: Function name "FoodLog" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:12:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:12:12: W0613: Unused argument 'food' (unused-argument)
+Complete.py:21:0: C0103: Function name "Waterlog" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:21:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:21:13: W0613: Unused argument 'water' (unused-argument)
+Complete.py:28:0: C0103: Function name "PhysicalLog" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:28:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:34:8: E0602: Undefined variable 'storLogical' (undefined-variable)
+Complete.py:28:16: W0613: Unused argument 'physical' (unused-argument)
+Complete.py:36:0: C0103: Function name "weightLog" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:36:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:36:14: W0613: Unused argument 'weight' (unused-argument)
+Complete.py:43:0: C0103: Function name "SleepLog" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:43:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:43:13: W0613: Unused argument 'sleep' (unused-argument)
+Complete.py:52:0: C0103: Function name "Summary" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:52:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:80:0: C0111: Missing function docstring (missing-docstring)
+Complete.py:81:4: C0103: Constant name "storage_Food" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:81:4: W0601: Global variable 'storage_Food' undefined at the module level (global-variable-undefined)
+Complete.py:82:4: C0103: Constant name "storage_Water" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:82:4: W0601: Global variable 'storage_Water' undefined at the module level (global-variable-undefined)
+Complete.py:83:4: C0103: Constant name "storage_Physical" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:83:4: W0601: Global variable 'storage_Physical' undefined at the module level (global-variable-undefined)
+Complete.py:84:4: C0103: Constant name "storage_Weight" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:84:4: W0601: Global variable 'storage_Weight' undefined at the module level (global-variable-undefined)
+Complete.py:85:4: C0103: Constant name "storage_Sleep" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:85:4: W0601: Global variable 'storage_Sleep' undefined at the module level (global-variable-undefined)
+Complete.py:86:4: C0103: Constant name "temp" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:86:4: W0601: Global variable 'temp' undefined at the module level (global-variable-undefined)
+Complete.py:87:4: C0103: Constant name "temp1" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:87:4: W0601: Global variable 'temp1' undefined at the module level (global-variable-undefined)
+Complete.py:88:4: C0103: Constant name "temp2" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:88:4: W0601: Global variable 'temp2' undefined at the module level (global-variable-undefined)
+Complete.py:89:4: C0103: Constant name "temp3" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:89:4: W0601: Global variable 'temp3' undefined at the module level (global-variable-undefined)
+Complete.py:90:4: C0103: Constant name "temp4" doesn't conform to UPPER_CASE naming style (invalid-name)
+Complete.py:90:4: W0601: Global variable 'temp4' undefined at the module level (global-variable-undefined)
+Complete.py:96:4: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Complete.py:124:20: W0621: Redefining name 'i' from outer scope (line 97) (redefined-outer-name)
+Complete.py:130:20: W0621: Redefining name 'i' from outer scope (line 97) (redefined-outer-name)
+Complete.py:136:20: W0621: Redefining name 'i' from outer scope (line 97) (redefined-outer-name)
+Complete.py:142:20: W0621: Redefining name 'i' from outer scope (line 97) (redefined-outer-name)
+Complete.py:148:20: W0621: Redefining name 'i' from outer scope (line 97) (redefined-outer-name)
+Complete.py:80:0: R0912: Too many branches (24/12) (too-many-branches)
+Complete.py:80:0: R0915: Too many statements (58/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 4.34/10
+
