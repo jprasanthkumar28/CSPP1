@@ -1,13 +1,13 @@
-global temp
-temp = ''
-global temp1
-temp1 = ''
-global temp2
-temp2 = ''
-global temp3
-temp3 = ''
-global temp4
-temp4 = ''
+# global temp
+# temp = ''
+# global temp1
+# temp1 = ''
+# global temp2
+# temp2 = ''
+# global temp3
+# temp3 = ''
+# global temp4
+# temp4 = ''
 
 def FoodLog(food, string):
     lst = string.split(",")
