@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -48,12 +48,16 @@ Summary:
 18/9/2018:
 Food:
 - 8:30AM: Dosa
+18/9/2018:
 Water:
 - 8:40PM: 1250
+18/9/2018:
 PhysicalActivity:
 - 7:00AM: walking
+18/9/2018:
 Weight:
 - 6:30AM: 61KG
+18/9/2018:
 Sleep:
 - 10:30: 8hr
 ----------------------------------------
@@ -151,20 +155,28 @@ Food:
 Food:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
+19/9/2018:
 Water:
 - 8:40PM: 1250
+18/9/2018:
 Water:
 - 8:40PM: 1250
+18/9/2018:
 PhysicalActivity:
 - 7:00AM: walking
+17/9/2018:
 PhysicalActivity:
 - 7:00AM: walking
+19/9/2018:
 Weight:
 - 6:30AM: 61KG
+18/9/2018:
 Weight:
 - 6:30AM: 61KG
+18/9/2018:
 Sleep:
 - 10:30: 8hr
+17/9/2018:
 Sleep:
 - 10:30: 8hr
 ----------------------------------------
@@ -236,12 +248,46 @@ Water:
 - 9:45AM: 500
 21/9/2018:
 - 9:49PM: 1000
-Traceback (most recent call last):
-  File "Complete.py", line 152, in <module>
-    main()
-  File "Complete.py", line 133, in main
-    print(temp2+":")
-NameError: name 'temp2' is not defined
+:
+Weight:
+18/9/2018:
+- 6:30AM: 55Kg
+22/9/2018:
+- 6:30AM: 55Kg
+Sleep:
+18/9/2018:
+- 10:30PM: 9hrs
+23/9/2018:
+- 10:30PM: 9hrs
+Summary:
+20/9/2018:
+Food:
+- 8:30AM: Dosa
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+21/9/2018:
+Water:
+- 9:49PM: 1000
+19/9/2018:
+Water:
+- 9:45AM: 500
+18/9/2018:
+Water:
+- 9:45AM: 500
+- 9:49PM: 1000
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+18/9/2018:
+Weight:
+- 6:30AM: 55Kg
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
+18/9/2018:
+Sleep:
+- 10:30PM: 9hrs
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -397,35 +443,50 @@ Food:
 16/9/2018:
 Food:
 - 8:30AM: Idli
+21/9/2018:
 Water:
 - 9:49PM: 1000
+19/9/2018:
 Water:
 - 9:45AM: 500
+18/9/2018:
 Water:
 - 9:45AM: 500
 - 9:49PM: 1000
+17/9/2018:
 Water:
 - 3PM: 1250
+16/9/2018:
 Water:
 - 6PM: 1250
+17/9/2018:
 PhysicalActivity:
 - 7:00AM: walking
+16/9/2018:
 PhysicalActivity:
 - 7:00AM: bicycling
+22/9/2018:
 Weight:
 - 6:30AM: 55Kg
+18/9/2018:
 Weight:
 - 6:30AM: 55Kg
+17/9/2018:
 Weight:
 - 6:30AM: 100Kg
+16/9/2018:
 Weight:
 - 6:30AM: 56Kg
+23/9/2018:
 Sleep:
 - 10:30PM: 9hrs
+18/9/2018:
 Sleep:
 - 10:30PM: 9hrs
+17/9/2018:
 Sleep:
 - 10:30PM: 5hrs
+16/9/2018:
 Sleep:
 - 10:30PM: 5hrs
 ----------------------------------------

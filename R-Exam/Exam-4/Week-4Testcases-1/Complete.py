@@ -1,13 +1,13 @@
-# global temp
-# temp = ''
-# global temp1
-# temp1 = ''
-# global temp2
-# temp2 = ''
-# global temp3
-# temp3 = ''
-# global temp4
-# temp4 = ''
+global temp
+temp = ''
+global temp1
+temp1 = ''
+global temp2
+temp2 = ''
+global temp3
+temp3 = ''
+global temp4
+temp4 = ''
 
 def FoodLog(food, string):
     lst = string.split(",")
@@ -58,22 +58,26 @@ def Summary():
             print("- "+ i + ": " + storage_Food[k][i])
 
     for k in sorted(storage_Water, reverse = True):
+        print(k + ":")
         print(temp1+":", end = "\n")
         for i  in storage_Water[k]:
             print("- "+ i + ": " + storage_Water[k][i])
    
     for k in sorted(storage_Physical, reverse = True):
+        print(k + ":")
         print(temp2+":", end = "\n")
         for i  in storage_Physical[k]:
             print("- "+ i + ": " + storage_Physical[k][i])
    
     for k in sorted(storage_Weight, reverse = True):
         # print(k+":", end = "\n")
+        print(k + ":")
         print(temp3+":", end = "\n")
         for i  in storage_Weight[k]:
             print("- "+ i + ": " + storage_Weight[k][i])
    
     for k in sorted(storage_Sleep, reverse = True):
+        print(k + ":")
         print(temp4+":", end = "\n")
         for i  in storage_Sleep[k]:
             print("- "+ i + ": " + storage_Sleep[k][i])
