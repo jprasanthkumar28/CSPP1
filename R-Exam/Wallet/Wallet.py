@@ -28,7 +28,7 @@ def main():
 							val -= int(data[1])
 							print(val)
 			elif nextval == "credit":
-				print("credit")
+				# print("credit")
 				data = input().split(" ")
 				for key,val in wall.items():
 					if data[0] == key:

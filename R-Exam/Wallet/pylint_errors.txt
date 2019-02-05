@@ -28,7 +28,6 @@ Wallet.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 Wallet.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Wallet.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:33:11: C0326: Exactly one space required after comma
@@ -54,5 +53,5 @@ Wallet.py:6:5: W0612: Unused variable 'x' (unused-variable)
 Wallet.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.00/10 (previous run: -3.57/10, -0.43)
+Your code has been rated at -4.12/10 (previous run: -4.00/10, -0.12)
 
