@@ -37,7 +37,7 @@ def main():
 							break
 
 			elif nextval == "balance":
-				print("1000")
+				pass
 
 			elif nextval == "quit":
 				print("Thank you")
