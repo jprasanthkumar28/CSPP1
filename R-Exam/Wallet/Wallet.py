@@ -20,7 +20,7 @@ def main():
 						if int(data[1]) > val:
 							print("Insufficient funds")
 							print(float(data[1]))
-							print("Thank you")
+							# print("Thank you")
 							break
 						elif int(data[1]) < 0:
 							print("Negative amount")
