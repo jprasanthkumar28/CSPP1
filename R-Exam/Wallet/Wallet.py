@@ -34,6 +34,10 @@ def main():
 					if data[0] == key:
 						if int(data[1]) < 0:
 							print("Negative amount")
+
+			elif nextval == "quit":
+				print("Thank you")
+				break
 		except EOFError:
 		# print("Hiiiiiiiiiiiiiii")
 			break

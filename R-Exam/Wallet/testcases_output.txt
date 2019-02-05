@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Insufficient funds
 2000.0
@@ -7,6 +7,7 @@ Thank you
 Your Output: 
 Insufficient funds
 2000.0
+Thank you
 Thank you
 ----------------------------------------
 
@@ -20,6 +21,7 @@ Thank you
 Your Output: 
 Negative amount
 Negative amount
+Thank you
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -32,6 +34,7 @@ Thank you
 Your Output: 
 Insufficient funds
 2000.0
+Thank you
 Thank you
 ----------------------------------------
 
@@ -47,6 +50,7 @@ Your Output:
 0
 0
 0
+Thank you
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -61,6 +65,7 @@ Thank you
 Your Output: 
 Insufficient funds
 2000.0
+Thank you
 Thank you
 ----------------------------------------
 
