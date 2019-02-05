@@ -27,17 +27,18 @@ def main():
 						else:
 							val -= int(data[1])
 							print(val)
+			elif nextval == "credit":
+				print("credit")
+				data = input().split(" ")
+				for key,val in wall.items():
+					if data[0] == key:
+						if int(data[1]) < 0:
+							print("Negative amount")
 		except EOFError:
 		# print("Hiiiiiiiiiiiiiii")
 			break
 
-	# elif nextval == "credit":
-	# 	print("credit")
-	# 	data = input().split(" ")
-	# 	for key,val in wall.items():
-	# 		if data[0] == key:
-	# 			if int(data[1]) < 0:
-	# 				print("Negative amount")
+	
 				# print(data[0])
 			# lst = []
 			# lst = key
