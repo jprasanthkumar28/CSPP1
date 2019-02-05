@@ -36,6 +36,9 @@ def main():
 							print("Negative amount")
 							break
 
+			elif nextval == "balance":
+				print("1000")
+
 			elif nextval == "quit":
 				print("Thank you")
 				break
