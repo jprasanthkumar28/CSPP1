@@ -9,22 +9,27 @@ def main():
 			wall[val] = 1000
 		
 		# print(val)
-
-	nextval = input()
-	if nextval == "debit":
-		data = input().split(" ")
-		for key,val in wall.items():
-			if data[0] == key:
-				if int(data[1]) > val:
-					print("Insufficient funds")
-					print(float(data[1]))
-					print("Thank you")
-					break
-				elif int(data[1]) < 0:
-					print("Negative amount")
-				else:
-					val -= int(data[1])
-					print(val)
+	while True:
+		try:
+			# line = input().split(" ")
+			nextval = input()
+			if nextval == "debit":
+				data = input().split(" ")
+				for key,val in wall.items():
+					if data[0] == key:
+						if int(data[1]) > val:
+							print("Insufficient funds")
+							print(float(data[1]))
+							print("Thank you")
+							break
+						elif int(data[1]) < 0:
+							print("Negative amount")
+						else:
+							val -= int(data[1])
+							print(val)
+		except EOFError:
+		# print("Hiiiiiiiiiiiiiii")
+			break
 
 	# elif nextval == "credit":
 	# 	print("credit")

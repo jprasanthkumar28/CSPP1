@@ -29,7 +29,9 @@ Expected Output:
 Thank you
 
 Your Output: 
-
+Insufficient funds
+2000.0
+Thank you
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -41,6 +43,8 @@ Insufficient funds
 Thank you
 
 Your Output: 
+0
+0
 0
 ----------------------------------------
 
@@ -54,6 +58,8 @@ Expected Output:
 Thank you
 
 Your Output: 
-
+Insufficient funds
+2000.0
+Thank you
 ----------------------------------------
 
