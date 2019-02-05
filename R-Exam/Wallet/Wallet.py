@@ -16,7 +16,7 @@ def main():
 			if data[0] == key:
 				if int(data[1]) > val:
 					print("Insufficient funds")
-					print(data[1])
+					print(float(data[1]))
 					print("Thank you")
 					break
 				# print(data[0])

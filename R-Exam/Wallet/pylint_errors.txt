@@ -30,6 +30,6 @@ Wallet.py:6:5: C0103: Variable name "x" doesn't conform to snake_case naming sty
 Wallet.py:4:1: W0612: Unused variable 'string' (unused-variable)
 Wallet.py:6:5: W0612: Unused variable 'x' (unused-variable)
 
-------------------------------------
-Your code has been rated at -4.00/10
+--------------------------------------------------------------------
+Your code has been rated at -4.00/10 (previous run: -4.00/10, +0.00)
 
