@@ -9,6 +9,7 @@ def main():
 			wall[val] = 1000
 		
 		# print(val)
+
 	nextval = input()
 	if nextval == "debit":
 		data = input().split(" ")
@@ -19,6 +20,19 @@ def main():
 					print(float(data[1]))
 					print("Thank you")
 					break
+				elif int(data[1]) < 0:
+					print("Negative amount")
+				else:
+					val -= int(data[1])
+					print(val)
+
+	# elif nextval == "credit":
+	# 	print("credit")
+	# 	data = input().split(" ")
+	# 	for key,val in wall.items():
+	# 		if data[0] == key:
+	# 			if int(data[1]) < 0:
+	# 				print("Negative amount")
 				# print(data[0])
 			# lst = []
 			# lst = key

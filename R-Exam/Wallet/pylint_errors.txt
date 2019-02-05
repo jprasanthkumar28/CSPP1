@@ -7,22 +7,27 @@ Wallet.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-inden
 Wallet.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
-Wallet.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Wallet.py:15:9: C0326: Exactly one space required after comma
+Wallet.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:16:9: C0326: Exactly one space required after comma
 		for key,val in wall.items():
          ^ (bad-whitespace)
-Wallet.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Wallet.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
-Wallet.py:39:0: C0304: Final newline missing (missing-final-newline)
-Wallet.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Wallet.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+Wallet.py:53:0: C0304: Final newline missing (missing-final-newline)
+Wallet.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Wallet.py:1:0: C0103: Module name "Wallet" doesn't conform to snake_case naming style (invalid-name)
 Wallet.py:1:0: C0111: Missing module docstring (missing-docstring)
 Wallet.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -31,5 +36,5 @@ Wallet.py:4:1: W0612: Unused variable 'string' (unused-variable)
 Wallet.py:6:5: W0612: Unused variable 'x' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.00/10 (previous run: -4.00/10, +0.00)
+Your code has been rated at -3.75/10 (previous run: -4.00/10, +0.25)
 

@@ -18,7 +18,7 @@ Negative amount
 Thank you
 
 Your Output: 
-
+Negative amount
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -41,7 +41,7 @@ Insufficient funds
 Thank you
 
 Your Output: 
-
+0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
