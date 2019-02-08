@@ -20,10 +20,18 @@ def main():
             break
     # print(result)
     ans = []
-    for key, val in result.items():
-        ans = list(key)
-        ans = list(val)
+    maxi = 0
 
+    for key, val in result.items():
+        # print(val)
+        ans.append(val)
+        maxi = max(ans)
+        if maxi == val:
+            answer = key
+
+    print(answer)
+    # print(maxi)
+    # print(ans)
 
 if __name__ == '__main__':
     main()

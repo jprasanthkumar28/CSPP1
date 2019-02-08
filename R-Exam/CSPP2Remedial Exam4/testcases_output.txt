@@ -1,14 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Alice
 
 Your Output: 
-Traceback (most recent call last):
-  File "Dice.py", line 29, in <module>
-    main()
-  File "Dice.py", line 25, in main
-    ans = list(val)
-TypeError: 'int' object is not iterable
+Alice
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,24 +11,14 @@ Expected Output:
 Mark
 
 Your Output: 
-Traceback (most recent call last):
-  File "Dice.py", line 29, in <module>
-    main()
-  File "Dice.py", line 25, in main
-    ans = list(val)
-TypeError: 'int' object is not iterable
+Alice
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Bob
 
 Your Output: 
-Traceback (most recent call last):
-  File "Dice.py", line 29, in <module>
-    main()
-  File "Dice.py", line 25, in main
-    ans = list(val)
-TypeError: 'int' object is not iterable
+Bob
 ----------------------------------------
 
