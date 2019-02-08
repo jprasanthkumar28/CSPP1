@@ -19,10 +19,9 @@ def main():
         except EOFError:
             break
     # print(result)
+    ans = []
     for key, val in result.items():
-        val = list(result.values())
-        key = list(result.keys())
-        print(key[val.index(max(val))])
+        ans = list(key,val)
 
 
 if __name__ == '__main__':

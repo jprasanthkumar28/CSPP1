@@ -3,8 +3,12 @@ Expected Output:
 Alice
 
 Your Output: 
-Alice
-Alice
+Traceback (most recent call last):
+  File "Dice.py", line 28, in <module>
+    main()
+  File "Dice.py", line 24, in main
+    ans = list(key,val)
+TypeError: list() takes at most 1 argument (2 given)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -12,9 +16,12 @@ Expected Output:
 Mark
 
 Your Output: 
-Alice
-Alice
-Alice
+Traceback (most recent call last):
+  File "Dice.py", line 28, in <module>
+    main()
+  File "Dice.py", line 24, in main
+    ans = list(key,val)
+TypeError: list() takes at most 1 argument (2 given)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -22,9 +29,11 @@ Expected Output:
 Bob
 
 Your Output: 
-Bob
-Bob
-Bob
-Bob
+Traceback (most recent call last):
+  File "Dice.py", line 28, in <module>
+    main()
+  File "Dice.py", line 24, in main
+    ans = list(key,val)
+TypeError: list() takes at most 1 argument (2 given)
 ----------------------------------------
 
