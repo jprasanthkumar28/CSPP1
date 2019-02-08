@@ -4,11 +4,11 @@ Alice
 
 Your Output: 
 Traceback (most recent call last):
-  File "Dice.py", line 28, in <module>
+  File "Dice.py", line 29, in <module>
     main()
-  File "Dice.py", line 24, in main
-    ans = list(key,val)
-TypeError: list() takes at most 1 argument (2 given)
+  File "Dice.py", line 25, in main
+    ans = list(val)
+TypeError: 'int' object is not iterable
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -17,11 +17,11 @@ Mark
 
 Your Output: 
 Traceback (most recent call last):
-  File "Dice.py", line 28, in <module>
+  File "Dice.py", line 29, in <module>
     main()
-  File "Dice.py", line 24, in main
-    ans = list(key,val)
-TypeError: list() takes at most 1 argument (2 given)
+  File "Dice.py", line 25, in main
+    ans = list(val)
+TypeError: 'int' object is not iterable
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -30,10 +30,10 @@ Bob
 
 Your Output: 
 Traceback (most recent call last):
-  File "Dice.py", line 28, in <module>
+  File "Dice.py", line 29, in <module>
     main()
-  File "Dice.py", line 24, in main
-    ans = list(key,val)
-TypeError: list() takes at most 1 argument (2 given)
+  File "Dice.py", line 25, in main
+    ans = list(val)
+TypeError: 'int' object is not iterable
 ----------------------------------------
 

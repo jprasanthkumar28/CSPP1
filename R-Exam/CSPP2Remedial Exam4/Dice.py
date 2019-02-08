@@ -21,7 +21,8 @@ def main():
     # print(result)
     ans = []
     for key, val in result.items():
-        ans = list(key,val)
+        ans = list(key)
+        ans = list(val)
 
 
 if __name__ == '__main__':
