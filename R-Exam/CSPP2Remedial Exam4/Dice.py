@@ -17,6 +17,9 @@ def main():
 
                 elif int(data[2]) == 6:
                     result[data[0]] += int(data[2])
+
+                else:
+                    result[data[0]] += int(data[2])
                     # print(data[2], "2nd time")
                 # result[data] += int(data[2])
         except EOFError:
