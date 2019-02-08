@@ -8,13 +8,16 @@ def main():
             if len(data) > 1:
                 # print(data)
                 if data[0] not in result and int(data[2] != 1):
+                    # print(data[2])
                     result[data[0]] = int(data[2])
 
-                elif data[2] == 1:
+                elif int(data[2]) == 1:
+                    # print(data[0],  data[2], "its one")
                     result[data[0]] = 0
 
-                else:
+                elif int(data[2]) == 6:
                     result[data[0]] += int(data[2])
+                    # print(data[2], "2nd time")
                 # result[data] += int(data[2])
         except EOFError:
             break
