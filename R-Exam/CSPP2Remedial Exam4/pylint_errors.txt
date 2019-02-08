@@ -1,0 +1,9 @@
+************* Module Dice
+Dice.py:1:0: C0103: Module name "Dice" doesn't conform to snake_case naming style (invalid-name)
+Dice.py:1:0: C0111: Missing module docstring (missing-docstring)
+Dice.py:1:0: C0111: Missing function docstring (missing-docstring)
+Dice.py:2:4: W0612: Unused variable 'p_count' (unused-variable)
+
+-----------------------------------
+Your code has been rated at 8.00/10
+
